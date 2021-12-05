@@ -6,10 +6,10 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "sky_color": 7254527,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 9359789,
+    "fog_color": 13877903,
+    "water_color": 3319192,
+    "water_fog_color": 3319192
   },
   "carvers": {
     "air": [

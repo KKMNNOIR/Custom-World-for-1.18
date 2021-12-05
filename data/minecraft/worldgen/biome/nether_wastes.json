@@ -19,8 +19,8 @@
     "ambient_sound": "minecraft:ambient.nether_wastes.loop",
     "sky_color": 7254527,
     "fog_color": 3344392,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "water_color": 9460055,
+    "water_fog_color": 9460055
   },
   "carvers": {
     "air": [

@@ -23,10 +23,12 @@
       "probability": 0.00625
     },
     "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "water_color": 9460055,
+    "water_fog_color": 9460055,
+    "grass_color": 12564309,
+    "foliage_color": 11445290,
     "sky_color": 7254527,
-    "fog_color": 1787717,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "fog_color": 1787717
   },
   "carvers": {
     "air": [
