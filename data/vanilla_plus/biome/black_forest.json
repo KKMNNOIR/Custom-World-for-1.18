@@ -1,0 +1,131 @@
+{
+    "category": "nether",
+    "precipitation": "none",
+    "temperature": 2,
+    "carvers": {
+        "air": [
+            "nether_cave"
+        ]
+    },
+    "downfall": 0,
+    "effects": {
+        "fog_color": 1053205,
+        "sky_color": 1053205,
+        "water_color": 1707284,
+        "water_fog_color": 1707284,
+        "grass_color": 1445122,
+        "foliage_color": 1248512,
+        "music": {
+            "sound": "minecraft:music.nether.blackstone_wastes",
+            "min_delay": 1200,
+            "max_delay": 2400,
+            "replace_current_music": false
+        },
+        "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+        "mood_sound": {
+            "sound": "minecraft:ambient.nether_wastes.mood",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+        },
+          "additions_sound": {
+            "sound": "minecraft:ambient.nether_wastes.additions",
+            "tick_chance": 0.0111
+        },
+        "particle": {
+            "options": {
+              "type": "minecraft:smoke"
+            },
+         "probability": 0.025   
+        }
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [
+            "vanilla_plus:black_forest_delta",
+            "vanilla_plus:basalt_trees"
+        ],
+        [],
+        [],
+        [
+            "vanilla_plus:spherical_void",
+            "vanilla_plus:lava_ocean",
+            "vanilla_plus:ore_blackstone",
+            "vanilla_plus:ore_debris_blackstone",
+            "vanilla_plus:ore_gilded_blackstone",
+            "vanilla_plus:replace_blackstone",
+            "vanilla_plus:ore_quartz_blackstone",
+            "vanilla_plus:ore_obsidians",
+            "spring_closed",
+            "spring_open",
+            "ore_debris_large",
+            "ore_gravel_nether",
+            "ore_magma",
+            "ore_soul_sand",
+            "brown_mushroom_nether",
+            "red_mushroom_nether",
+            "vanilla_plus:without_water"
+        ],
+        [
+            "spring_lava_double",
+            "brown_mushroom_normal",
+            "red_mushroom_normal"
+        ]
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:wither_skeleton",
+                "weight": 100,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:piglin",
+                "weight": 60,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:magma_cube",
+                "weight": 4,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:enderman",
+                "minCount": 4,
+                "maxCount": 4,
+                "weight": 1
+            },
+            {
+                "type": "minecraft:zombified_piglin",
+                "weight": 20,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 1,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "ambient": [],
+        "creature": [
+            {
+                "type": "minecraft:strider",
+                "weight": 30,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "misc": [],
+        "water_ambient": [],
+        "water_creature": []
+    },
+    "spawn_costs": {}
+}

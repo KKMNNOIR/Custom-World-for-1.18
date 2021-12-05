@@ -1,0 +1,158 @@
+{
+    "category": "nether",
+    "precipitation": "none",
+    "downfall": 0,
+    "temperature": 2.0,
+    "effects": {
+        "water_color": 1707284,
+        "water_fog_color": 1707284,
+        "grass_color": 12564309,
+        "foliage_color": 11445290,
+        "sky_color": 7254527,
+        "fog_color": 9,
+        "music": {
+            "sound": "minecraft:music.nether.blackstone_wastes",
+            "min_delay": 1200,
+            "max_delay": 2400,
+            "replace_current_music": false
+          },
+        "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+        "mood_sound": {
+            "sound": "minecraft:ambient.nether_wastes.mood",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+          },
+          "additions_sound": {
+            "sound": "minecraft:ambient.nether_wastes.additions",
+            "tick_chance": 0.0111
+          },
+          "particle": {
+            "options": {
+              "type": "minecraft:smoke"
+            },
+         "probability": 0.025   
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:nether_cave",
+            "vanilla_plus:nether_canyon"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [
+            "basalt_pillar",
+            "vanilla_plus:dripstone_in_blackstone",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:glowstone_stalagmite",
+            "vanilla_plus:replace_dripstone_block_into_blackstone"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "vanilla_plus:spherical_void",
+            "vanilla_plus:lava_ocean",
+            "vanilla_plus:ore_blackstone",
+            "ore_debris_large",
+            "ore_debris_small",
+            "ore_gold_nether",
+            "ore_gravel_nether",
+            "ore_magma",
+            "ore_quartz_nether",
+            "brown_mushroom_nether",
+            "red_mushroom_nether",
+            "minecraft:spring_open",
+            "minecraft:spring_closed",
+            "minecraft:glowstone_extra",
+            "minecraft:glowstone",
+            "vanilla_plus:ore_gilded_blackstone",
+            "vanilla_plus:ore_quartz_blackstone",
+            "vanilla_plus:ore_debris_blackstone",
+            "vanilla_plus:ore_gold_blackstone",
+            "vanilla_plus:replace_blackstone",
+            "vanilla_plus:brown_mushroom_blackstone",
+            "vanilla_plus:red_mushroom_blackstone",
+            "vanilla_plus:ore_obsidians",
+            "vanilla_plus:soul_fire_blackstone",
+            "vanilla_plus:without_water"
+        ],
+        [
+            "spring_lava",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal"
+        ]
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:ghast",
+                "weight": 20,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:piglin",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:magma_cube",
+                "weight": 4,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:wither_skeleton",
+                "weight": 200,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:enderman",
+                "minCount": 4,
+                "maxCount": 4,
+                "weight": 3
+            },
+            {
+                "type": "minecraft:zombified_piglin",
+                "weight": 40,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:strider",
+                "weight": 80,
+                "minCount": 1,
+                "maxCount": 2
+            }
+        ],
+        "ambient": [],
+        "water_ambient": [],
+        "water_creature": [],
+        "misc": []
+    },
+    "spawn_costs": {},
+    "player_spawn_friendly": false
+}

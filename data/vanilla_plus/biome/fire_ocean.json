@@ -1,0 +1,77 @@
+{
+    "category": "plains",
+    "precipitation": "none",
+    "player_spawn_friendly": false,
+    "temperature": 2.0,
+    "downfall": 0,
+    "carvers": {},
+    "spawners": {
+        "ambient": [],
+        "creature": [],
+        "monster": [],
+        "water_ambient": [],
+        "water_creature": [],
+        "misc": []
+    },
+    "features": [
+        [],
+        ["lake_lava"],
+        [ "minecraft:amethyst_geode"],
+        ["minecraft:monster_room",
+        "vanilla_plus:creeper_dungeons"],
+        [],
+        [],
+        [
+            "minecraft:prototype_ore_dirt",
+            "minecraft:prototype_ore_gravel",
+            "minecraft:prototype_ore_granite",
+            "minecraft:prototype_ore_diorite",
+            "minecraft:prototype_ore_andesite",
+            "minecraft:prototype_ore_tuff",
+            "minecraft:prototype_ore_coal_upper",
+            "minecraft:prototype_ore_coal_lower",
+            "minecraft:prototype_ore_iron_upper",
+            "minecraft:prototype_ore_iron_middle",
+            "minecraft:prototype_ore_iron_small",
+            "minecraft:prototype_ore_gold",
+            "minecraft:prototype_ore_redstone",
+            "minecraft:prototype_ore_redstone_lower",
+            "minecraft:prototype_ore_diamond",
+            "minecraft:prototype_ore_diamond_large",
+            "minecraft:prototype_ore_lapis",
+            "minecraft:prototype_ore_lapis_buried",
+            "minecraft:prototype_ore_copper",
+            "minecraft:prototype_underwater_magma",
+            "disk_clay",
+            "disk_sand",
+            "spring_closed"
+        ],
+        [
+            "minecraft:rare_dripstone_cluster",
+            "minecraft:rare_small_dripstone"
+        ],
+        [],
+        ["freeze_top_layer"]
+    ],
+    "effects": {
+        "fog_color": 16777215,
+        "sky_color": 16706992,
+        "grass_color": 4663067,
+        "foliage_color": 2762523,
+        "water_color": 4159204,
+        "water_fog_color": 329011,
+        "particle": {
+            "options": {
+                "type": "minecraft:crimson_spore"
+            },
+            "probability": 0.025
+        },
+        "mood_sound": {
+            "sound": "minecraft:ambient.cave",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2.0
+          }
+    },
+    "spawn_costs": {}
+}
