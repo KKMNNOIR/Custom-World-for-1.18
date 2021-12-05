@@ -1,6 +1,6 @@
 {
-  "pack": {
-    "pack_format": 8,
-    "description": "This is test."
-  }
+    "pack": {
+        "pack_format": 8,
+        "description": "1.18の為に作り直し"
+    }
 }
