@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "test": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "item_frame"
+                }
+            }
+        }
+    },
+    "rewards": { "experience": 6500 }
+}

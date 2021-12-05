@@ -1,0 +1,17 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "location_check",
+            "predicate": {
+                "biome": "vanilla_plus:blackstone_wastes"
+            }
+        },
+        {
+            "condition": "location_check",
+            "predicate": {
+                "biome": "vanilla_plus:black_forest"
+            }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "condition": "location_check",
+    "predicate": {
+        "biome": "vanilla_plus:diamond_forest"
+    }
+}

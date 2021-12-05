@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "explode": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "creeper",
+                        "nbt": "{Tags:[\"IcyCreeper\"]}"
+                    },
+                    "type": {
+                        "is_explosion": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": { "function": "vanilla_plus:frost_deltas/freeze" }
+}

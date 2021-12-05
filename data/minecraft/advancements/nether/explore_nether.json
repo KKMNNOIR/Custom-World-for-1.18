@@ -1,0 +1,161 @@
+{
+    "parent": "minecraft:nether/ride_strider",
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_boots",
+        "nbt": "{Damage:0,CustomModelData:65535}"
+      },
+      "title": {
+        "translate": "advancements.nether.explore_nether.title"
+      },
+      "description": {
+        "translate": "advancements.nether.explore_nether.description"
+      },
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "rewards": {
+      "experience": 500
+    },
+    "criteria": {
+      "minecraft:nether_wastes": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:nether_wastes"
+          }
+        }
+      },
+      "minecraft:soul_sand_valley": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:soul_sand_valley"
+          }
+        }
+      },
+      "minecraft:warped_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:warped_forest"
+          }
+        }
+      },
+      "minecraft:crimson_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:crimson_forest"
+          }
+        }
+      },
+      "minecraft:basalt_deltas": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "minecraft:basalt_deltas"
+          }
+        }
+      },
+      "vanilla_plus:blackstone_abyss": {
+          "trigger": "minecraft:location",
+          "conditions": {
+              "location": {
+                  "biome": "vanilla_plus:blackstone_wastes"
+              }
+          }
+      },
+      "vanilla_plus:crimson_plains": {
+        "trigger": "minecraft:location",
+        "conditions": {
+            "location": {
+                "biome": "vanilla_plus:crimson_plains"
+            }
+        }
+      },
+      "vanilla_plus:warped_plains": {
+        "trigger": "minecraft:location",
+        "conditions": {
+            "location": {
+                "biome": "vanilla_plus:warped_plains"
+            }
+        }
+      },
+      "vanilla_plus:black_forest": {
+        "trigger": "minecraft:location",
+        "conditions": {
+            "location": {
+                "biome": "vanilla_plus:black_forest"
+            }
+        }
+      },
+      "vanilla_plus:white_sands": {
+        "trigger": "minecraft:location",
+        "conditions": {
+            "location": {
+                "biome": "vanilla_plus:white_sands"
+            }
+        }
+      },
+      "vanilla_plus:icy_chasm": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "vanilla_plus:frost_deltas"
+          }
+        }
+      },
+      "vanilla_plus:diamond_cave": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "biome": "vanilla_plus:diamond_cave"
+          }
+        }
+      },
+        "vanilla_plus:scorched_dunes": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "vanilla_plus:scorched_dunes"
+            }
+          }
+        },
+        "vanilla_plus:nether_gold_mine": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "vanilla_plus:nether_gold_mine"
+            }
+          }
+        },
+        "vanilla_plus:modified_nether_wastes": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "vanilla_plus:modified_nether_wastes"
+            }
+          }
+        }
+    },
+    "requirements": [
+      [ "minecraft:nether_wastes" ],
+      [ "minecraft:soul_sand_valley" ],
+      [ "minecraft:warped_forest" ],
+      [ "minecraft:crimson_forest" ],
+      [ "minecraft:basalt_deltas" ],
+      [ "vanilla_plus:blackstone_abyss" ],
+      [ "vanilla_plus:crimson_plains" ],
+      [ "vanilla_plus:warped_plains" ],
+      [ "vanilla_plus:white_sands" ],
+      [ "vanilla_plus:black_forest" ],
+      [ "vanilla_plus:icy_chasm" ],
+      [ "vanilla_plus:diamond_cave" ],
+      [ "vanilla_plus:scorched_dunes" ],
+      [ "vanilla_plus:nether_gold_mine"],
+      [ "vanilla_plus:modified_nether_wastes"]
+    ]
+  }
