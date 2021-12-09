@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "default": "minecraft:trees_birch",
+        "features": [
+            {
+                "feature": "minecraft:birch_bees_005",
+                "chance": 0.025
+            },
+            {
+                "feature": "vanilla_plus:fallen_birch",
+                "chance": 0.0125
+            }
+        ]
+    }
+}
