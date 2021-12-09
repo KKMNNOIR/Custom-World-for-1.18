@@ -31,10 +31,19 @@
     ],
     [
       "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "minecraft:monster_room_deep",
+      "vanilla_plus:creeper_dungeons"
     ],
     [],
-    [],
+    [
+      "vanilla_plus:stronghold/replace_deepslate",
+      "vanilla_plus:stronghold/replace_cobbled_deepslate",
+      "vanilla_plus:stronghold/replace_cracked_deepslate",
+      "vanilla_plus:stronghold/replace_deepslate_mossy",
+      "vanilla_plus:stronghold/replace_infested_deepslate",
+      "vanilla_plus:stronghold/replace_deepslate_brick_slab",
+      "vanilla_plus:stronghold/replace_polished_deepslate_slab"
+    ],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -64,7 +73,8 @@
       "minecraft:ore_gold_extra",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "minecraft:ore_emerald"
     ],
     [],
     [
