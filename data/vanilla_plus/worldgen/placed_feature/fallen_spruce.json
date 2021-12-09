@@ -1,0 +1,9 @@
+{
+    "feature": "vanilla_plus:fallen_spruce",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
+        }
+    ]
+}

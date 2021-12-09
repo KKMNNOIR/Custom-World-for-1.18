@@ -1,0 +1,9 @@
+{
+    "feature": "vanilla_plus:fallen_tall_birch",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
+        }
+    ]
+}
