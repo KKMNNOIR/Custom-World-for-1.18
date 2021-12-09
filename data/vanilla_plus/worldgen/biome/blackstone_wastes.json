@@ -45,7 +45,6 @@
         [],
         [
             "basalt_pillar",
-            "vanilla_plus:dripstone_in_blackstone",
             "vanilla_plus:glowstone_stalagmite",
             "vanilla_plus:glowstone_stalagmite",
             "vanilla_plus:glowstone_stalagmite",
@@ -55,8 +54,7 @@
             "vanilla_plus:glowstone_stalagmite",
             "vanilla_plus:glowstone_stalagmite",
             "vanilla_plus:glowstone_stalagmite",
-            "vanilla_plus:glowstone_stalagmite",
-            "vanilla_plus:replace_dripstone_block_into_blackstone"
+            "vanilla_plus:glowstone_stalagmite"
         ],
         [],
         [],

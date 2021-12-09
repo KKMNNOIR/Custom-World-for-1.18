@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:fossil",
+  "config": {
+    "max_empty_corners_allowed": 0,
+    "fossil_structures": [
+      "vanilla_plus:monster_rooms/creeper_spawner_7_7",
+      "vanilla_plus:monster_rooms/creeper_spawner_7_9",
+      "vanilla_plus:monster_rooms/creeper_spawner_9_9"
+    ],
+    "overlay_structures": [
+      "vanilla_plus:monster_rooms/creeper_spawner_7_7",
+      "vanilla_plus:monster_rooms/creeper_spawner_7_9",
+      "vanilla_plus:monster_rooms/creeper_spawner_9_9"
+    ],
+    "fossil_processors": "vanilla_plus:monster_room_mossify",
+    "overlay_processors": "vanilla_plus:monster_room_mossify"
+  }
+}

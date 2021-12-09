@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:fill_layer",
+    "config": {
+        "height": 64,
+        "state": {
+            "Name": "minecraft:air"
+        }
+    }
+}

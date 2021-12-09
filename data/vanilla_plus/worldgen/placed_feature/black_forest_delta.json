@@ -1,0 +1,12 @@
+{
+    "feature": "vanilla_plus:black_forest_delta",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 25
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

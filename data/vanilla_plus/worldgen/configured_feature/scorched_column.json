@@ -1,0 +1,109 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "default": {
+            "feature": {
+                "type": "minecraft:random_patch",
+                "config": {
+                    "feature": {
+                        "feature": {
+                            "type": "minecraft:simple_block",
+                            "config": {
+                                "to_place": {
+                                    "type": "minecraft:simple_state_provider",
+                                    "state": {
+                                        "Name": "minecraft:black_concrete_powder"
+                                    }
+                                }
+                            }
+                        },
+                        "placement": [
+                            {
+                                "type": "minecraft:block_predicate_filter",
+                                "predicate": {
+                                    "type": "minecraft:all_of",
+                                    "predicates": [
+                                        {
+                                            "type": "minecraft:matching_blocks",
+                                            "blocks": ["minecraft:air"]
+                                        },
+                                        {
+                                            "type": "minecraft:matching_blocks",
+                                            "offset": [
+                                                0,
+                                                -1,
+                                                0
+                                            ],
+                                            "blocks": [
+                                                "minecraft:black_terracotta",
+                                                "minecraft:netherite_block",
+                                                "minecraft:ancient_debris"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "xz_spread": 21,
+                    "y_spread": 42,
+                    "tries": 100
+                }
+            },
+            "placement": []
+        },
+        "features": [
+            {
+                "chance": 0.5,
+                "feature": {
+                    "feature": {
+                        "type": "minecraft:random_patch",
+                        "config": {
+                            "feature": {
+                                "feature": {
+                                    "type": "minecraft:simple_block",
+                                    "config": {
+                                        "to_place": {
+                                            "type": "minecraft:simple_state_provider",
+                                            "state": {
+                                                "Name": "minecraft:black_concrete_powder"
+                                            }
+                                        }
+                                    }
+                                },
+                                "placement": [
+                                    {
+                                        "type": "minecraft:block_predicate_filter",
+                                        "predicate": {
+                                            "type": "minecraft:all_of",
+                                            "predicates": [
+                                                {
+                                                    "type": "minecraft:matching_blocks",
+                                                    "blocks": ["minecraft:air"]
+                                                },
+                                                {
+                                                    "type": "minecraft:matching_blocks",
+                                                    "offset": [
+                                                        0,
+                                                        -1,
+                                                        0
+                                                    ],
+                                                    "blocks": [
+                                                        "minecraft:ancient_debris",
+                                                        "minecraft:black_terracotta",
+                                                        "minecraft:netherite_block"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    "placement": []
+                }
+            }
+        ]
+    }
+}

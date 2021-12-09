@@ -1,0 +1,12 @@
+{
+    "feature": "vanilla_plus:crimson_plains_vegetation",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 36
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

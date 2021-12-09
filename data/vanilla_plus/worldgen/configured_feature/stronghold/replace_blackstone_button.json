@@ -1,0 +1,119 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+        "decorator": {
+            "type": "minecraft:count_multilayer",
+            "config": {"count": 256}
+        },
+        "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+                "decorator": {
+                    "type": "minecraft:range",
+                    "config": {
+                        "height": {
+                            "type": "minecraft:uniform",
+                            "max_inclusive": {"absolute": 0},
+                            "min_inclusive": {"above_bottom": 0}
+                        }
+                    }
+                },
+                "feature": {
+                    "type": "minecraft:simple_random_selector",
+                    "config": {
+                        "features": [
+                            {
+                                "type": "minecraft:netherrack_replace_blobs",
+                                "config": {
+                                    "target": {
+                                        "Name": "minecraft:stone_button",
+                                        "Properties": {
+                                            "face": "wall",
+                                            "facing": "north",
+                                            "powered": "false"
+                                        }
+                                    },
+                                    "state": {
+                                        "Name": "minecraft:polished_blackstone_button",
+                                        "Properties": {
+                                            "face": "wall",
+                                            "facing": "north",
+                                            "powered": "false"
+                                        }
+                                    },
+                                    "radius": 12
+                                }
+                            },
+                            {
+                                "type": "minecraft:netherrack_replace_blobs",
+                                "config": {
+                                    "target": {
+                                        "Name": "minecraft:stone_button",
+                                        "Properties": {
+                                            "face": "wall",
+                                            "facing": "east",
+                                            "powered": "false"
+                                        }
+                                    },
+                                    "state": {
+                                        "Name": "minecraft:polished_blackstone_button",
+                                        "Properties": {
+                                            "face": "wall",
+                                            "facing": "east",
+                                            "powered": "false"
+                                        }
+                                    },
+                                    "radius": 12
+                                }
+                            },
+                            {
+                                "type": "minecraft:netherrack_replace_blobs",
+                                "config": {
+                                    "target": {
+                                        "Name": "minecraft:stone_button",
+                                        "Properties": {
+                                            "face": "wall",
+                                            "facing": "south",
+                                            "powered": "false"
+                                        }
+                                    },
+                                    "state": {
+                                        "Name": "minecraft:polished_blackstone_button",
+                                        "Properties": {
+                                            "face": "wall",
+                                            "facing": "south",
+                                            "powered": "false"
+                                        }
+                                    },
+                                    "radius": 12
+                                }
+                            },
+                            {
+                                "type": "minecraft:netherrack_replace_blobs",
+                                "config": {
+                                    "target": {
+                                        "Name": "minecraft:stone_button",
+                                        "Properties": {
+                                            "face": "wall",
+                                            "facing": "west",
+                                            "powered": "false"
+                                        }
+                                    },
+                                    "state": {
+                                        "Name": "minecraft:polished_blackstone_button",
+                                        "Properties": {
+                                            "face": "wall",
+                                            "facing": "west",
+                                            "powered": "false"
+                                        }
+                                    },
+                                    "radius": 12
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

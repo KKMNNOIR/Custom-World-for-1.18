@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:range",
+        "config": {
+          "height": {
+            "below_top": 0
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:fill_layer",
+        "config": {
+          "state": {
+            "Name": "minecraft:bedrock"
+          },
+          "height": 240
+        }
+      }
+    }
+  }

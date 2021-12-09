@@ -1,0 +1,24 @@
+{
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:diamond_block",
+      "Properties": {
+          "axis":"y"
+      }
+    },
+    "decor_state": {
+      "Name": "minecraft:diamond_ore"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:diamond_block"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:stripped_warped_stem"
+    }
+  },
+  "type": "minecraft:huge_fungus"
+}

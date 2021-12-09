@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+        "decorator": {
+            "type": "minecraft:range",
+            "config": {
+                "height": {
+                    "type": "uniform",
+                    "min_inclusive": {
+                        "above_bottom": 0
+                    },
+                    "max_inclusive": {
+                        "below_top": 0
+                    }
+                }
+            }
+        },
+        "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+                "decorator": {
+                    "type": "minecraft:count_multilayer",
+                    "config": {
+                        "count": 256
+                    }
+                },
+                "feature": {
+                    "type": "minecraft:netherrack_replace_blobs",
+                    "config": {
+                        "target": {
+                            "Name": "minecraft:water",
+                            "Properties": { "level": "0" }
+                        },
+                        "state": {
+                            "Name": "minecraft:lava",
+                            "Properties": {"level":"0"}
+                        },
+                        "radius": 12
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "netherrack_replace_blobs",
+    "config": {
+        "radius": {
+            "type": "minecraft:uniform",
+            "value": {
+                "min_inclusive": 2,
+                "max_inclusive": 4
+            }
+        },
+        "target": {
+            "Name": "minecraft:crimson_nylium"
+        },
+        "state": {
+            "Name": "minecraft:warped_nylium"
+        }
+    }
+}

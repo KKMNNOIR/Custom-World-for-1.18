@@ -1,0 +1,21 @@
+{
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:smooth_basalt"
+    },
+    "decor_state": {
+      "Name": "minecraft:blackstone"
+    },
+    "planted": false,
+    "valid_base_block": {
+      "Name": "minecraft:blackstone"
+    },
+    "stem_state": {
+      "Properties": {
+        "axis": "y"
+      },
+      "Name": "minecraft:polished_basalt"
+    }
+  },
+  "type": "minecraft:huge_fungus"
+}

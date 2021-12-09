@@ -1,0 +1,42 @@
+{
+    "type": "decorated",
+    "config": {
+        "feature": {
+            "type": "random_patch",
+            "config": {
+                "whitelist": [],
+                "blacklist": [],
+                "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                },
+                "state_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:vine",
+                        "Properties": {
+                            "east": "true",
+                            "north": "false",
+                            "south": "false",
+                            "west": "false",
+                            "up": "false"
+                        }
+                    }
+                },
+                "project": false,
+                "can_replace": false,
+                "need_water": false,
+                "xspread": 1,
+                "yspread": 5,
+                "zspread": 1,
+                "tries": 32
+            }
+        },
+        "decorator": {
+            "type": "depth_average",
+            "config": {
+                "baseline": 48,
+                "spread": 16
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "default": "minecraft:crimson_fungi",
+        "features": [
+            {
+                "chance": 0.25,
+                "feature": "vanilla_plus:warped_fungi_double"
+            }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "feature": "vanilla_plus:wither_rose",
+    "placement": [
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": { "above_bottom": 0 },
+                "max_inclusive": { "below_top": 10 }
+            }
+        },
+        {
+            "type": "minecraft:noise_threshold_count",
+            "below_noise": 10,
+            "above_noise": 20,
+            "noise_level": 5
+        }
+    ]
+}

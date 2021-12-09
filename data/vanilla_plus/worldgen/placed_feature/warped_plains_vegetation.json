@@ -1,0 +1,9 @@
+{
+    "feature": "vanilla_plus:warped_plains_vegetation",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 25
+        }
+    ]
+}

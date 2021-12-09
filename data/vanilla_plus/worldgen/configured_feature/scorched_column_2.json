@@ -1,0 +1,72 @@
+{
+    "type": "decorated",
+    "config": {
+        "decorator": {
+            "type": "count_multilayer",
+            "config": {
+                "count": 128
+            }
+        },
+        "feature": {
+            "type": "decorated",
+            "config": {
+                "decorator": {
+                    "type": "square",
+                    "config": {}
+                },
+                "feature": {
+                    "type": "decorated",
+                    "config": {
+                        "decorator": {
+                            "type": "range",
+                            "config": {
+                                "height": {
+                                    "type": "minecraft:uniform",
+                                    "min_inclusive": {
+                                        "above_bottom": 30
+                                    },
+                                    "max_inclusive": {
+                                        "below_top": 0
+                                    }
+                                }
+                            }
+                        },
+                        "feature": {
+                            "type": "random_patch",
+                            "config": {
+                                "whitelist": [
+                                    {
+                                        "Name": "black_terracotta"
+                                    },
+                                    {
+                                        "Name": "ancient_debris"
+                                    },
+                                    {
+                                        "Name": "netherite_block"
+                                    }
+                                ],
+                                "blacklist": [],
+                                "state_provider": {
+                                    "type": "minecraft:simple_state_provider",
+                                    "state": {
+                                        "Name": "black_concrete_powder"
+                                    }
+                                },
+                                "xspread": 21,
+                                "yspread": 42,
+                                "zspread": 21,
+                                "tries": 100,
+                                "need_water": false,
+                                "project": false,
+                                "block_placer": {
+                                    "type": "minecraft:simple_block_placer"
+                                },
+                                "can_replace": false
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

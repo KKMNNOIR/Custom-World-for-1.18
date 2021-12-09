@@ -1,0 +1,14 @@
+{
+  "config": {
+    "target": {
+      "Name": "minecraft:lava",
+      "Properties": { "level": "0" }
+    },
+    "state": {
+      "Properties": { "axis": "y" },
+      "Name": "minecraft:basalt"
+    },
+    "radius": 12
+  },
+  "type": "minecraft:netherrack_replace_blobs"
+}

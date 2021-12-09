@@ -1,0 +1,71 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+      "decorator": {
+        "type": "minecraft:range",
+        "config": {
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": {
+              "absolute": 33
+            },
+            "max_inclusive": {
+              "absolute": 34
+            }
+          }
+        }
+      },
+      "feature": {
+        "type": "minecraft:decorated",
+        "config": {
+          "decorator": {
+            "type": "minecraft:count_noise_biased",
+            "config": {
+              "noise_to_count_ratio": 110,
+              "noise_factor": 0,
+              "noise_offset": 25
+            }
+          },
+          "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+              "decorator": {
+                "type": "minecraft:square",
+                "config": {}
+              },
+              "feature": {
+                "type": "minecraft:random_patch",
+                "config": {
+                  "can_replace": false,
+                  "project": false,
+                  "need_water": false,
+                  "xspread": 32,
+                  "yspread": 1,
+                  "zspread": 32,
+                  "tries": 128,
+                  "state_provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "minecraft:packed_ice"
+                    }
+                  },
+                  "block_placer": {
+                    "type": "minecraft:simple_block_placer"
+                  },
+                  "whitelist": [
+                    {
+                      "Name": "minecraft:basalt",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  ],
+                  "blacklist": []
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }

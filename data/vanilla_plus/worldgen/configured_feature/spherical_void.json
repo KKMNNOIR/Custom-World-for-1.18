@@ -1,0 +1,84 @@
+{
+    "type": "minecraft:decorated",
+    "config": {
+        "decorator": {
+            "type": "minecraft:range",
+            "config": {
+                "height": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": {"absolute":0},
+                    "max_inclusive": {"absolute":32}
+                }
+            }
+        },
+        "feature": {
+            "type": "minecraft:decorated",
+            "config": {
+                "decorator": {
+                    "type": "minecraft:count",
+                    "config": {
+                        "count": 2
+                    }
+                },
+                "feature": {
+                    "type": "minecraft:no_op",
+                    "config": {
+                        "blocks": {
+                            "outer_layer_provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:air"
+                                }
+                            },
+                            "alternate_inner_layer_provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:nether_quartz_ore"
+                                }
+                            },
+                            "middle_layer_provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:air"
+                                }
+                            },
+                            "inner_layer_provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:air"
+                                }
+                            },
+                            "filling_provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:air"
+                                }
+                            },
+                            "inner_placements": [{"Name": "minecraft:lava","Properties": {"level":"0"}}],
+                            "invalid_blocks": "minecraft:geode_invalid_blocks",
+                            "cannot_replace": "vanilla_plus:spherical_void_cannot_replaces"
+                        },
+                        "layers": {
+                            "outer_layer": 2.2,
+                            "middle_layer": 2.2,
+                            "inner_layer": 3.2,
+                            "filling": 4.2
+                        },
+                        "crack": {
+                            "generate_crack_chance": 1,
+                            "base_crack_size": 5,
+                            "crack_point_offset": 10
+                        },
+                        "noise_multiplier": 1,
+                        "use_potential_placements_chance": 0.005,
+                        "use_alternate_layer0_chance": 0.00125,
+                        "min_gen_offset": -16,
+                        "max_gen_offset": 16,
+                        "invalid_blocks_threshold": 1,
+                        "placements_require_layer0_alternate": false
+                    }
+                }
+            }
+        }
+    }
+}
