@@ -29,8 +29,7 @@
       },
       "carvers": {
         "air": [
-          "minecraft:nether_cave",
-          "vanilla_plus:nether_canyon"
+          "minecraft:nether_cave"
         ]
       },
       "features": [
@@ -49,7 +48,6 @@
         [],
         [],
         [
-          "vanilla_plus:spherical_void",
           "minecraft:spring_open",
           "minecraft:patch_fire",
           "minecraft:patch_soul_fire",
@@ -70,9 +68,7 @@
           "minecraft:ore_debris_small",
           "minecraft:ore_blackstone",
           "vanilla_plus:large_ore_veins",
-          "vanilla_plus:ore_gilded_blackstone_large",
-          "vanilla_plus:blackstone_layer",
-          "vanilla_plus:without_water"
+          "vanilla_plus:ore_gilded_blackstone_large"
         ],
         [
           "minecraft:spring_lava",

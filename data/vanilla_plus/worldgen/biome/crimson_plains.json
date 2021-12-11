@@ -48,8 +48,6 @@
           [],
           [],
           [
-            "vanilla_plus:spherical_void",
-            "vanilla_plus:lava_ocean",
             "minecraft:spring_open",
             "minecraft:patch_fire",
             "minecraft:glowstone_extra",

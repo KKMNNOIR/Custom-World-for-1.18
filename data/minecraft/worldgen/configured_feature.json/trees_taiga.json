@@ -1,0 +1,22 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:pine_checked",
+        "chance": 0.33333334
+      },
+      {
+        "chance": 0.0016666667,
+        "feature": "vanilla_plus:mossy_spruce",
+        "placement": []
+      },
+      {
+        "chance": 0.03125,
+        "feature": "vanilla_plus:fallen_spruce",
+        "placement": []
+      }
+    ],
+    "default": "minecraft:spruce_checked"
+  },
+  "type": "minecraft:random_selector"
+}

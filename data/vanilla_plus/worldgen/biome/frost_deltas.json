@@ -36,15 +36,14 @@
     },
     "carvers": {
         "air": [
-            "minecraft:nether_cave",
-            "vanilla_plus:nether_canyon"
+            "minecraft:nether_cave"
         ]
     },
     "features": [
         [],
         [],
         [
-            "basalt_pillar",
+            "minecraft:basalt_pillar",
             "vanilla_plus:ice_spikes_nether"
         ],
         [],
@@ -52,34 +51,26 @@
         [],
         [],
         [
-            "vanilla_plus:spherical_void",
-            "vanilla_plus:lava_ocean",
-            "ore_blackstone",
-            "ore_debris_large",
-            "ore_debris_small",
-            "ore_gold_nether",
-            "ore_gravel_nether",
-            "ore_magma",
-            "ore_quartz_nether",
-            "brown_mushroom_nether",
-            "red_mushroom_nether",
+            "minecraft:ore_blackstone",
+            "minecraft:ore_debris_large",
+            "minecraft:ore_debris_small",
+            "minecraft:ore_gold_nether",
+            "minecraft:ore_gravel_nether",
+            "minecraft:ore_magma",
+            "minecraft:ore_quartz_nether",
+            "minecraft:brown_mushroom_nether",
+            "minecraft:red_mushroom_nether",
             "minecraft:spring_open",
             "minecraft:spring_closed",
             "minecraft:glowstone_extra",
             "minecraft:glowstone",
-            "vanilla_plus:replace_ice",
             "vanilla_plus:ore_snow",
             "vanilla_plus:basalt_lake",
             "vanilla_plus:ice_spikes_nether",
-            "vanilla_plus:cooled_lava",
-            "vanilla_plus:frozen_surface",
-            "vanilla_plus:frost_lower_surface",
-            "vanilla_plus:frost_lower_surface",
-            "vanilla_plus:frost_lower_surface",
-            "vanilla_plus:frost_lower_surface"
+            "vanilla_plus:cooled_lava"
         ],
         [
-            "spring_lava",
+            "minecraft:spring_lava",
             "minecraft:brown_mushroom_normal",
             "minecraft:red_mushroom_normal"
         ]

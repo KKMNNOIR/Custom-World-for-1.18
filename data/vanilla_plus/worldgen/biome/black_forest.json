@@ -46,33 +46,29 @@
         [],
         [
             "vanilla_plus:black_forest_delta",
-            "vanilla_plus:basalt_trees"
+            "vanilla_plus:basalt_tree"
         ],
         [],
         [],
         [
-            "vanilla_plus:spherical_void",
-            "vanilla_plus:lava_ocean",
-            "vanilla_plus:ore_blackstone",
+            "minecraft:ore_blackstone",
             "vanilla_plus:ore_debris_blackstone",
             "vanilla_plus:ore_gilded_blackstone",
-            "vanilla_plus:replace_blackstone",
             "vanilla_plus:ore_quartz_blackstone",
             "vanilla_plus:ore_obsidians",
-            "spring_closed",
-            "spring_open",
-            "ore_debris_large",
-            "ore_gravel_nether",
-            "ore_magma",
-            "ore_soul_sand",
-            "brown_mushroom_nether",
-            "red_mushroom_nether",
-            "vanilla_plus:without_water"
+            "mincraft:spring_closed",
+            "mincraft:spring_open",
+            "mincraft:ore_debris_large",
+            "mincraft:ore_gravel_nether",
+            "mincraft:ore_magma",
+            "mincraft:ore_soul_sand",
+            "mincraft:brown_mushroom_nether",
+            "mincraft:red_mushroom_nether"
         ],
         [
-            "spring_lava_double",
-            "brown_mushroom_normal",
-            "red_mushroom_normal"
+            "minecraft:spring_lava_double",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal"
         ]
     ],
     "spawners": {

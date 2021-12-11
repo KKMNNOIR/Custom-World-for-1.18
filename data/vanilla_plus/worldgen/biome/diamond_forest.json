@@ -110,32 +110,30 @@
         [
             "vanilla_plus:spherical_void",
             "vanilla_plus:lava_ocean",
-            "ore_debris_large",
-            "ore_debris_large",
-            "glowstone",
-            "glowstone_extra",
-            "glowstone_extra",
+            "minecraft:ore_debris_large",
+            "minecraft:ore_debris_large",
+            "minecraft:glowstone",
+            "minecraft:glowstone_extra",
+            "minecraft:glowstone_extra",
             "vanilla_plus:diamond_nether",
             "vanilla_plus:spring_closed_diamond",
             "vanilla_plus:spring_closed_diamond",
             "vanilla_plus:spring_closed_diamond",
             "vanilla_plus:spring_open_diamond",
-            "brown_mushroom_nether",
-            "red_mushroom_nether",
-            "vanilla_plus:replace_diamond",
-            "twisting_vines",
+            "minecraft:brown_mushroom_nether",
+            "minecraft:red_mushroom_nether",
+            "minecraft:twisting_vines",
             "vanilla_plus:diamond_tree",
-            "ore_gravel",
-            "ore_gold_nether",
-            "ore_soul_sand",
-            "vanilla_plus:soul_fire_diamond",
-            "vanilla_plus:lava_lake_diamond",
-            "vanilla_plus:without_water"
+            "minecraft:ore_gravel",
+            "minecraft:ore_gold_nether",
+            "minecraft:ore_soul_sand",
+            "vanilla_plus:patch_soul_fire_diamond",
+            "vanilla_plus:lava_lake_diamond"
         ],
         [
-            "spring_lava_double",
-            "brown_mushroom_normal",
-            "red_mushroom_normal"
+            "minecraft:spring_lava_double",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal"
         ]
     ]
 }

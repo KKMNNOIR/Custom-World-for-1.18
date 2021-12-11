@@ -47,8 +47,6 @@
         [],
         [],
         [
-          "vanilla_plus:spherical_void",
-          "vanilla_plus:lava_ocean",
           "minecraft:spring_open",
           "minecraft:patch_fire",
           "minecraft:glowstone_extra",
@@ -60,8 +58,7 @@
           "minecraft:ore_gold_nether",
           "minecraft:ore_quartz_nether",
           "minecraft:ore_debris_large",
-          "minecraft:ore_debris_small",
-          "vanilla_plus:without_water"
+          "minecraft:ore_debris_small"
         ],
         [
           "minecraft:spring_lava",
@@ -69,7 +66,7 @@
           "minecraft:red_mushroom_normal",
           "minecraft:weeping_vines",
           "minecraft:crimson_forest_vegetation",
-          "vanilla_plus:warped_flora",
+          "vanilla_plus:warped_flora_distribution",
           "vanilla_plus:warped_flora_vegetation",
           "vanilla_plus:mixed_fungi"
         ]

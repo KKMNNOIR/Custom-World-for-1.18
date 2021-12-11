@@ -29,7 +29,6 @@
     "precipitation": "none",
     "spawn_costs": {},
     "spawners": {},
-    "surface_builder": "grass",
     "temperature": 0.0,
     "player_spawn_friendly": false
 }

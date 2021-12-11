@@ -4,8 +4,7 @@
     "temperature": 2,
     "carvers": {
         "air": [
-            "minecraft:nether_cave",
-            "vanilla_plus:nether_canyon"
+            "minecraft:nether_cave"
         ]
     },
     "player_spawn_friendly": false,
@@ -49,8 +48,6 @@
         [],
         [],
         [
-            "vanilla_plus:spherical_void",
-            "vanilla_plus:lava_ocean",
             "minecraft:spring_open",
             "minecraft:patch_fire",
             "minecraft:patch_soul_fire",
@@ -67,9 +64,7 @@
             "minecraft:ore_debris_large",
             "minecraft:ore_debris_small",
             "minecraft:ore_blackstone",
-            "vanilla_plus:quartz_ceiling",
-            "vanilla_plus:lava_lake_white_sands",
-            "vanilla_plus:without_water"
+            "vanilla_plus:lava_lake_white_sands"
           ],
           [
             "minecraft:spring_lava",
