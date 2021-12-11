@@ -1,0 +1,8 @@
+{
+    "feature": "vanilla_plus:modified_nether_wastes_vegetation",
+    "placement": [
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}
