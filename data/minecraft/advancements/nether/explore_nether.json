@@ -132,11 +132,11 @@
             }
           }
         },
-        "vanilla_plus:modified_nether_wastes": {
+        "vanilla_plus:moldy_nether_wastes": {
           "trigger": "minecraft:location",
           "conditions": {
             "location": {
-              "biome": "vanilla_plus:modified_nether_wastes"
+              "biome": "vanilla_plus:moldy_nether_wastes"
             }
           }
         }
@@ -156,6 +156,6 @@
       [ "vanilla_plus:diamond_cave" ],
       [ "vanilla_plus:scorched_dunes" ],
       [ "vanilla_plus:nether_gold_mine"],
-      [ "vanilla_plus:modified_nether_wastes"]
+      [ "vanilla_plus:moldy_nether_wastes"]
     ]
   }
