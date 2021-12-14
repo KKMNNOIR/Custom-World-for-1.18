@@ -177,14 +177,38 @@
                                     "minecraft:soul_sand",
                                     "minecraft:soul_soil"
                                 ]
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "offset": [
+                                        1,
+                                        0,
+                                        0
+                                    ],
+                                    "blocks": ["minecraft:skeleton_skull"]
+                                }
+                            },
+                            {
+                                "type": "minecraft:not",
+                                "predicate": {
+                                    "type": "minecraft:matching_blocks",
+                                    "offset": [
+                                        -1,
+                                        0,
+                                        0
+                                    ],
+                                    "blocks": ["minecraft:skeleton_skull"]
+                                }
                             }
                         ]
                     }
                 }
             ]
         },
-        "xz_spread": 7,
+        "xz_spread": 0,
         "y_spread": 3,
-        "tries": 128
+        "tries": 64
     }
 }
