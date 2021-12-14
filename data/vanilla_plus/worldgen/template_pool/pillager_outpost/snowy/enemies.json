@@ -1,0 +1,60 @@
+{
+    "name": "vanilla_plus:pillager_outpost/snowy/enemies",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 7,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/enemies/vindicator"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/enemies/pillager"
+            }
+        },
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/enemies/witch"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/enemies/illusioner"
+            }
+        },
+        {
+            "weight": 5,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/enemies/illusioner_boss"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/enemies/evoker"
+            }
+        }
+    ]
+}

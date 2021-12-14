@@ -1,0 +1,33 @@
+{
+    "name": "vanilla_plus:pillager_outpost/snowy/rampart_towers",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 8,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:mossify_and_cracking",
+                "location": "vanilla_plus:pillager_outpost/snowy/rampart_tower_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:mossify_and_cracking",
+                "location": "vanilla_plus:pillager_outpost/snowy/rampart_tower_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/rampart_tower_3"
+            }
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "name": "vanilla_plus:pillager_outpost/snowy/features",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 8,
+        "element": {
+          "location": "pillager_outpost/feature_cage1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 8,
+        "element": {
+          "location": "pillager_outpost/feature_cage2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 8,
+        "element": {
+          "location": "pillager_outpost/feature_cage3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 6,
+        "element": {
+          "location": "minecraft:pillager_outpost/feature_logs",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "vanilla_plus:pillager_outpost/snowy/igloo1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "vanilla_plus:pillager_outpost/snowy/igloo2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "location": "minecraft:pillager_outpost/feature_targets",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 9,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:mossify_10_percent",
+            "location": "vanilla_plus:pillager_outpost/snowy/feature_well1"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:empty_pool_element",
+          "projection": "rigid"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vanilla_plus:pillager_outpost/snowy/skull/stray"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vanilla_plus:pillager_outpost/snowy/skull/stray_injured"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vanilla_plus:pillager_outpost/snowy/skull/frozen_zombie"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vanilla_plus:pillager_outpost/snowy/skull/zombie"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vanilla_plus:pillager_outpost/snowy/skull/zombie_injured"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vanilla_plus:pillager_outpost/snowy/skull/skeleton"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vanilla_plus:pillager_outpost/snowy/skull/wither_skeleton"
+        }
+      }
+    ]
+  }

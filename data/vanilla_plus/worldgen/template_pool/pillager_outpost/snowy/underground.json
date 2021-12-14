@@ -1,0 +1,33 @@
+{
+    "name": "vanilla_plus:pillager_outpost/snowy/underground",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/to_underground"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/prison_junction"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/prison_center"
+            }
+        }
+    ]
+}

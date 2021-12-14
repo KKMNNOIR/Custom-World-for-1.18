@@ -1,0 +1,15 @@
+{
+    "name": "vanilla_plus:pillager_outpost/snowy/ramparts",
+    "fallback": "vanilla_plus:pillager_outpost/snowy/rampart_towers",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/snowy/rampart"
+            }
+        }
+    ]
+}

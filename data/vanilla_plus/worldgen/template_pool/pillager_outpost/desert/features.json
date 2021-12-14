@@ -1,0 +1,121 @@
+{
+    "name": "vanilla_plus:pillager_outpost/desert/features",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 12,
+        "element": {
+          "location": "vanilla_plus:pillager_outpost/desert/feature_cage1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+          "location": "vanilla_plus:pillager_outpost/desert/feature_cage2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+          "location": "vanilla_plus:pillager_outpost/desert/feature_cage3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 6,
+        "element": {
+          "location": "minecraft:pillager_outpost/feature_logs",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 4,
+        "element": {
+          "location": "minecraft:pillager_outpost/feature_tent1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 4,
+        "element": {
+          "location": "minecraft:pillager_outpost/feature_tent2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vanilla_plus:pillager_outpost/desert/relax1"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "location": "minecraft:pillager_outpost/feature_targets",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "minecraft:empty",
+            "location": "vanilla_plus:pillager_outpost/desert/feature_well1"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "vanilla_plus:fill_water",
+            "location": "vanilla_plus:pillager_outpost/desert/feature_well2"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "vanilla_plus:desert_pillager_farm",
+            "location": "vanilla_plus:pillager_outpost/desert/feature_farm1"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+            "element_type": "minecraft:legacy_single_pool_element",
+            "projection": "rigid",
+            "processors": "vanilla_plus:desert_pillager_farm",
+            "location": "vanilla_plus:pillager_outpost/desert/feature_farm2"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:empty_pool_element",
+          "projection": "rigid"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,78 @@
+{
+    "name": "vanilla_plus:pillager_outpost/taiga/jobsites",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/taiga/jobsites/bed"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/taiga/jobsites/bed"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/taiga/jobsites/bed"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/taiga/jobsites/cauldron"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/taiga/jobsites/crafting_table"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/taiga/jobsites/fletching_table"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/taiga/jobsites/grindstone"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "vanilla_plus:pillager_outpost/taiga/jobsites/smithing_table"
+            }
+        }
+    ]
+}
