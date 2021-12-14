@@ -16,7 +16,10 @@
         "placement": []
       }
     ],
-    "default": "minecraft:spruce_checked"
+    "default": {
+      "feature": "minecraft:spruce_checked",
+      "placement": []
+    }
   },
   "type": "minecraft:random_selector"
 }
