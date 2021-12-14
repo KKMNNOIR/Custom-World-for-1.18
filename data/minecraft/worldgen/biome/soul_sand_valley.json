@@ -65,9 +65,7 @@
       "vanilla_plus:nether_wart",
       "vanilla_plus:skull_nether_decorator"
     ],
-    [
-      "vanilla_plus:skull_nether_decorator"
-    ],
+    [],
     [
       "minecraft:spring_lava"
     ]
