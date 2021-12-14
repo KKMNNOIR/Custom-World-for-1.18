@@ -53,21 +53,17 @@
         "minecraft:ore_blackstone",
         "minecraft:ore_gold_nether",
         "minecraft:ore_quartz_nether",
-        "minecraft:ore_debris_large",
-        "minecraft:ore_debris_small",
-        "minecraft:ore_blackstone"
+        "minecraft:ore_ancient_debris_large",
+        "minecraft:ore_debris_small"
       ],
+      [],
       [
         "minecraft:spring_lava",
         "minecraft:brown_mushroom_normal",
         "minecraft:red_mushroom_normal",
         "vanilla_plus:warped_plains_vegetation",
         "minecraft:nether_sprouts",
-        "minecraft:twisting_vines",
-        "minecraft:twisting_vines",
-        "minecraft:twisting_vines",
-        "minecraft:twisting_vines",
-        "minecraft:twisting_vines"
+        "vanilla_plus:twisting_vines_plains"
       ]
     ],
     "spawners": {
@@ -96,7 +92,9 @@
       "ambient": [],
       "water_creature": [],
       "water_ambient": [],
-      "misc": []
+      "misc": [],
+      "axolotls": [],
+      "underground_water_creature": []
     },
     "spawn_costs": {
       "minecraft:enderman": {
@@ -104,7 +102,6 @@
         "charge": 1.0
       }
     },
-    "player_spawn_friendly": false,
     "precipitation": "none",
     "temperature": 2.0,
     "downfall": 0.0,
