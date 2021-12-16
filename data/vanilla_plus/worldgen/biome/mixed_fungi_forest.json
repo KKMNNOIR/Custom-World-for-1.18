@@ -3,7 +3,6 @@
     "precipitation": "none",
     "temperature": 2.0,
     "downfall": 0,
-    "player_spawn_friendly": false,
     "carvers": {
         "air": [
             "minecraft:nether_cave"
@@ -35,8 +34,8 @@
         "ambient_sound": "minecraft:ambient.mixed_fungi_forest.loop",
         "sky_color": 7254527,
         "fog_color": 3343107,
-        "water_color": 4159204,
-        "water_fog_color": 329011
+        "water_color": 15496969,
+        "water_fog_color": 15496969
       },
       "features": [
         [],
@@ -57,38 +56,44 @@
           "minecraft:ore_blackstone",
           "minecraft:ore_gold_nether",
           "minecraft:ore_quartz_nether",
-          "minecraft:ore_debris_large",
+          "minecraft:ore_ancient_debris_large",
           "minecraft:ore_debris_small"
         ],
+        [],
         [
           "minecraft:spring_lava",
           "minecraft:brown_mushroom_normal",
           "minecraft:red_mushroom_normal",
           "minecraft:weeping_vines",
-          "minecraft:crimson_forest_vegetation",
-          "vanilla_plus:warped_flora_distribution",
-          "vanilla_plus:warped_flora_vegetation",
-          "vanilla_plus:mixed_fungi"
+          "vanilla_plus:mixed_huge_fungi",
+          "vanilla_plus:crimson_plains_vegetation",
+          "vanilla_plus:warped_plains_vegetation"
         ]
       ],
       "spawners": {
         "monster": [
           {
             "type": "minecraft:zombified_piglin",
-            "weight": 1,
+            "weight": 25,
             "minCount": 2,
             "maxCount": 4
           },
           {
             "type": "minecraft:hoglin",
-            "weight": 3,
+            "weight": 12,
             "minCount": 1,
             "maxCount": 2
           },
           {
             "type": "minecraft:piglin",
-            "weight": 8,
+            "weight": 32,
             "minCount": 3,
+            "maxCount": 4
+          },
+          {
+            "type": "minecraft:enderman",
+            "weight": 1,
+            "minCount": 4,
             "maxCount": 4
           }
         ],
