@@ -6,8 +6,8 @@
     "targets": [
       {
         "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:ice"
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:blackstone"
         },
         "state": {
           "Name": "minecraft:nether_quartz_ore"
