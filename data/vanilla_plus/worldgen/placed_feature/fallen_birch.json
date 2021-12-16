@@ -2,8 +2,14 @@
     "feature": "vanilla_plus:fallen_birch",
     "placement": [
         {
-            "type": "minecraft:count_on_every_layer",
-            "count": 1
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:would_survive",
+                "state": {
+                    "Name": "minecraft:birch_sapling",
+                    "Properties": {"stage": "0"}
+                }
+            }
         }
     ]
 }
