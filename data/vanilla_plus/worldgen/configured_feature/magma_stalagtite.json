@@ -3,14 +3,36 @@
     "config": {
         "feature": {
             "feature": {
-                "type": "minecraft:simple_block",
+                "type": "minecraft:block_column",
                 "config": {
-                    "to_place": {
-                        "type": "minecraft:simple_state_provider",
-                        "state": {
-                            "Name": "minecraft:magma_block"
+                    "allowed_placement": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": ["minecraft:air"]
+                            }
+                        ]
+                    },
+                    "direction": "down",
+                    "prioritize_tip": false,
+                    "layers": [
+                        {
+                            "height": {
+                                "type": "minecraft:biased_to_bottom",
+                                "value": {
+                                    "min_inclusive": 2,
+                                    "max_inclusive": 7
+                                }
+                            },
+                            "provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:magma_block"
+                                }
+                            }
                         }
-                    }
+                    ]
                 }
             },
             "placement": [
@@ -33,7 +55,7 @@
                 }
             ]
         },
-        "y_spread": 6,
+        "y_spread": 2,
         "xz_spread": 1,
         "tries": 180
     }
