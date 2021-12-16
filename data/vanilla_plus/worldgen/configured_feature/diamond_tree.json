@@ -7,7 +7,7 @@
       }
     },
     "decor_state": {
-      "Name": "minecraft:diamond_ore"
+      "Name": "minecraft:deepslate_diamond_ore"
     },
     "planted": false,
     "valid_base_block": {
