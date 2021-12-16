@@ -15,13 +15,6 @@
         "Name": "minecraft:dirt"
       }
     },
-    "sapling_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:spruce_sapling",
-        "Properties": {"stage": "0"}
-      }
-    },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
