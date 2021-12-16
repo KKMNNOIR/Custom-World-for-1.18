@@ -11,7 +11,10 @@
                 "chance": 0.025
             },
             {
-                "feature": "vanilla_plus:fallen_birch",
+                "feature": {
+                    "feature": "vanilla_plus:fallen_birch",
+                    "placement": []
+                },
                 "chance": 0.0125
             }
         ]
