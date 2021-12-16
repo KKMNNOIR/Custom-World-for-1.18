@@ -2,6 +2,14 @@
     "feature": "vanilla_plus:basalt_trees",
     "placement": [
         {
+            "type": "height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": { "absolute": 33 },
+                "max_inclusive": { "below_top": 5 }
+            }
+        },
+        {
             "type": "minecraft:count_on_every_layer",
             "count": 4
         },
