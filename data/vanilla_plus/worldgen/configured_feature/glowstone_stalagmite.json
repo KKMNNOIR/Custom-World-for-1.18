@@ -4,14 +4,31 @@
       "feature": {
           "feature": {
               "config": {
-                  "to_place": {
-                      "state": {
-                          "Name": "minecraft:glowstone"
-                      },
-                      "type": "minecraft:simple_state_provider"
-                  }
+                  "allowed_placement": {
+                      "type": "minecraft:matching_blocks",
+                      "blocks": ["minecraft:air"]
+                  },
+                  "direction": "up",
+                  "prioritize_tip": false,
+                  "layers": [
+                      {
+                          "height": {
+                              "type": "minecraft:biased_to_bottom",
+                              "value": {
+                                  "min_inclusive": 2,
+                                  "max_inclusive": 12
+                              }
+                          },
+                          "provider": {
+                              "type": "minecraft:simple_state_provider",
+                              "state": {
+                                  "Name": "minecraft:glowstone"
+                              }
+                          }
+                      }
+                  ]
               },
-              "type": "minecraft:simple_block"
+              "type": "minecraft:block_column"
           },
           "placement": [
               {
@@ -41,10 +58,7 @@
           ]
       },
       "tries": 100,
-      "y_spread": 12,
-      "xz_spread": 1,
-      "can_replace": false,
-      "need_water": false,
-      "project": false
+      "y_spread": 0,
+      "xz_spread": 1
   }
 }
