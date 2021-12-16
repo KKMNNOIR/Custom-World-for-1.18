@@ -29,7 +29,7 @@ execute as @e[tag=SnowballAttack] at @s run particle dust 0.788 0.953 1.000 2 ~ 
 
 ## in Blackstone biomes 
 # Some Wither Skeletons equip bows - Wither Snake.
-execute as @e[type=minecraft:wither_skeleton,tag=!changeDone,predicate=vanilla_plus:in_blackstone] at @s run function vanilla_plus:blackstone/change_bow
+execute as @e[type=minecraft:wither_skeleton,tag=!changeDone,predicate=vanilla_plus:in_blackstone] at @s run function vanilla_plus:blackstone/check_chance
 
 # This bow gives Wither effect to arrow.
 # execute as @e[type=arrow,nbt={inGround:0b}] at @s if entity @e[distance=..5,predicate=vanilla_plus:hand_wither_snake] unless data entity @s Potion run data merge entity @s {Color:0,CustomPotionEffects:[{Id:20b,Amplifier:1b,Duration:100}],Potion:"minecraft:empty"}
