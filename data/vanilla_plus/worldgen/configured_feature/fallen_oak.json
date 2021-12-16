@@ -7,15 +7,37 @@
                 "feature": {
                     "type": "random_patch",
                     "feature": {
-                        "type": "minecraft:simple_block",
+                        "type": "minecraft:block_column",
                         "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": ["minecraft:air"]
+                                    }
+                                ]
+                            },
+                            "direction": "east",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:oak_log",
+                                            "Properties": {"axis":"x"}
+                                        }
+                                    }
                                 }
-                            }
+                            ]
                         }
                     },
                     "placement": [
@@ -39,56 +61,54 @@
                                             "minecraft:dirt",
                                             "minecraft:grass_block"
                                         ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                -1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
                                     }
                                 ]
                             }
                         }
                     ],
                     "config": {
-                        "xz_spread": 3,
+                        "xz_spread": 0,
                         "y_spread": 0,
-                        "tries": 10
+                        "tries": 128
                     }
                 },
-                "chance": 0.025
+                "chance": 0.25
             },
             {
                 "feature": {
                     "type": "random_patch",
                     "feature": {
-                        "type": "minecraft:simple_block",
+                        "type": "minecraft:block_column",
                         "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": ["minecraft:air"]
+                                    }
+                                ]
+                            },
+                            "direction": "west",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:oak_log",
+                                            "Properties": {"axis":"x"}
+                                        }
+                                    }
                                 }
-                            }
+                            ]
                         }
                     },
                     "placement": [
@@ -112,56 +132,54 @@
                                             "minecraft:dirt",
                                             "minecraft:grass_block"
                                         ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                -1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
                                     }
                                 ]
                             }
                         }
                     ],
                     "config": {
-                        "xz_spread": 4,
+                        "xz_spread": 0,
                         "y_spread": 0,
-                        "tries": 10
+                        "tries": 138
                     }
                 },
-                "chance": 0.025
+                "chance": 0.25
             },
             {
                 "feature": {
                     "type": "random_patch",
                     "feature": {
-                        "type": "minecraft:simple_block",
+                        "type": "minecraft:block_column",
                         "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": ["minecraft:air"]
+                                    }
+                                ]
+                            },
+                            "direction": "north",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:oak_log",
+                                            "Properties": {"axis":"z"}
+                                        }
+                                    }
                                 }
-                            }
+                            ]
                         }
                     },
                     "placement": [
@@ -185,56 +203,54 @@
                                             "minecraft:dirt",
                                             "minecraft:grass_block"
                                         ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                -1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
                                     }
                                 ]
                             }
                         }
                     ],
                     "config": {
-                        "xz_spread": 5,
+                        "xz_spread": 0,
                         "y_spread": 0,
-                        "tries": 10
+                        "tries": 128
                     }
                 },
-                "chance": 0.0025
+                "chance": 0.25
             },
             {
                 "feature": {
                     "type": "random_patch",
                     "feature": {
-                        "type": "minecraft:simple_block",
+                        "type": "minecraft:block_column",
                         "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": ["minecraft:air"]
+                                    }
+                                ]
+                            },
+                            "direction": "south",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:oak_log",
+                                            "Properties": {"axis":"z"}
+                                        }
+                                    }
                                 }
-                            }
+                            ]
                         }
                     },
                     "placement": [
@@ -258,480 +274,18 @@
                                             "minecraft:dirt",
                                             "minecraft:grass_block"
                                         ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                -1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
                                     }
                                 ]
                             }
                         }
                     ],
                     "config": {
-                        "xz_spread": 6,
+                        "xz_spread": 0,
                         "y_spread": 0,
-                        "tries": 10
+                        "tries": 128
                     }
                 },
-                "chance": 0.0025
-            },
-            {
-                "feature": {
-                    "type": "random_patch",
-                    "feature": {
-                        "type": "minecraft:simple_block",
-                        "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
-                                }
-                            }
-                        }
-                    },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                0,
-                                                0,
-                                                -1
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "config": {
-                        "xz_spread": 7,
-                        "y_spread": 0,
-                        "tries": 10
-                    }
-                },
-                "chance": 0.0025
-            },
-            {
-                "feature": {
-                    "type": "random_patch",
-                    "feature": {
-                        "type": "minecraft:simple_block",
-                        "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
-                                }
-                            }
-                        }
-                    },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                -1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "config": {
-                        "y_spread": 0,
-                        "xz_spread": 3,
-                        "tries": 10
-                    }
-                },
-                "chance": 0.025
-            },
-            {
-                "feature": {
-                    "type": "random_patch",
-                    "feature": {
-                        "type": "minecraft:simple_block",
-                        "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
-                                }
-                            }
-                        }
-                    },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                -1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "config": {
-                        "y_spread": 0,
-                        "xz_spread": 4,
-                        "tries": 10
-                    }
-                },
-                "chance": 0.025
-            },
-            {
-                "feature": {
-                    "type": "random_patch",
-                    "feature": {
-                        "type": "minecraft:simple_block",
-                        "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
-                                }
-                            }
-                        }
-                    },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                -1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "config": {
-                        "y_spread": 0,
-                        "xz_spread": 5,
-                        "tries": 10
-                    }
-                },
-                "chance": 0.025
-            },
-            {
-                "feature": {
-                    "type": "random_patch",
-                    "feature": {
-                        "type": "minecraft:simple_block",
-                        "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
-                                }
-                            }
-                        }
-                    },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                -1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "config": {
-                        "y_spread": 0,
-                        "xz_spread": 6,
-                        "tries": 10
-                    }
-                },
-                "chance": 0.0025
-            },
-            {
-                "feature": {
-                    "type": "random_patch",
-                    "feature": {
-                        "type": "minecraft:simple_block",
-                        "config": {
-                            "to_place": {
-                                "type": "minecraft:simple_state_provider",
-                                "state": {
-                                    "Name": "minecraft:oak_log",
-                                    "Properties": { "axis": "x" }
-                                }
-                            }
-                        }
-                    },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    },
-                                    {
-                                        "type": "minecraft:not",
-                                        "predicate": {
-                                            "type": "minecraft:matching_blocks",
-                                            "offset": [
-                                                -1,
-                                                0,
-                                                0
-                                            ],
-                                            "blocks": ["minecraft:oak_log"]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ],
-                    "config": {
-                        "y_spread": 0,
-                        "xz_spread": 7,
-                        "tries": 10
-                    }
-                },
-                "chance": 0.0025
+                "chance": 0.25
             }
         ]
     }
