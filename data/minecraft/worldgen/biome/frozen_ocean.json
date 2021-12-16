@@ -58,6 +58,7 @@
       "minecraft:ore_tuff",
       "minecraft:ore_coal_upper",
       "minecraft:ore_coal_lower",
+      "vanilla_plus:ore_coal_deep",
       "minecraft:ore_iron_upper",
       "minecraft:ore_iron_middle",
       "minecraft:ore_iron_small",
@@ -156,6 +157,30 @@
     "creature": [
       {
         "type": "minecraft:polar_bear",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:sheep",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:cow",
         "weight": 1,
         "minCount": 1,
         "maxCount": 2
