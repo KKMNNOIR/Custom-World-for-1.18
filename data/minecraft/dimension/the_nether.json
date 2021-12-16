@@ -1,0 +1,334 @@
+{
+  "type": "minecraft:the_nether",
+  "generator": {
+      "type": "minecraft:noise",
+      "seed": 0,
+      "settings": "minecraft:nether",
+      "biome_source": {
+          "type": "minecraft:multi_noise",
+          "biomes": [
+              {
+                  "biome": "minecraft:nether_wastes",
+                  "parameters": {
+                      "temperature": 0,
+                      "humidity": 0,
+                      "continentalness": [
+                          -0.5,
+                          0
+                      ],
+                      "erosion": 0,
+                      "weirdness": [
+                          -2,
+                          -1.5
+                      ],
+                      "depth": 0,
+                      "offset": 0.2
+                  }
+              },
+              {
+                  "biome": "minecraft:nether_wastes",
+                  "parameters": {
+                      "temperature": 0,
+                      "humidity": 0,
+                      "continentalness": [
+                          -0.5,
+                          0
+                      ],
+                      "erosion": 0,
+                      "weirdness": [
+                          -0.2,
+                          0
+                      ],
+                      "depth": 0,
+                      "offset": 0.3
+                  }
+              },
+              {
+                  "biome": "minecraft:nether_wastes",
+                  "parameters": {
+                      "temperature": 0,
+                      "humidity": 0,
+                      "continentalness": [
+                          0.12,
+                          0.47
+                      ],
+                      "erosion": 0,
+                      "weirdness": [
+                          -2,
+                          -1.5
+                      ],
+                      "depth": 0,
+                      "offset": 0.35
+                  }
+              },
+              {
+                  "biome": "minecraft:nether_wastes",
+                  "parameters": {
+                      "temperature": 0,
+                      "humidity": 0,
+                      "continentalness": [
+                          0.12,
+                          0.47
+                      ],
+                      "erosion": 0,
+                      "weirdness": [
+                          -0.2,
+                          0
+                      ],
+                      "depth": 0,
+                      "offset": 0.35
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:moldy_nether_wastes",
+                  "parameters": {
+                      "temperature": 0,
+                      "humidity": 0,
+                      "continentalness": [
+                          0.12,
+                          0.47
+                      ],
+                      "erosion": 0,
+                      "weirdness": [
+                          0.2,
+                          1.25
+                      ],
+                      "depth": 0,
+                      "offset": 0.37
+                  }
+              },
+              {
+                  "biome": "minecraft:soul_sand_valley",
+                  "parameters": {
+                      "temperature": 0,
+                      "humidity": -0.5,
+                      "continentalness": 0,
+                      "erosion": 0,
+                      "weirdness": 0,
+                      "depth": 0,
+                      "offset": 0
+                  }
+              },
+              {
+                  "biome": "minecraft:crimson_forest",
+                  "parameters": {
+                      "temperature": 0.4,
+                      "humidity": 0,
+                      "continentalness": [
+                          -0.1,
+                          0.1
+                      ],
+                      "erosion": 0,
+                      "weirdness": 0,
+                      "depth": 0,
+                      "offset": 0.2
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:crimson_plains",
+                  "parameters": {
+                      "temperature": [
+                          0.15,
+                          0.2
+                      ],
+                      "humidity": 0,
+                      "continentalness": [
+                          -0.2,
+                          -0.12
+                      ],
+                      "erosion": 0,
+                      "weirdness": 0,
+                      "depth": 0,
+                      "offset": 0.2
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:crimson_plains",
+                  "parameters": {
+                      "temperature": [
+                          0.15,
+                          0.2
+                      ],
+                      "humidity": 0,
+                      "continentalness": [
+                          0.12,
+                          0.15
+                      ],
+                      "erosion": 0,
+                      "weirdness": 0,
+                      "depth": 0,
+                      "offset": 0.2
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:crimson_plains",
+                  "parameters": {
+                      "temperature": [
+                          -0.2,
+                          -0.15
+                      ],
+                      "humidity": 0,
+                      "continentalness": [
+                          -0.2,
+                          -0.12
+                      ],
+                      "erosion": 0,
+                      "weirdness": 0,
+                      "depth": 0,
+                      "offset": 0.2
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:crimson_plains",
+                  "parameters": {
+                      "temperature": [
+                         -0.2,
+                         -0.15
+                      ],
+                      "humidity": 0,
+                      "continentalness": [
+                          0.12,
+                          0.2
+                      ],
+                      "erosion": 0,
+                      "weirdness": 0,
+                      "depth": 0,
+                      "offset": 0.2
+                  }
+              },
+              {
+                "parameters": {
+                  "erosion": 0.0,
+                  "depth": 0.0,
+                  "weirdness": 0.0,
+                  "offset": 0.375,
+                  "temperature": 0.0,
+                  "humidity": 0.5,
+                  "continentalness": 0.0
+                },
+                "biome": "minecraft:warped_forest"
+              },
+              {
+                  "biome": "vanilla_plus:warped_plains",
+                  "parameters": {
+                    "erosion": 0.0,
+                    "depth": 1.0,
+                    "weirdness": 0.0,
+                    "offset": 0.45,
+                    "temperature": 0.0,
+                    "humidity": 0.5,
+                    "continentalness": 0.0
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:diamond_forest",
+                  "parameters": {
+                    "erosion": 0,
+                    "depth": 0,
+                    "weirdness": 0.5,
+                    "offset": 0.45,
+                    "temperature": 0.0,
+                    "humidity": -0.3,
+                    "continentalness": 0.0
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:mixed_fungi_forest",
+                  "parameters": {
+                      "continentalness": 0,
+                      "temperature": 0.4,
+                      "humidity": 0.2,
+                      "weirdness": 0.6,
+                      "offset": 0.4,
+                      "erosion": 0,
+                      "depth": 0
+                  }
+              },
+              {
+                  "biome": "minecraft:basalt_deltas",
+                  "parameters": {
+                      "temperature": -0.5,
+                      "humidity": 0,
+                      "continentalness": 0,
+                      "erosion": 0,
+                      "weirdness": 0,
+                      "depth": 0,
+                      "offset": 0.175
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:black_forest",
+                  "parameters": {
+                      "temperature": 0,
+                      "humidity": 0,
+                      "continentalness": [
+                          -0.8,
+                          -0.65
+                      ],
+                      "erosion": 0,
+                      "weirdness": [
+                          -1.22,
+                          -0.75
+                      ],
+                      "depth": 0,
+                      "offset": 0
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:blackstone_wastes",
+                  "parameters": {
+                      "temperature": 0,
+                      "humidity": 0,
+                      "continentalness": [
+                          -0.8,
+                          0.65
+                      ],
+                      "erosion": 0,
+                      "weirdness": [
+                          -1.22,
+                          -0.75
+                      ],
+                      "depth": 1,
+                      "offset": 0.212
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:frost_deltas",
+                  "parameters": {
+                      "continentalness": [
+                          -0.5,
+                          0.0
+                      ],
+                      "temperature": -0.9,
+                      "humidity": 0,
+                      "weirdness": 0.2,
+                      "offset": 0.4,
+                      "depth": 0,
+                      "erosion": [
+                          -0.5,
+                          0.0
+                      ]
+                  }
+              },
+              {
+                  "biome": "vanilla_plus:frost_deltas",
+                  "parameters": {
+                      "continentalness": [
+                          -0.5,
+                          0.0
+                      ],
+                      "temperature": -0.9,
+                      "humidity": 0,
+                      "weirdness": 0.2,
+                      "offset": 0.4,
+                      "depth": 1,
+                      "erosion": [
+                          -0.5,
+                          0.0
+                      ]
+                  }
+              }
+          ]
+      }
+  }
+}
