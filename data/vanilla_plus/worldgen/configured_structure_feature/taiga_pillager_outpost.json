@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:pillager_outpost",
+    "config": {
+        "start_pool": "vanilla_plus:pillager_outpost/taiga",
+        "size": 7
+      }
+}

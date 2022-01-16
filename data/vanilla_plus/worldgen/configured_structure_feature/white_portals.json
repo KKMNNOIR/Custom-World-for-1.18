@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:bastion_remnant",
+    "config": {
+        "start_pool": "vanilla_plus:ruined_portal/white_portals",
+        "size": 6
+    },
+    "name": "vanilla_plus:white_portals"
+}
