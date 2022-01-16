@@ -2,7 +2,6 @@
     "category": "nether",
     "temperature": 2.0,
     "downfall": 0,
-    "player_spawn_friendly": false,
     "precipitation": "none",
     "effects": {
         "fog_color": 1180160,
@@ -46,43 +45,23 @@
         [],
         [],
         [
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:scorched_column",
-            "vanilla_plus:magma_block_lake"
+            "vanilla_plus:scorched_column"
         ],
         [],
+        [],
         [
-            "minecraft:glowstone",
+            "minecraft:spring_open",
+            "vanilla_plus:patch_fire_dunes",
             "minecraft:glowstone_extra",
-            "vanilla_plus:ore_debris_dunes",
-            "vanilla_plus:patch_fire_dunes",
-            "vanilla_plus:patch_fire_dunes",
-            "vanilla_plus:ore_obsidians",
+            "minecraft:glowstone",
             "minecraft:brown_mushroom_nether",
             "minecraft:red_mushroom_nether",
             "minecraft:spring_closed_double",
+            "vanilla_plus:ore_obsidians",
             "vanilla_plus:patch_dead_bush_dunes",
-            "vanilla_plus:patch_dead_bush_dunes",
-            "vanilla_plus:patch_magma"
+            "vanilla_plus:ore_debris_dunes"
         ],
-        [
-            "minecraft:spring_lava_double"
-        ],
+        [],
         []
     ],
     "spawners": {
