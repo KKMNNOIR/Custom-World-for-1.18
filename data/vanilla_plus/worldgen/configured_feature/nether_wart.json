@@ -6,37 +6,27 @@
                 "type": "minecraft:simple_block",
                 "config": {
                     "to_place": {
-                        "type": "minecraft:weighted_state_provider",
-                        "entries": [
-                            {
-                                "weight": 25,
-                                "data": {
-                                    "Name": "minecraft:nether_wart",
-                                    "Properties": { "age": "0" }
+                        "type": "minecraft:randomized_int_state_provider",
+                        "source": {
+                            "type": "minecraft:weighted_state_provider",
+                            "entries": [
+                                {
+                                    "weight": 25,
+                                    "data": {
+                                        "Name": "minecraft:nether_wart",
+                                        "Properties": { "age": "0" }
+                                    }
                                 }
-                            },
-                            {
-                                "weight": 25,
-                                "data": {
-                                    "Name": "minecraft:nether_wart",
-                                    "Properties": { "age": "1" }
-                                }
-                            },
-                            {
-                                "weight": 25,
-                                "data": {
-                                    "Name": "minecraft:nether_wart",
-                                    "Properties": { "age": "2" }
-                                }
-                            },
-                            {
-                                "weight": 25,
-                                "data": {
-                                    "Name": "minecraft:nether_wart",
-                                    "Properties": { "age": "3" }
-                                }
+                            ]
+                        },
+                        "property": "age",
+                        "values": {
+                            "type": "minecraft:uniform",
+                            "value": {
+                                "min_inclusive": 0,
+                                "max_inclusive": 3
                             }
-                        ]
+                        }
                     }
                 }
             },
