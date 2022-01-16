@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:random_boolean_selector",
+    "config": {
+        "feature_false": {
+            "feature": "vanilla_plus:caves/desert_cave/sandstone_calcite_geode",
+            "placement": []
+        },
+        "feature_true": {
+            "feature": "vanilla_plus:caves/desert_cave/sandstone_amethyst_geode",
+            "placement": []
+        }
+    }
+}
