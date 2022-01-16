@@ -11,20 +11,20 @@
         "sky_color": 13557994,
         "fog_color": 12239814,
         "music": {
-            "sound": "minecraft:music.nether.frost_deltas",
+            "sound": "minecraft:music.nether.nether_frost",
             "min_delay": 1200,
             "max_delay": 2400,
             "replace_current_music": false
           },
-        "ambient_sound": "minecraft:ambient.frost_deltas.loop",
+        "ambient_sound": "minecraft:ambient.nether_frost.loop",
         "mood_sound": {
-            "sound": "minecraft:ambient.frost_deltas.mood",
+            "sound": "minecraft:ambient.nether_frost.mood",
             "tick_delay": 6000,
             "block_search_extent": 8,
             "offset": 2.0
           },
           "additions_sound": {
-            "sound": "minecraft:ambient.frost_deltas.additions",
+            "sound": "minecraft:ambient.nether_frost.additions",
             "tick_chance": 0.0111
           },
           "particle": {

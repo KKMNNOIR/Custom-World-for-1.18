@@ -1,6 +1,0 @@
-{
-    "condition": "minecraft:location_check",
-    "predicate": {
-        "biome": "vanilla_plus:frost_deltas"
-    }
-}
