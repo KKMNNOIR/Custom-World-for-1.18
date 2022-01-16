@@ -15,5 +15,5 @@
             }
         }
     },
-    "rewards": { "function": "vanilla_plus:frost_deltas/freeze" }
+    "rewards": { "function": "vanilla_plus:nether_frost/freeze" }
 }
