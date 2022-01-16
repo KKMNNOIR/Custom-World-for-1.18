@@ -13,16 +13,16 @@
 execute as @e[type=mooshroom,predicate=vanilla_plus:in_mushroom_island,tag=!brownDone,nbt={Type:"red"}] run function vanilla_plus:mushroom_island/brown
 
 # in Icy Chasm -- Replace Skeleton with Stray
-execute as @e[type=skeleton,predicate=vanilla_plus:in_frost_deltas,tag=!Done] at @s run function vanilla_plus:frost_deltas/replace_stray
+execute as @e[type=skeleton,predicate=vanilla_plus:in_nether_frost,tag=!Done] at @s run function vanilla_plus:nether_frost/replace_stray
 
 # Ice creeper
-execute as @e[type=creeper,predicate=vanilla_plus:in_frost_deltas,tag=!IcyCreeper] at @s run tag @s add IcyCreeper
-execute as @e[tag=IcyCreeper] at @s run function vanilla_plus:frost_deltas/icy_creeper_ambient
+execute as @e[type=creeper,predicate=vanilla_plus:in_nether_frost,tag=!IcyCreeper] at @s run tag @s add IcyCreeper
+execute as @e[tag=IcyCreeper] at @s run function vanilla_plus:nether_frost/icy_creeper_ambient
 
 #Frozen Zombie spawns
-execute as @e[type=zombie,predicate=vanilla_plus:in_frost_deltas,tag=!FrozenZombie] at @s run data merge entity @s {CustomName:'{"text": "Frozen Zombie","color": "#315CD4","bold": true,"italic": false}',Tags:["FrozenZombie"],PersistenceRequired:0b,Team:"NameHidden"}
+execute as @e[type=zombie,predicate=vanilla_plus:in_nether_frost,tag=!FrozenZombie] at @s run data merge entity @s {CustomName:'{"text": "Frozen Zombie","color": "#315CD4","bold": true,"italic": false}',Tags:["FrozenZombie"],PersistenceRequired:0b,Team:"NameHidden"}
 ##Frozen Zombie attacks with snowball
-execute as @e[tag=FrozenZombie] at @s run function vanilla_plus:frost_deltas/frozen_zombie_ambient
+execute as @e[tag=FrozenZombie] at @s run function vanilla_plus:nether_frost/frozen_zombie_ambient
 
 # Frozen Zombie's snowball
 execute as @e[tag=SnowballAttack] at @s run particle dust 0.788 0.953 1.000 2 ~ ~ ~ 0 0 0 1 0 force

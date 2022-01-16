@@ -10,7 +10,7 @@ data modify entity @s NoAI set value 0b
 tag @p[distance=4..16] add SnowballTarget
 tp @s ^ ^ ^ facing entity @p[tag=SnowballTarget]
 summon potion ~ ~2 ~ {Motion:[0.0,0.1,0.0],Tags:["fromZombie","SnowballAttack"],Item:{id:"minecraft:snowball",Count:1b,tag:{CustomPotionColor:10287359,CustomPotionEffects:[{Id:2b,Amplifier:2b,Duration:100},{Id:20b,Amplifier:1b,Duration:21}]}}}
-execute as @e[tag=fromZombie] at @s run function vanilla_plus:frost_deltas/snowball_operation
+execute as @e[tag=fromZombie] at @s run function vanilla_plus:nether_frost/snowball_operation
 scoreboard players reset @s SnowballTimer
 
 tag @p[tag=SnowballTarget] remove SnowballTarget
