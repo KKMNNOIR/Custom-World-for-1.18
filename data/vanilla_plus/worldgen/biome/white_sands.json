@@ -7,7 +7,6 @@
             "minecraft:nether_cave"
         ]
     },
-    "player_spawn_friendly": false,
     "precipitation": "none",
     "effects": {
         "fog_color": 14606818,
@@ -47,6 +46,7 @@
         [],
         [],
         [],
+        [],
         [
             "minecraft:spring_open",
             "minecraft:patch_fire",
@@ -57,15 +57,15 @@
             "minecraft:red_mushroom_nether",
             "minecraft:ore_magma",
             "minecraft:spring_closed",
+            "vanilla_plus:lava_lake_white_sands",
             "minecraft:ore_gravel_nether",
             "minecraft:ore_blackstone",
             "minecraft:ore_gold_nether",
             "minecraft:ore_quartz_nether",
-            "minecraft:ore_debris_large",
-            "minecraft:ore_debris_small",
-            "minecraft:ore_blackstone",
-            "vanilla_plus:lava_lake_white_sands"
+            "minecraft:ore_ancient_debris_large",
+            "minecraft:ore_debris_small"
           ],
+          [],
           [
             "minecraft:spring_lava",
             "minecraft:brown_mushroom_normal",
@@ -106,5 +106,11 @@
         "water_ambient": [],
         "water_creature": []
     },
-    "spawn_costs": {}
+    "spawn_costs": {},
+    "starts": [
+        "fortress",
+        "nether_fossil",
+        "ruined_portal_nether",
+        "pillager_outpost"
+    ]
 }
