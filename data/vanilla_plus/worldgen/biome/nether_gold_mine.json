@@ -3,7 +3,6 @@
     "downfall": 0,
     "temperature": 2.0,
     "precipitation": "none",
-    "player_spawn_friendly": false,
     "effects": {
         "mood_sound": {
           "sound": "minecraft:ambient.nether_wastes.mood",
@@ -39,10 +38,6 @@
         [],
         [
           "vanilla_plus:golden_needle",
-          "vanilla_plus:golden_needle",
-          "vanilla_plus:golden_needle",
-          "vanilla_plus:golden_needle",
-          "vanilla_plus:golden_pool",
           "vanilla_plus:golden_pool"
         ],
         [],
@@ -58,18 +53,13 @@
           "minecraft:ore_magma",
           "minecraft:spring_closed",
           "minecraft:ore_gravel_nether",
+          "minecraft:ore_blackstone",
           "minecraft:ore_gold_nether",
           "minecraft:ore_quartz_nether",
-          "minecraft:ore_debris_large",
-          "minecraft:ore_debris_small",
-          "minecraft:ore_debris_large",
-          "minecraft:ore_debris_small",
-          "minecraft:ore_debris_large",
-          "minecraft:ore_debris_small",
-          "minecraft:ore_blackstone",
-          "vanilla_plus:large_ore_veins",
-          "vanilla_plus:ore_gilded_blackstone_large"
+          "minecraft:ore_ancient_debris_large",
+          "minecraft:ore_debris_small"
         ],
+        [],
         [
           "minecraft:spring_lava",
           "minecraft:brown_mushroom_normal",
@@ -92,19 +82,19 @@
           },
           {
             "type": "minecraft:magma_cube",
-            "weight": 1,
+            "weight": 3,
             "minCount": 4,
             "maxCount": 4
           },
           {
             "type": "minecraft:enderman",
-            "weight": 1,
+            "weight": 3,
             "minCount": 4,
             "maxCount": 4
           },
           {
             "type": "minecraft:piglin",
-            "weight": 100,
+            "weight": 200,
             "minCount": 4,
             "maxCount": 4
           },
@@ -113,6 +103,12 @@
               "weight": 50,
               "minCount": 1,
               "maxCount": 2
+          },
+          {
+            "maxCount": 1,
+            "minCount": 0,
+            "weight": 1,
+            "type": "minecraft:piglin_brute"
           }
         ],
         "creature": [
@@ -126,7 +122,9 @@
         "ambient": [],
         "water_creature": [],
         "water_ambient": [],
-        "misc": []
+        "misc": [],
+        "axolotls": [],
+        "underground_water_creature": []
       },
       "spawn_costs": {}
 }
