@@ -104,7 +104,7 @@
         "trigger": "minecraft:location",
         "conditions": {
           "location": {
-            "biome": "vanilla_plus:frost_deltas"
+            "biome": "vanilla_plus:nether_frost"
           }
         }
       },
@@ -112,15 +112,15 @@
         "trigger": "minecraft:location",
         "conditions": {
           "location": {
-            "biome": "vanilla_plus:diamond_cave"
+            "biome": "vanilla_plus:diamond_forest"
           }
         }
       },
-        "vanilla_plus:scorched_dunes": {
+        "vanilla_plus:scorched_joints": {
           "trigger": "minecraft:location",
           "conditions": {
             "location": {
-              "biome": "vanilla_plus:scorched_dunes"
+              "biome": "vanilla_plus:scorched_joints"
             }
           }
         },
@@ -139,6 +139,14 @@
               "biome": "vanilla_plus:moldy_nether_wastes"
             }
           }
+        },
+        "vanilla_plus:withering_wastes": {
+          "trigger": "minecraft:location",
+          "conditions": {
+            "location": {
+              "biome": "vanilla_plus:withering_wastes"
+            }
+          }
         }
     },
     "requirements": [
@@ -154,8 +162,9 @@
       [ "vanilla_plus:black_forest" ],
       [ "vanilla_plus:icy_chasm" ],
       [ "vanilla_plus:diamond_cave" ],
-      [ "vanilla_plus:scorched_dunes" ],
+      [ "vanilla_plus:scorched_joints" ],
       [ "vanilla_plus:nether_gold_mine"],
-      [ "vanilla_plus:moldy_nether_wastes"]
+      [ "vanilla_plus:moldy_nether_wastes"],
+      [ "vanilla_plus:withering_wastes" ]
     ]
   }
