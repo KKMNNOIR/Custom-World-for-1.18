@@ -11,16 +11,22 @@
       "tick_chance": 0.0111
     },
     "music": {
-      "sound": "minecraft:music.nether.nether_wastes",
-      "min_delay": 12000,
-      "max_delay": 24000,
+      "sound": "minecraft:music.nether.withering_nether_wastes",
+      "min_delay": 1200,
+      "max_delay": 2400,
       "replace_current_music": false
     },
     "ambient_sound": "minecraft:ambient.nether_wastes.loop",
     "sky_color": 7254527,
     "fog_color": 3344392,
     "water_color": 9460055,
-    "water_fog_color": 9460055
+    "water_fog_color": 9460055,
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.0025
+    }
   },
   "carvers": {
     "air": [
@@ -58,7 +64,7 @@
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "vanilla_plus:crimson_plains_vegetation"
+      "vanilla_plus:weeping_vines_plains"
     ]
   ],
   "spawners": {
