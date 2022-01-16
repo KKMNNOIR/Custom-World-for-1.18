@@ -1,22 +1,36 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "can_replace": false,
-    "project": false,
-    "need_water": false,
     "xz_spread": 2,
-    "y_spread": 8,
+    "y_spread": 2,
     "tries": 200,
     "feature": {
       "feature": {
-        "type": "minecraft:simple_block",
+        "type": "minecraft:block_column",
         "config": {
-          "to_place": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                  "Name": "minecraft:gold_block"
+          "allowed_placement": {
+              "type": "minecraft:matching_blocks",
+              "blocks": ["minecraft:air"]
+          },
+          "direction": "up",
+          "prioritize_tip": false,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:uniform",
+                "value": {
+                  "min_inclusive": 4,
+                  "max_inclusive": 8
+                }
+              },
+              "provider": {
+                  "type": "minecraft:simple_state_provider",
+                  "state": {
+                      "Name": "minecraft:gold_block"
+                  }
               }
-          }
+            }
+          ]
         }
       },
       "placement": [
@@ -41,7 +55,8 @@
                     "minecraft:nether_gold_ore",
                     "minecraft:gold_block",
                     "minecraft:blackstone",
-                    "minecraft:gilded_blackstone"
+                    "minecraft:gilded_blackstone",
+                    "minecraft:raw_gold_block"
                   ]
                 }
               ]
