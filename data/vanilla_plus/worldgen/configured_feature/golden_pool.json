@@ -1,4 +1,5 @@
 {
+  "type": "minecraft:delta_feature",
   "config": {
     "contents": {
       "Name": "minecraft:gold_block"
