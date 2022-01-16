@@ -18,6 +18,18 @@
                                     {
                                         "type": "minecraft:matching_blocks",
                                         "blocks": ["minecraft:air"]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block"
+                                        ]
                                     }
                                 ]
                             },
@@ -25,6 +37,25 @@
                             "prioritize_tip": false,
                             "layers": [
                                 {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:birch_log",
+                                            "Properties": {"axis":"y"}
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:air"
+                                        }
+                                    }
+                                },
+                                {
                                     "height": {
                                         "type": "minecraft:biased_to_bottom",
                                         "value": {
@@ -39,36 +70,26 @@
                                             "Properties": {"axis":"x"}
                                         }
                                     }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 0,
+                                            "max_inclusive": 1
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:moss_carpet"
+                                        }
+                                    }
                                 }
                             ]
                         }
                     },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    }
-                                ]
-                            }
-                        }
-                    ],
+                    "placement": [],
                     "config": {
                         "xz_spread": 0,
                         "y_spread": 0,
@@ -89,6 +110,18 @@
                                     {
                                         "type": "minecraft:matching_blocks",
                                         "blocks": ["minecraft:air"]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block"
+                                        ]
                                     }
                                 ]
                             },
@@ -96,6 +129,25 @@
                             "prioritize_tip": false,
                             "layers": [
                                 {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:birch_log",
+                                            "Properties": {"axis":"y"}
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:air"
+                                        }
+                                    }
+                                },
+                                {
                                     "height": {
                                         "type": "minecraft:biased_to_bottom",
                                         "value": {
@@ -114,32 +166,7 @@
                             ]
                         }
                     },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    }
-                                ]
-                            }
-                        }
-                    ],
+                    "placement": [],
                     "config": {
                         "xz_spread": 0,
                         "y_spread": 0,
@@ -160,6 +187,18 @@
                                     {
                                         "type": "minecraft:matching_blocks",
                                         "blocks": ["minecraft:air"]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block"
+                                        ]
                                     }
                                 ]
                             },
@@ -167,6 +206,25 @@
                             "prioritize_tip": false,
                             "layers": [
                                 {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:birch_log",
+                                            "Properties": {"axis":"y"}
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:air"
+                                        }
+                                    }
+                                },
+                                {
                                     "height": {
                                         "type": "minecraft:biased_to_bottom",
                                         "value": {
@@ -185,32 +243,7 @@
                             ]
                         }
                     },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    }
-                                ]
-                            }
-                        }
-                    ],
+                    "placement": [],
                     "config": {
                         "xz_spread": 0,
                         "y_spread": 0,
@@ -231,12 +264,43 @@
                                     {
                                         "type": "minecraft:matching_blocks",
                                         "blocks": ["minecraft:air"]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block"
+                                        ]
                                     }
                                 ]
                             },
                             "direction": "north",
                             "prioritize_tip": false,
                             "layers": [
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:birch_log",
+                                            "Properties": {"axis":"y"}
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:air"
+                                        }
+                                    }
+                                },
                                 {
                                     "height": {
                                         "type": "minecraft:biased_to_bottom",
@@ -256,32 +320,7 @@
                             ]
                         }
                     },
-                    "placement": [
-                        {
-                            "type": "minecraft:block_predicate_filter",
-                            "predicate": {
-                                "type": "minecraft:all_of",
-                                "predicates": [
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "blocks": ["minecraft:air"]
-                                    },
-                                    {
-                                        "type": "minecraft:matching_blocks",
-                                        "offset": [
-                                            0,
-                                            -1,
-                                            0
-                                        ],
-                                        "blocks": [
-                                            "minecraft:dirt",
-                                            "minecraft:grass_block"
-                                        ]
-                                    }
-                                ]
-                            }
-                        }
-                    ],
+                    "placement": [],
                     "config": {
                         "xz_spread": 0,
                         "y_spread": 0,
