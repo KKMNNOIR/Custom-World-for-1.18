@@ -32,7 +32,8 @@
       "minecraft:fossil_lower",
       "minecraft:monster_room",
       "minecraft:monster_room_deep",
-      "vanilla_plus:creeper_dungeons"
+      "vanilla_plus:creeper_dungeons",
+      "vanilla_plus:replace_mossy_cobblestone"
     ],
     [
       "minecraft:desert_well"
@@ -76,7 +77,8 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "minecraft:ore_emerald"
+      "minecraft:ore_emerald",
+      "vanilla_plus:ore_emerald_deep"
     ],
     [],
     [
@@ -188,5 +190,14 @@
   "precipitation": "none",
   "temperature": 2.0,
   "downfall": 0.0,
-  "category": "desert"
+  "category": "desert",
+  "starts": [
+    "minecraft:village_desert",
+    "vanilla_plus:desert_pillager_outpost",
+    "minecraft:desert_pyramid",
+    "minecraft:mineshaft",
+    "minecraft:stronghold",
+    "minecraft:ruined_portal_desert",
+    "minecraft:nether_fossil"
+  ]
 }

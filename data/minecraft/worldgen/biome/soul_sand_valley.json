@@ -61,13 +61,14 @@
       "minecraft:ore_quartz_nether",
       "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small",
-      "vanilla_plus:wither_rose",
-      "vanilla_plus:nether_wart",
       "vanilla_plus:skull_nether_decorator"
     ],
     [],
     [
-      "minecraft:spring_lava"
+      "minecraft:spring_lava",
+      "vanilla_plus:wither_rose_soul_sand",
+      "vanilla_plus:wither_rose_soul_soil",
+      "vanilla_plus:nether_wart"
     ]
   ],
   "spawners": {

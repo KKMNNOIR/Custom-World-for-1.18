@@ -36,7 +36,8 @@
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep",
-      "vanilla_plus:creeper_dungeons"
+      "vanilla_plus:creeper_dungeons",
+      "vanilla_plus:replace_mossy_cobblestone"
     ],
     [],
     [
@@ -79,6 +80,7 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_emerald",
+      "vanilla_plus:ore_emerald_deep",
       "vanilla_plus:ore_emerald_extra",
       "vanilla_plus:ore_emerald_extra_deep"
     ],

@@ -30,7 +30,8 @@
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep",
-      "vanilla_plus:creeper_dungeons"
+      "vanilla_plus:creeper_dungeons",
+      "vanilla_plus:replace_mossy_cobblestone"
     ],
     [],
     [
@@ -72,7 +73,8 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "minecraft:ore_emerald"
+      "minecraft:ore_emerald",
+      "vanilla_plus:ore_emerald_deep"
     ],
     [],
     [
@@ -89,7 +91,11 @@
       "minecraft:red_mushroom_taiga",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:patch_berry_common"
+      "minecraft:patch_berry_common",
+      "vanilla_plus:vines_on_fallen_trunk_east",
+      "vanilla_plus:vines_on_fallen_trunk_north",
+      "vanilla_plus:vines_on_fallen_trunk_south",
+      "vanilla_plus:vines_on_fallen_trunk_west"
     ],
     [
       "minecraft:freeze_top_layer"

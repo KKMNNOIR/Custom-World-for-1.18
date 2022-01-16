@@ -36,9 +36,12 @@
     ],
     [
       "minecraft:monster_room",
-      "minecraft:monster_room_deep"
+      "minecraft:monster_room_deep",
+      "vanilla_plus:replace_mossy_cobblestone"
     ],
-    [],
+    [
+      "vanilla_plus:calcite_pinnacle"
+    ],
     [],
     [
       "minecraft:ore_dirt",
@@ -70,11 +73,13 @@
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
-      "minecraft:ore_emerald"
+      "minecraft:ore_emerald",
+      "vanilla_plus:ore_emerald_deep"
     ],
     [
       "minecraft:dripstone_cluster",
-      "minecraft:pointed_dripstone"
+      "minecraft:pointed_dripstone",
+      "vanilla_plus:dripstone_terrace"
     ],
     [
       "minecraft:spring_water",
