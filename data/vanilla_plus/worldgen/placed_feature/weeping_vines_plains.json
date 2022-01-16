@@ -1,8 +1,8 @@
 {
-    "feature": "minecraft:weeping_vines",
+    "feature": "vanilla_plus:weeping_vines_plains",
     "placement": [
       {
-        "count": 50,
+        "count": 5,
         "type": "minecraft:count"
       },
       {
