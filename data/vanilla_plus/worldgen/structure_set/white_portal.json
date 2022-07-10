@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "vanilla_plus:white_portals",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "salt": 14357921,
+      "spacing": 32,
+      "separation": 8,
+      "type": "minecraft:random_spread"
+    }
+  }

@@ -1,0 +1,18 @@
+{
+    "structures": [
+        {
+            "structure": "minecraft:nether_fossil",
+            "weight": 1
+        },
+        {
+            "weight": 1,
+            "structure": "vanilla_plus:desert_fossil"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 10,
+        "separation": 5,
+        "salt": 75256224
+    }
+}

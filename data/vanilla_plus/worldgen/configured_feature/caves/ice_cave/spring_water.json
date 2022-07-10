@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:spring_feature",
+    "config": {
+        "hole_count": 1,
+        "rock_count": 4,
+        "requires_block_below": false,
+        "valid_blocks": [
+            "minecraft:ice",
+            "minecraft:packed_ice",
+            "minecraft:blue_ice",
+            "minecraft:snow_block"
+        ],
+        "state": {
+            "Name": "minecraft:water",
+            "Properties": {
+                "falling": "true"
+            }
+        }
+    }
+}
