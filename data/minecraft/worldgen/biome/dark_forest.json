@@ -10,7 +10,9 @@
     "sky_color": 5592405,
     "fog_color": 5608000,
     "water_color": 4079170,
-    "water_fog_color": 4079170
+    "water_fog_color": 4079170,
+    "foliage_color": 2116366,
+    "grass_color": 803099
   },
   "carvers": {
     "air": [
@@ -75,7 +77,8 @@
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
       "minecraft:ore_emerald",
-      "vanilla_plus:ore_emerald_deep"
+      "vanilla_plus:ore_emerald_deep",
+      "vanilla_plus:ore_gilded_blackstone"
     ],
     [],
     [
