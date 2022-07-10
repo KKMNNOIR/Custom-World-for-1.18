@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": [
+    "#vanilla_plus:is_additional_nether_biomes"
+  ]
+}
