@@ -1,0 +1,18 @@
+{
+  "config": {
+    "rock_count": 4,
+    "hole_count": 1,
+    "valid_blocks": [
+      "minecraft:diamond_block",
+      "minecraft:deepslate_diamond_ore"
+    ],
+    "state": {
+      "Properties": {
+        "falling": "true"
+      },
+      "Name": "minecraft:lava"
+    },
+    "requires_block_below": false
+  },
+  "type": "minecraft:spring_feature"
+}

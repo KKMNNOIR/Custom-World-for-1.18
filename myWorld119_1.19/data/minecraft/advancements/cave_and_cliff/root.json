@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "title": "Cave & Cliff",
+        "description": "洞窟と崖",
+        "background": "minecraft:textures/block/deepslate.png"
+    },
+    "criteria": {
+        "deep": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {}
+            }
+        }
+    }
+}

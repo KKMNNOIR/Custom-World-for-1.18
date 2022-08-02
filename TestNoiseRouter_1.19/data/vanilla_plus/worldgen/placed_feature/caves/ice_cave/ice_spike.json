@@ -1,0 +1,27 @@
+{
+  "feature": "vanilla_plus:caves/ice_cave/ice_spike",
+  "placement": [
+    {
+      "count": 16,
+      "type": "minecraft:count_on_every_layer"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "absolute": 0
+        },
+        "max_inclusive": {
+          "below_top": 10
+        },
+        "type": "minecraft:uniform"
+      },
+      "type": "minecraft:height_range"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

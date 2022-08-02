@@ -1,0 +1,141 @@
+{
+    "name": "vanilla_plus:fossils",
+    "fallback": "empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_4"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_5"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_6"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_7"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_8"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_9"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_10"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_11"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_12"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_13"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_14"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:legacy_single_pool_element",
+                "projection": "terrain_matching",
+                "processors": "vanilla_plus:generate_debris",
+                "location": "nether_fossils/fossils/fossil_15"
+            }
+        }
+    ]
+}

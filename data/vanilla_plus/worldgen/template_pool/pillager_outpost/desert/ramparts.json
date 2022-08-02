@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
+                "processors": "vanilla_plus:ignore_cave_air",
                 "location": "vanilla_plus:pillager_outpost/desert/rampart"
             }
         }

@@ -1,0 +1,27 @@
+{
+    "feature": "vanilla_plus:wither_rose_soul_sand",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 3
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 5
+                },
+                "max_inclusive": {
+                    "below_top": 0
+                }
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

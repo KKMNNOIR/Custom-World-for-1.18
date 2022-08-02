@@ -1,0 +1,57 @@
+{
+  "feature": "vanilla_plus:ice_tree",
+  "placement": [
+    {
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 4
+        }
+      },
+      "type": "minecraft:count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "max_water_depth": 0,
+      "type": "minecraft:surface_water_depth_filter"
+    },
+    {
+      "heightmap": "OCEAN_FLOOR",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "predicate": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "state": {
+              "Properties": {
+                "layers": "1"
+              },
+              "Name": "minecraft:snow"
+            },
+            "type": "minecraft:would_survive"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              -1,
+              0
+            ],
+            "blocks": [
+              "minecraft:snow_block"
+            ]
+          }
+        ]
+      },
+      "type": "minecraft:block_predicate_filter"
+    }
+  ]
+}

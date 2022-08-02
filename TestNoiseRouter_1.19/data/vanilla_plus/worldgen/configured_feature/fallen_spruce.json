@@ -1,0 +1,440 @@
+{
+    "type": "random_selector",
+    "config": {
+        "default": "spruce",
+        "features": [
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:block_column",
+                        "config": {
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air",
+                                            "minecraft:snow"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block",
+                                            "minecraft:podzol",
+                                            "minecraft:coarse_dirt",
+                                            "minecraft:mossy_cobblestone"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "direction": "east",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:spruce_log",
+                                            "Properties": {
+                                                "axis": "y"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:weighted_state_provider",
+                                        "entries": [
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:air"
+                                                },
+                                                "weight": 3
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:vine",
+                                                    "Properties": {
+                                                        "west": "true",
+                                                        "north": "false",
+                                                        "south": "false",
+                                                        "up": "false",
+                                                        "east": "false"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:spruce_log",
+                                            "Properties": {
+                                                "axis": "x"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "placement": [],
+                    "config": {
+                        "xz_spread": 0,
+                        "y_spread": 0,
+                        "tries": 128
+                    }
+                },
+                "chance": 0.23125
+            },
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:block_column",
+                        "config": {
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block",
+                                            "minecraft:podzol",
+                                            "minecraft:coarse_dirt",
+                                            "minecraft:mossy_cobblestone"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "direction": "west",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:spruce_log",
+                                            "Properties": {
+                                                "axis": "y"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:weighted_state_provider",
+                                        "entries": [
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:air"
+                                                },
+                                                "weight": 3
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:vine",
+                                                    "Properties": {
+                                                        "west": "false",
+                                                        "north": "false",
+                                                        "south": "false",
+                                                        "up": "false",
+                                                        "east": "true"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:spruce_log",
+                                            "Properties": {
+                                                "axis": "x"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "placement": [],
+                    "config": {
+                        "xz_spread": 0,
+                        "y_spread": 0,
+                        "tries": 128
+                    }
+                },
+                "chance": 0.23125
+            },
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:block_column",
+                        "config": {
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block",
+                                            "minecraft:podzol",
+                                            "minecraft:coarse_dirt",
+                                            "minecraft:mossy_cobblestone"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "direction": "south",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:spruce_log",
+                                            "Properties": {
+                                                "axis": "y"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:weighted_state_provider",
+                                        "entries": [
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:air"
+                                                },
+                                                "weight": 3
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:vine",
+                                                    "Properties": {
+                                                        "east": "false",
+                                                        "south": "false",
+                                                        "north": "true",
+                                                        "up": "false",
+                                                        "west": "false"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:spruce_log",
+                                            "Properties": {
+                                                "axis": "z"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "placement": [],
+                    "config": {
+                        "xz_spread": 0,
+                        "y_spread": 0,
+                        "tries": 128
+                    }
+                },
+                "chance": 0.23125
+            },
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:block_column",
+                        "config": {
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block",
+                                            "minecraft:podzol",
+                                            "minecraft:coarse_dirt",
+                                            "minecraft:mossy_cobblestone"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "direction": "north",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:spruce_log",
+                                            "Properties": {
+                                                "axis": "y"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:weighted_state_provider",
+                                        "entries": [
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:air"
+                                                },
+                                                "weight": 3
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:vine",
+                                                    "Properties": {
+                                                        "east": "false",
+                                                        "south": "true",
+                                                        "north": "false",
+                                                        "up": "false",
+                                                        "west": "false"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 0,
+                                            "max_inclusive": 1
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:air"
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:spruce_log",
+                                            "Properties": {
+                                                "axis": "z"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "placement": [],
+                    "config": {
+                        "xz_spread": 0,
+                        "y_spread": 0,
+                        "tries": 128
+                    }
+                },
+                "chance": 0.23125
+            }
+        ]
+    }
+}

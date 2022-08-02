@@ -1,0 +1,15 @@
+{
+    "name": "vanilla_plus:deep_cabin",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:deep_cabin_rot",
+                "location": "vanilla_plus:deep_cabin"
+            }
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "type": "vanilla_plus:nigar",
+    "generator": {
+        "type": "minecraft:noise",
+        "biome_source": {
+            "type": "checkerboard",
+            "biomes": [
+                "deep_ocean",
+                "vanilla_plus:fire_ocean"
+            ],
+            "scale": 16,
+            "seed": 0
+        },
+        "settings": "vanilla_plus:nigar",
+        "seed": 0
+    }
+}

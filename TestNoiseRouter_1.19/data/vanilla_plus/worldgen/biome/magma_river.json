@@ -1,0 +1,49 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "precipitation": "none",
+  "carvers": {},
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.nether_wastes.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.nether_wastes.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.nether.withering_nether_wastes",
+      "min_delay": 1200,
+      "max_delay": 2400,
+      "replace_current_music": false
+    },
+    "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+    "sky_color": 7254527,
+    "fog_color": 3344392,
+    "water_color": 9460055,
+    "water_fog_color": 9460055,
+    "particle": {
+      "options": {
+        "type": "minecraft:crimson_spore"
+      },
+      "probability": 0.0025
+    }
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "spawners": {},
+  "spawn_costs": {}
+}

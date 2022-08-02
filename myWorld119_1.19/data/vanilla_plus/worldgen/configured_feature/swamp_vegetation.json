@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": "minecraft:mushroom_island_vegetation",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.925,
+        "feature": {
+          "feature": "minecraft:swamp_oak",
+          "placement": [
+            {
+              "predicate": {
+                "state": {
+                  "Properties": {
+                    "stage": "0"
+                  },
+                  "Name": "minecraft:oak_sapling"
+                },
+                "type": "minecraft:would_survive"
+              },
+              "type": "minecraft:block_predicate_filter"
+            }
+          ]
+        }
+      }
+    ],
+    "default": {
+      "feature": "minecraft:swamp_oak",
+      "placement": [
+        {
+          "predicate": {
+            "state": {
+              "Properties": {
+                "stage": "0"
+              },
+              "Name": "minecraft:oak_sapling"
+            },
+            "type": "minecraft:would_survive"
+          },
+          "type": "minecraft:block_predicate_filter"
+        }
+      ]
+    }
+  }
+}

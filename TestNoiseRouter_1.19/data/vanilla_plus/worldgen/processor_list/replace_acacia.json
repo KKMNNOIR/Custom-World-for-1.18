@@ -1,0 +1,697 @@
+{
+    "processors": [
+        {
+            "processor_type": "rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_log",
+                            "Properties": {
+                                "axis": "x"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_log",
+                        "Properties": {
+                            "axis": "x"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_log",
+                            "Properties": {
+                                "axis": "y"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_log",
+                        "Properties": {
+                            "axis": "y"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_log",
+                            "Properties": {
+                                "axis": "z"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_log",
+                        "Properties": {
+                            "axis": "z"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_slab",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "type": "bottom"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_slab",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "type": "bottom"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_slab",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "type": "top"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_slab",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "type": "top"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_stairs",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "half": "bottom",
+                                "facing": "north",
+                                "shape": "straight"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_stairs",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "half": "bottom",
+                            "facing": "north",
+                            "shape": "straight"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_stairs",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "half": "bottom",
+                                "facing": "east",
+                                "shape": "straight"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_stairs",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "half": "bottom",
+                            "facing": "east",
+                            "shape": "straight"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_stairs",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "half": "bottom",
+                                "facing": "south",
+                                "shape": "straight"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_stairs",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "half": "bottom",
+                            "facing": "south",
+                            "shape": "straight"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_stairs",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "half": "bottom",
+                                "facing": "west",
+                                "shape": "straight"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_stairs",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "half": "bottom",
+                            "facing": "west",
+                            "shape": "straight"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_stairs",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "half": "top",
+                                "facing": "north",
+                                "shape": "straight"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_stairs",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "half": "top",
+                            "facing": "north",
+                            "shape": "straight"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_stairs",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "half": "top",
+                                "facing": "east",
+                                "shape": "straight"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_stairs",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "half": "top",
+                            "facing": "east",
+                            "shape": "straight"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_stairs",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "half": "top",
+                                "facing": "south",
+                                "shape": "straight"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_stairs",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "half": "top",
+                            "facing": "south",
+                            "shape": "straight"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:dark_oak_stairs",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "half": "top",
+                                "facing": "west",
+                                "shape": "straight"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:acacia_stairs",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "half": "top",
+                            "facing": "west",
+                            "shape": "straight"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "true",
+                                "east": "false",
+                                "south": "true",
+                                "west": "false",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "true",
+                            "east": "false",
+                            "south": "true",
+                            "west": "false",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "false",
+                                "east": "true",
+                                "south": "false",
+                                "west": "true",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "false",
+                            "east": "true",
+                            "south": "false",
+                            "west": "true",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "true",
+                                "east": "false",
+                                "south": "false",
+                                "west": "false",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "true",
+                            "east": "false",
+                            "south": "false",
+                            "west": "false",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "false",
+                                "east": "true",
+                                "south": "false",
+                                "west": "false",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "false",
+                            "east": "true",
+                            "south": "false",
+                            "west": "false",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "false",
+                                "east": "false",
+                                "south": "true",
+                                "west": "false",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "false",
+                            "east": "false",
+                            "south": "true",
+                            "west": "false",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "false",
+                                "east": "false",
+                                "south": "false",
+                                "west": "true",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "false",
+                            "east": "false",
+                            "south": "false",
+                            "west": "true",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "false",
+                                "east": "false",
+                                "south": "false",
+                                "west": "false",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "false",
+                            "east": "false",
+                            "south": "false",
+                            "west": "false",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "true",
+                                "east": "true",
+                                "south": "false",
+                                "west": "false",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "true",
+                            "east": "true",
+                            "south": "false",
+                            "west": "false",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "false",
+                                "east": "true",
+                                "south": "true",
+                                "west": "false",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "false",
+                            "east": "true",
+                            "south": "true",
+                            "west": "false",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "false",
+                                "east": "false",
+                                "south": "true",
+                                "west": "true",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "false",
+                            "east": "false",
+                            "south": "true",
+                            "west": "true",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "true",
+                                "east": "false",
+                                "south": "false",
+                                "west": "true",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "true",
+                            "east": "false",
+                            "south": "false",
+                            "west": "true",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "true",
+                                "east": "true",
+                                "south": "false",
+                                "west": "true",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "true",
+                            "east": "true",
+                            "south": "false",
+                            "west": "true",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "blockstate_match",
+                        "block_state": {
+                            "Name": "dark_oak_fence",
+                            "Properties": {
+                                "north": "true",
+                                "east": "false",
+                                "south": "true",
+                                "west": "true",
+                                "waterlogged": "false"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "acacia_fence",
+                        "Properties": {
+                            "north": "true",
+                            "east": "false",
+                            "south": "true",
+                            "west": "true",
+                            "waterlogged": "false"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "block_match",
+                        "block": "dark_oak_planks"
+                    },
+                    "output_state": {
+                        "Name": "acacia_planks"
+                    },
+                    "location_predicate": {
+                        "predicate_type": "always_true"
+                    }
+                }
+            ]
+        }
+    ]
+}

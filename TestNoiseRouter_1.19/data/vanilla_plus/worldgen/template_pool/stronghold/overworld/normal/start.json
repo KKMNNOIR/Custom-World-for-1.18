@@ -1,0 +1,51 @@
+{
+    "name": "vanilla_plus:stronghold/overworld/normal/start",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/starting_point/crossing"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/starting_point/empty_room"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/starting_point/fountain_room"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/starting_point/pillar_room"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/starting_point/storeroom"
+            }
+        }
+    ]
+}

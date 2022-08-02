@@ -1,0 +1,26 @@
+{
+    "condition": "alternative",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "type": "player",
+                    "player": {
+                        "gamemode": "adventure"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "targeted_entity": {
+                    "type": "player"
+                }
+            }
+        }
+    ]
+}

@@ -194,6 +194,5 @@
     "spawn_costs": {},
     "precipitation": "rain",
     "temperature": 0.5,
-    "downfall": 0.5,
-    "category": "ocean"
+    "downfall": 0.5
   }

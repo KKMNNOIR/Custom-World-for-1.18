@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "target": {
+            "Name": "minecraft:infested_stone_bricks"
+        },
+        "radius": 12,
+        "state": {
+            "Name": "minecraft:infested_deepslate",
+            "Properties": {
+                "axis": "y"
+            }
+        }
+    }
+}

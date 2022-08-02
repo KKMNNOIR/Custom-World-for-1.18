@@ -31,7 +31,7 @@
     "fog_color": 1787717
   },
   "carvers": {
-    "air": [
+    "liquid": [
       "minecraft:nether_cave"
     ]
   },
@@ -61,7 +61,8 @@
       "minecraft:ore_quartz_nether",
       "minecraft:ore_ancient_debris_large",
       "minecraft:ore_debris_small",
-      "vanilla_plus:skull_nether_decorator"
+      "vanilla_plus:skull_nether_decorator",
+      "vanilla_plus:ore_ancient_debris_bone"
     ],
     [],
     [
@@ -127,6 +128,5 @@
   },
   "precipitation": "none",
   "temperature": 2.0,
-  "downfall": 0.0,
-  "category": "nether"
+  "downfall": 0.0
 }

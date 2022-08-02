@@ -1,5 +1,4 @@
 {
-    "category": "none",
     "carvers": {},
     "downfall": 0,
     "effects": {
@@ -12,7 +11,9 @@
             "offset": 2.0,
             "tick_delay": 6000,
             "block_search_extent": 8
-        }
+        },
+        "grass_color": 9551193,
+        "foliage_color": 7842607
     },
     "features": [
         [],
@@ -29,6 +30,6 @@
     "precipitation": "none",
     "spawn_costs": {},
     "spawners": {},
-    "temperature": 0.0,
+    "temperature": 2.0,
     "player_spawn_friendly": false
 }

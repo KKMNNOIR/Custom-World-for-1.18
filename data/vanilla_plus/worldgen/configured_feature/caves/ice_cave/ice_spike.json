@@ -10,7 +10,7 @@
                 "Name": "minecraft:packed_ice"
             }
         },
-        "replaceable": "minecraft:ice",
+        "replaceable": "#minecraft:ice",
         "surface": "floor",
         "vegetation_chance": 1,
         "vegetation_feature": {

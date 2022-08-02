@@ -1,0 +1,36 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:mega_spruce_checked",
+        "chance": 0.025641026
+      },
+      {
+        "feature": "minecraft:mega_pine_checked",
+        "chance": 0.30769232
+      },
+      {
+        "feature": "minecraft:pine_checked",
+        "chance": 0.33333334
+      },
+      {
+        "chance": 0.03,
+        "feature": "vanilla_plus:fallen_spruce"
+      },
+      {
+        "chance": 0.03,
+        "feature": "vanilla_plus:mossy_spruce"
+      },
+      {
+        "chance": 0.2,
+        "feature": "vanilla_plus:mossy_mega_spruce"
+      },
+      {
+        "chance": 0.2,
+        "feature": "vanilla_plus:mossy_mega_pine"
+      }
+    ],
+    "default": "minecraft:spruce_checked"
+  },
+  "type": "minecraft:random_selector"
+}

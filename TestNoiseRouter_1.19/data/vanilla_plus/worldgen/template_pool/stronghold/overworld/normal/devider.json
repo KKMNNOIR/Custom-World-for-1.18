@@ -1,0 +1,42 @@
+{
+    "name": "vanilla_plus:stronghold/overworld/normal/devider",
+    "fallback": "vanilla_plus:stronghold/overworld/normal/devider",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/devider_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/devider_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/devider_3"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/devider_4"
+            }
+        }
+    ]
+}

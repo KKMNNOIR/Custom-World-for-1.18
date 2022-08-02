@@ -11,14 +11,22 @@
         "monster": [],
         "water_ambient": [],
         "water_creature": [],
-        "misc": []
+        "misc": [],
+        "axolotls": [],
+        "underground_water_creature": []
     },
     "features": [
         [],
-        ["lake_lava"],
+        [
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
+        ],
         [ "minecraft:amethyst_geode"],
-        ["minecraft:monster_room",
-        "vanilla_plus:creeper_dungeons"],
+        [
+            "minecraft:monster_room",
+            "vanilla_plus:creeper_dungeons"
+        ],
+        [],
         [],
         [],
         [
@@ -49,14 +57,11 @@
             "minecraft:underwater_magma",
             "minecraft:disk_sand",
             "minecraft:disk_clay",
-            "minecraft:disk_gravel",
-            "disk_clay",
-            "disk_sand",
-            "spring_closed"
+            "minecraft:disk_gravel"
+            
         ],
         [
-            "minecraft:rare_dripstone_cluster",
-            "minecraft:rare_small_dripstone"
+            "spring_closed"
         ],
         [],
         ["freeze_top_layer"]

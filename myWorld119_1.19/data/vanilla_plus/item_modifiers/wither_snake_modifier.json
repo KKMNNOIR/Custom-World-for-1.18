@@ -1,0 +1,20 @@
+[
+    {
+      "function": "minecraft:enchant_with_levels",
+      "levels": {
+        "min": 0,
+        "max": 30
+      },
+      "treasure": true,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.3
+        }
+      ]
+    },
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{CustomModelData:20210224,display:{Name:'{\"translate\":\"ウィザースネーク\",\"color\":\"dark_gray\",\"bold\":true,\"italic\":false}'}}"
+    }
+  ]

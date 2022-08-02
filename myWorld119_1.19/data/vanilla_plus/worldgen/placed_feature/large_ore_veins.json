@@ -1,0 +1,30 @@
+{
+    "feature": "vanilla_plus:large_ore_veins",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": {
+                "type": "minecraft:uniform",
+                "value": {
+                    "min_inclusive": 70,
+                    "max_inclusive": 256
+                }
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 20
+                },
+                "max_inclusive": {
+                    "below_top": 0
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "feature": "vanilla_plus:caves/desert_cave/patch_dead_bush",
+    "placement": [
+        {
+            "count": 140,
+            "type": "minecraft:count"
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:biome"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 5
+                },
+                "max_inclusive": {
+                    "absolute": 55
+                }
+            }
+        }
+    ]
+}

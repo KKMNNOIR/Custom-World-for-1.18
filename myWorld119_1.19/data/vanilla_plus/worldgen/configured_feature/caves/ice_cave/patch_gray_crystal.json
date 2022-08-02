@@ -1,0 +1,18 @@
+{
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "tag": "minecraft:ice",
+          "predicate_type": "minecraft:tag_match"
+        },
+        "state": {
+          "Name": "minecraft:gray_stained_glass"
+        }
+      }
+    ],
+    "size": 32,
+    "discard_chance_on_air_exposure": 0
+  },
+  "type": "minecraft:ore"
+}

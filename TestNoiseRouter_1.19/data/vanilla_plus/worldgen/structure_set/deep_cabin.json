@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "vanilla_plus:deep_cabin",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 1364655555,
+        "spacing": 3,
+        "separation": 2
+    }
+}

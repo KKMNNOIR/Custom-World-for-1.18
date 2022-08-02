@@ -2,51 +2,12 @@
     "feature": "vanilla_plus:vines_on_fallen_trunk_north",
     "placement": [
         {
-            "type": "minecraft:block_predicate_filter",
-            "predicate": {
-                "type": "minecraft:all_of",
-                "predicates": [
-                    {
-                        "type": "minecraft:matching_blocks",
-                        "blocks": ["minecraft:air"]
-                    },
-                    {
-                        "type": "minecraft:matching_block_tag",
-                        "tag": "minecraft:dirt",
-                        "offset": [
-                            0,
-                            -1,
-                            0
-                        ]
-                    },
-                    {
-                        "type": "minecraft:matching_block_tag",
-                        "tag": "minecraft:logs_that_burn",
-                        "offset": [
-                            1,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "type": "minecraft:matching_blocks",
-                        "blocks": ["minecraft:air"],
-                        "offset": [
-                            1,
-                            1,
-                            0
-                        ]
-                    }
-                ]
-            }
-        },
-        {
             "type": "minecraft:heightmap",
             "heightmap": "OCEAN_FLOOR"
         },
         {
-            "type": "minecraft:count",
-            "count": 12
+            "type": "minecraft:count_on_every_layer",
+            "count": 64
         }
     ]
 }

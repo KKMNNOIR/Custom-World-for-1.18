@@ -1,0 +1,12 @@
+{
+  "config": {
+    "target": {
+      "Name": "minecraft:netherrack"
+    },
+    "state": {
+      "Name": "minecraft:nether_gold_ore"
+    },
+    "radius": 12
+  },
+  "type": "minecraft:netherrack_replace_blobs"
+}

@@ -1,0 +1,35 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:sandstone_stairs",
+                            "Properties": {
+                                "waterlogged": "false",
+                                "facing": "north",
+                                "half": "bottom",
+                                "shape": "straight"
+                            }
+                        }
+                    },
+                    "output_state": {
+                        "Name": "minecraft:red_sandstone_stairs",
+                        "Properties": {
+                            "waterlogged": "false",
+                            "facing": "north",
+                            "half": "bottom",
+                            "shape": "straight"
+                        }
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    }
+                }
+            ]
+        }
+    ]
+}

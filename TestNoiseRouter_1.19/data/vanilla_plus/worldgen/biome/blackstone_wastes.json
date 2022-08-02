@@ -1,0 +1,144 @@
+{
+    "downfall": 0,
+    "precipitation": "none",
+    "temperature": 2,
+    "spawn_costs": {},
+    "effects": {
+        "fog_color": 9,
+        "sky_color": 7254527,
+        "water_color": 1707284,
+        "water_fog_color": 1707284,
+        "grass_color": 12564309,
+        "foliage_color": 11445290,
+        "music": {
+            "sound": "minecraft:music.nether.blackstone_wastes",
+            "min_delay": 1200,
+            "max_delay": 2400,
+            "replace_current_music": false
+        },
+        "ambient_sound": "minecraft:ambient.nether_wastes.loop",
+        "mood_sound": {
+            "sound": "minecraft:ambient.nether_wastes.mood",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.nether_wastes.additions",
+            "tick_chance": 0.0111
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:smoke"
+            },
+            "probability": 0.025
+        }
+    },
+    "carvers": {
+        "air": [
+            "minecraft:nether_cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [
+            "minecraft:basalt_pillar",
+            "vanilla_plus:magma_stalactite",
+            "vanilla_plus:glowstone_stalagmite"
+        ],
+        [],
+        [],
+        [],
+        [],
+        [
+            "minecraft:spring_open",
+            "minecraft:patch_fire",
+            "minecraft:patch_soul_fire",
+            "minecraft:glowstone_extra",
+            "minecraft:glowstone",
+            "minecraft:brown_mushroom_nether",
+            "minecraft:red_mushroom_nether",
+            "minecraft:ore_magma",
+            "minecraft:spring_nether_closed",
+            "minecraft:ore_gravel_nether",
+            "minecraft:ore_ancient_debris_large",
+            "minecraft:ore_debris_small",
+            "vanilla_plus:ore_gilded_blackstone",
+            "vanilla_plus:ore_quartz_blackstone",
+            "vanilla_plus:ore_obsidians",
+            "vanilla_plus:brown_mushroom_blackstone",
+            "vanilla_plus:red_mushroom_blackstone",
+            "vanilla_plus:patch_soul_fire_blackstone",
+            "vanilla_plus:ore_ancient_debris_bone"
+        ],
+        [
+            "minecraft:spring_lava"
+        ],
+        [
+            "minecraft:spring_lava",
+            "minecraft:brown_mushroom_normal",
+            "minecraft:red_mushroom_normal"
+        ]
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:ghast",
+                "weight": 20,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:hoglin",
+                "weight": 2,
+                "minCount": 1,
+                "maxCount": 3
+            },
+            {
+                "type": "minecraft:piglin",
+                "weight": 10,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:magma_cube",
+                "weight": 4,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:wither_skeleton",
+                "weight": 200,
+                "minCount": 4,
+                "maxCount": 4
+            },
+            {
+                "type": "minecraft:enderman",
+                "minCount": 4,
+                "maxCount": 4,
+                "weight": 3
+            },
+            {
+                "type": "minecraft:zombified_piglin",
+                "weight": 40,
+                "minCount": 4,
+                "maxCount": 4
+            }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:strider",
+                "weight": 80,
+                "minCount": 1,
+                "maxCount": 2
+            }
+        ],
+        "ambient": [],
+        "water_ambient": [],
+        "water_creature": [],
+        "misc": [],
+        "axolotls": [],
+        "underground_water_creature": []
+    }
+}

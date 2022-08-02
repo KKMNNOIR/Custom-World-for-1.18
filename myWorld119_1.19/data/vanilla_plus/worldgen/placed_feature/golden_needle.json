@@ -1,0 +1,24 @@
+{
+    "feature": "vanilla_plus:golden_needle",
+    "placement": [
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 10
+                },
+                "max_inclusive": {
+                    "below_top": 5
+                }
+            }
+        },
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 3
+        },
+        {
+            "type": "biome"
+        }
+    ]
+}

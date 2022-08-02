@@ -1,5 +1,4 @@
 {
-    "category": "nether",
     "downfall": 0,
     "temperature": 2.0,
     "precipitation": "none",
@@ -60,8 +59,7 @@
         [
           "minecraft:spring_lava",
           "minecraft:brown_mushroom_normal",
-          "minecraft:red_mushroom_normal",
-          "vanilla_plus:glowstone_tree"
+          "minecraft:red_mushroom_normal"
         ]
     ],
     "spawners": {

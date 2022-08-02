@@ -1,5 +1,4 @@
 {
-    "category": "nether",
     "precipitation": "none",
     "temperature": 2.0,
     "downfall": 0,
@@ -65,9 +64,9 @@
           "minecraft:brown_mushroom_normal",
           "minecraft:red_mushroom_normal",
           "minecraft:weeping_vines",
-          "vanilla_plus:mixed_huge_fungi",
+          "minecraft:crimson_fungi",
           "vanilla_plus:crimson_plains_vegetation",
-          "vanilla_plus:warped_plains_vegetation"
+          "vanilla_plus:warped_flora"
         ]
       ],
       "spawners": {

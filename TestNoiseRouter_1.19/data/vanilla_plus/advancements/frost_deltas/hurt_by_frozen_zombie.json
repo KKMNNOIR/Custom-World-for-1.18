@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "hurt": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "zombie",
+                            "nbt": "{Tags:[\"FrozenZombie\"]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "vanilla_plus:nether_frost/freeze"
+    }
+}

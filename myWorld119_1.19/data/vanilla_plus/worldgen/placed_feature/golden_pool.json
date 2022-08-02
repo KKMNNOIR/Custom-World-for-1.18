@@ -1,0 +1,12 @@
+{
+    "feature": "vanilla_plus:golden_pool",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 10
+        },
+        {
+            "type": "biome"
+        }
+    ]
+}

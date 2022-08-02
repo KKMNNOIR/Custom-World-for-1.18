@@ -1,0 +1,29 @@
+{
+    "feature": {
+        "type": "minecraft:random_selector",
+        "config": {
+            "default": {
+                "feature": "minecraft:crimson_fungus",
+                "placement": []
+            },
+            "features": [
+                {
+                    "chance": 0.5,
+                    "feature": {
+                        "feature": "minecraft:warped_fungus",
+                        "placement": []
+                    }
+                }
+            ]
+        }
+    },
+    "placement": [
+        {
+            "count": 8,
+            "type": "minecraft:count_on_every_layer"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

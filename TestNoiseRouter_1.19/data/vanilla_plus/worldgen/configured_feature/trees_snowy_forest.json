@@ -1,0 +1,16 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "vanilla_plus:snowy_forest_birch",
+        "chance": 0.2
+      },
+      {
+        "feature": "vanilla_plus:snowy_forest_oak",
+        "chance": 0.1
+      }
+    ],
+    "default": "vanilla_plus:snowy_forest_oak"
+  },
+  "type": "minecraft:random_selector"
+}

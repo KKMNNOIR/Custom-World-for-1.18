@@ -1,0 +1,44 @@
+{
+    "type": "block_column",
+    "config": {
+        "direction": "up",
+        "prioritize_tip": false,
+        "allowed_placement": {
+            "type": "minecraft:true"
+        },
+        "layers": [
+            {
+                "height": 1,
+                "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:birch_door",
+                        "Properties": {
+                            "facing": "south",
+                            "hinge": "right",
+                            "open": "false",
+                            "powered": "false",
+                            "half": "lower"
+                        }
+                    }
+                }
+            },
+            {
+                "height": 1,
+                "provider": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                        "Name": "minecraft:birch_door",
+                        "Properties": {
+                            "facing": "south",
+                            "hinge": "right",
+                            "open": "true",
+                            "powered": "false",
+                            "half": "upper"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

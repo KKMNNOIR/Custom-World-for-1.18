@@ -79,6 +79,12 @@
           "weight": 1,
           "minCount": 1,
           "maxCount": 1
+        },
+        {
+          "type": "minecraft:endermite",
+          "weight": 2,
+          "minCount": 1,
+          "maxCount": 1
         }
       ],
       "creature": [
@@ -104,6 +110,5 @@
     },
     "precipitation": "none",
     "temperature": 2.0,
-    "downfall": 0.0,
-    "category": "nether"
+    "downfall": 0.0
   }

@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "vanilla_plus:nether_frost"
+            }
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "biome": "vanilla_plus:ice_cave"
+            }
+        }
+    ]
+}

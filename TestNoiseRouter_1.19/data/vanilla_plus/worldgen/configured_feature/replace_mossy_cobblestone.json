@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "state": {
+            "Name": "minecraft:cracked_deepslate_bricks"
+        },
+        "target": {
+            "Name": "minecraft:mossy_cobblestone"
+        },
+        "radius": 12
+    }
+}

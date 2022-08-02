@@ -1,0 +1,9 @@
+{
+    "values": [
+        "#minecraft:base_stone_nether",
+        "#minecraft:soul_fire_base_blocks",
+        "#vanilla_plus:base_obsidian",
+        "minecraft:lava",
+        "minecraft:nether_bricks"
+    ]
+}

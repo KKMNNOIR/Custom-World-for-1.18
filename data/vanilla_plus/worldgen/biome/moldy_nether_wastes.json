@@ -64,7 +64,8 @@
       "minecraft:spring_lava",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
-      "vanilla_plus:weeping_vines_plains"
+      "vanilla_plus:weeping_vines_plains",
+      "vanilla_plus:crimson_flora"
     ]
   ],
   "spawners": {
@@ -118,6 +119,5 @@
   "spawn_costs": {},
   "precipitation": "none",
   "temperature": 2.0,
-  "downfall": 0.0,
-  "category": "nether"
+  "downfall": 0.0
 }

@@ -2,9 +2,6 @@
     "feature": "vanilla_plus:icycle",
     "placement": [
         {
-            "type": "minecraft:biome"
-        },
-        {
             "type": "minecraft:count_on_every_layer",
             "count": 16
         },
@@ -15,6 +12,34 @@
                 "min_inclusive": { "above_bottom": 30 },
                 "max_inclusive": { "below_top": 10 }
             }
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": ["minecraft:air"]
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:ice",
+                            "minecraft:packed_ice",
+                            "minecraft:blue_ice"
+                        ],
+                        "offset": [
+                            0,
+                            1,
+                            0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:biome"
         }
     ]
 }

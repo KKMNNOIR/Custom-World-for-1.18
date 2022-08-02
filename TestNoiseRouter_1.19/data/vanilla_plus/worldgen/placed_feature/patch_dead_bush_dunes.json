@@ -1,0 +1,9 @@
+{
+    "feature": "vanilla_plus:patch_dead_bush_dunes",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 90
+        }
+    ]
+}

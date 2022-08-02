@@ -36,15 +36,7 @@
         "vanilla_plus:replace_mossy_cobblestone"
       ],
       [],
-      [
-        "vanilla_plus:stronghold/replace_deepslate",
-        "vanilla_plus:stronghold/replace_cobbled_deepslate",
-        "vanilla_plus:stronghold/replace_cracked_deepslate",
-        "vanilla_plus:stronghold/replace_deepslate_mossy",
-        "vanilla_plus:stronghold/replace_infested_deepslate",
-        "vanilla_plus:stronghold/replace_deepslate_brick_slab",
-        "vanilla_plus:stronghold/replace_polished_deepslate_slab"
-      ],
+      [],
       [
         "minecraft:ore_dirt",
         "minecraft:ore_gravel",
@@ -85,7 +77,7 @@
       ],
       [
         "minecraft:glow_lichen",
-        "minecraft:trees_birch_and_oak",
+        "vanilla_plus:trees_snowy_forest",
         "minecraft:patch_grass_forest",
         "minecraft:patch_dead_bush_2",
         "minecraft:brown_mushroom_normal",
@@ -208,6 +200,5 @@
     "spawn_costs": {},
     "precipitation": "snow",
     "temperature": 0.05,
-    "downfall": 0.7,
-    "category": "forest"
+    "downfall": 0.7
   }

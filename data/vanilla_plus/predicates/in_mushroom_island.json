@@ -6,12 +6,6 @@
             "predicate": {
                 "biome": "mushroom_fields"
             }
-        },
-        {
-            "condition": "location_check",
-            "predicate": {
-                "biome": "mushroom_field_shore"
-            }
         }
     ]
 }

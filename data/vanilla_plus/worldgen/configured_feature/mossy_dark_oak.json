@@ -41,7 +41,8 @@
         "Name": "minecraft:dark_oak_leaves",
         "Properties": {
           "distance": "7",
-          "persistent": "false"
+          "persistent": "false",
+          "waterlogged": "false"
         }
       }
     },

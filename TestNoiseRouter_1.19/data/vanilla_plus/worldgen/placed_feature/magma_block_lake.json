@@ -1,0 +1,12 @@
+{
+    "feature": "vanilla_plus:magma_block_lake",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 40
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

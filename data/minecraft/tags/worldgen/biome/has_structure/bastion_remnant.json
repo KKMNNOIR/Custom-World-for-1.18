@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:basalt_deltas",
+    "#vanilla_plus:is_additional_nether_biomes"
+  ]
+}

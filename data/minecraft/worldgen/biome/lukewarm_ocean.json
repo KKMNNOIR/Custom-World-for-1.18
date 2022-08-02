@@ -34,15 +34,7 @@
       "vanilla_plus:replace_mossy_cobblestone"
     ],
     [],
-    [
-      "vanilla_plus:stronghold/replace_deepslate",
-      "vanilla_plus:stronghold/replace_cobbled_deepslate",
-      "vanilla_plus:stronghold/replace_cracked_deepslate",
-      "vanilla_plus:stronghold/replace_deepslate_mossy",
-      "vanilla_plus:stronghold/replace_infested_deepslate",
-      "vanilla_plus:stronghold/replace_deepslate_brick_slab",
-      "vanilla_plus:stronghold/replace_polished_deepslate_slab"
-    ],
+    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -236,6 +228,5 @@
   "spawn_costs": {},
   "precipitation": "rain",
   "temperature": 0.5,
-  "downfall": 0.5,
-  "category": "ocean"
+  "downfall": 0.5
 }

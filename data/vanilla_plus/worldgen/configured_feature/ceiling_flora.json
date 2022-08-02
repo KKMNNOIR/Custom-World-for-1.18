@@ -10,7 +10,7 @@
                 "Name": "minecraft:nether_wart_block"
             }
         },
-        "replaceable": "base_stone_nether",
+        "replaceable": "#base_stone_nether",
         "surface": "ceiling",
         "vegetation_chance": 0.1,
         "vegetation_feature": {

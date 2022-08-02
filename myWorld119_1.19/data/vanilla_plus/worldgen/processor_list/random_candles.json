@@ -1,0 +1,2109 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.058824
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:white_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:orange_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:magenta_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:light_blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:yellow_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:lime_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:gray_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:light_gray_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cyan_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:purple_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:green_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:red_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:black_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.058824
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:white_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:orange_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:magenta_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:light_blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:yellow_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:lime_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:gray_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:light_gray_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cyan_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:purple_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:green_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:red_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:black_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cyan_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:purple_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:green_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:red_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "1",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:black_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.058824
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:white_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:orange_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:magenta_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:light_blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:yellow_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:lime_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:gray_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:light_gray_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cyan_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:purple_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:green_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:red_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:black_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.058824
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "2"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:white_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:orange_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:magenta_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:light_blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:yellow_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:lime_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:gray_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:light_gray_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cyan_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:purple_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:green_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:red_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:black_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "3"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:cyan_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:purple_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:blue_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:brown_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:green_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:red_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                },
+                {
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:candle",
+                            "Properties": {
+                                "lit": "true",
+                                "candles": "2",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.029412
+                    },
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:black_candle",
+                        "Properties": {
+                            "lit": "true",
+                            "waterlogged": "false",
+                            "candles": "4"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

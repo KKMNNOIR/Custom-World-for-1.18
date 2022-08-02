@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:replace_single_block",
+    "config": {
+        "targets": [
+            {
+                "target": {
+                    "predicate_type": "minecraft:block_match",
+                    "block": "minecraft:air"
+                },
+                "state": {
+                    "Name": "minecraft:mangrove_propagule",
+                    "Properties": {
+                        "age": "0",
+                        "hanging": "true",
+                        "stage": "0",
+                        "waterlogged": "false"
+                    }
+                }
+            }
+        ]
+    }
+}

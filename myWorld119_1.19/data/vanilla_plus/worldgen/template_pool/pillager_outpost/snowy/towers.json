@@ -1,0 +1,15 @@
+{
+    "name": "vanilla_plus:pillager_outpost/snowy/towers",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "vanilla_plus:pillager_outpost/snowy/watchtower1",
+                "processors": "vanilla_plus:mossify_and_cracking_with_skull"
+            }
+        }
+    ]
+}

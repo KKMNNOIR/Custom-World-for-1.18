@@ -1,0 +1,49 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:sculk_vein",
+                        "probability": 0.65
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:bone_block",
+                        "probability": 0.25
+                    },
+                    "output_state": {
+                        "Name": "minecraft:sculk"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:lava"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:block_match",
+                        "block": "minecraft:sculk_vein"
+                    },
+                    "output_state": {
+                        "Name": "minecraft:lava",
+                        "Properties": {"level": "0"}
+                    }
+                }
+            ]
+        }
+    ]
+}

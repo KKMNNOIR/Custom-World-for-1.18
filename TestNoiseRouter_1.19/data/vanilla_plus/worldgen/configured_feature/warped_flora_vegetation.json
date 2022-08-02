@@ -1,0 +1,151 @@
+{
+    "type": "random_selector",
+    "config": {
+        "default": {
+            "type": "random_patch",
+            "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                    "to_place": {
+                        "type": "minecraft:simple_state_provider",
+                        "state": {
+                            "Name": "minecraft:nether_sprouts"
+                        }
+                    }
+                }
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:air"
+                                ]
+                            },
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                ],
+                                "blocks": [
+                                    "minecraft:warped_nylium"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ],
+            "config": {
+                "tries": 64,
+                "xz_spread": 7,
+                "y_spread": 4
+            }
+        },
+        "features": [
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:simple_block",
+                        "config": {
+                            "to_place": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:warped_roots"
+                                }
+                            }
+                        }
+                    },
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:warped_nylium"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "config": {
+                        "xz_spread": 7,
+                        "y_spread": 4,
+                        "tries": 64
+                    }
+                },
+                "chance": 0.85
+            },
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:simple_block",
+                        "config": {
+                            "to_place": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:warped_fungus"
+                                }
+                            }
+                        }
+                    },
+                    "placement": [
+                        {
+                            "type": "minecraft:block_predicate_filter",
+                            "predicate": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:warped_nylium"
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    ],
+                    "config": {
+                        "tries": 64,
+                        "xz_spread": 7,
+                        "y_spread": 4
+                    }
+                },
+                "chance": 0.13
+            }
+        ]
+    }
+}

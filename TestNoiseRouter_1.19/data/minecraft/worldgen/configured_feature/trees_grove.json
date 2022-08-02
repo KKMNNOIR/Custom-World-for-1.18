@@ -1,0 +1,16 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "minecraft:pine_on_snow",
+        "chance": 0.33333334
+      },
+      {
+        "chance": 0.0334,
+        "feature": "vanilla_plus:fallen_spruce"
+      }
+    ],
+    "default": "minecraft:spruce_on_snow"
+  },
+  "type": "minecraft:random_selector"
+}

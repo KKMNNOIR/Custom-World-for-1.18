@@ -1,5 +1,4 @@
 {
-    "category": "nether",
     "downfall": 0,
     "precipitation": "none",
     "temperature": 2.0,
@@ -70,7 +69,8 @@
           "vanilla_plus:ore_obsidians",
           "vanilla_plus:brown_mushroom_blackstone",
           "vanilla_plus:red_mushroom_blackstone",
-          "vanilla_plus:patch_soul_fire_blackstone"
+          "vanilla_plus:patch_soul_fire_blackstone",
+          "vanilla_plus:ore_ancient_debris_bone"
         ],
         [
            "minecraft:spring_lava"

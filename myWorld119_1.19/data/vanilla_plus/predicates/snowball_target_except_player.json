@@ -1,0 +1,12 @@
+{
+    "condition": "inverted",
+    "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+            "targeted_entity": {
+                "type": "player"
+            }
+        }
+    }
+}

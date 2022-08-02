@@ -17,7 +17,7 @@
     },
     "surface": "floor",
     "depth": 3,
-    "replaceable": "minecraft:base_stone_overworld",
+    "replaceable": "#minecraft:base_stone_overworld",
     "ground_state": {
       "state": {
         "Name": "minecraft:dripstone_block"

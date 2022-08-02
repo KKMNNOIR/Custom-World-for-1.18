@@ -1,0 +1,129 @@
+{
+  "name": "vanilla_plus:pillager_outpost/taiga/features",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_cage1",
+        "processors": "vanilla_plus:replace_spruce",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_cage2",
+        "processors": "vanilla_plus:replace_spruce",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "location": "minecraft:pillager_outpost/feature_cage_with_allays",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      },
+      "weight": 1
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_logs",
+        "processors": "vanilla_plus:replace_spruce",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_tent1",
+        "processors": "vanilla_plus:replace_spruce",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_tent2",
+        "processors": "vanilla_plus:replace_spruce",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_targets",
+        "processors": "vanilla_plus:replace_spruce",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "vanilla_plus:cut_woods",
+        "location": "vanilla_plus:pillager_outpost/taiga/campfire"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "vanilla_plus:cut_woods",
+        "location": "vanilla_plus:pillager_outpost/taiga/campfire1"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "vanilla_plus:cut_woods",
+        "location": "vanilla_plus:pillager_outpost/taiga/campfire2"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "vanilla_plus:cut_woods",
+        "location": "vanilla_plus:pillager_outpost/taiga/campfire3"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "vanilla_plus:cut_woods",
+        "location": "vanilla_plus:pillager_outpost/taiga/relax1"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "processors": "vanilla_plus:cut_woods",
+        "location": "vanilla_plus:pillager_outpost/taiga/workspace"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

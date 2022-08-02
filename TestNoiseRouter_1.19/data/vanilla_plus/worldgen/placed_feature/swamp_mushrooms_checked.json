@@ -1,0 +1,12 @@
+{
+    "feature": "vanilla_plus:swamp_vegetation",
+    "placement": [
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE"
+        },
+        {
+            "type": "minecraft:in_square"
+        }
+    ]
+}

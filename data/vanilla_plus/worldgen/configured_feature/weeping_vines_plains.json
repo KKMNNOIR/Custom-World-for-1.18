@@ -11,7 +11,7 @@
                 "Name": "minecraft:nether_wart_block"
             }
         },
-        "replaceable": "minecraft:base_stone_nether",
+        "replaceable": "#minecraft:base_stone_nether",
         "vegetation_chance": 0.2,
         "vegetation_feature": {
             "feature": {

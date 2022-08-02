@@ -1,0 +1,27 @@
+{
+    "feature": "vanilla_plus:scorched_column",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 240
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 30
+                },
+                "max_inclusive": {
+                    "below_top": 0
+                }
+            }
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

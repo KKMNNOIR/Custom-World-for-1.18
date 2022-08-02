@@ -1,6 +1,10 @@
 {
-    "feature": "vanilla_plus:caves/desert_cave/patch_cactus",
-    "placement": [
+  "feature": "vanilla_plus:caves/desert_cave/patch_cactus",
+  "placement": [
+      {
+        "count": 100,
+        "type": "minecraft:count"
+      },
       {
         "type": "minecraft:in_square"
       },
@@ -18,10 +22,6 @@
                 "absolute": 55
               }
           }
-      },
-      {
-        "count": 160,
-        "type": "minecraft:count"
       }
     ]
 }

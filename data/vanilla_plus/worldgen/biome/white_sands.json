@@ -1,5 +1,4 @@
 {
-    "category": "nether",
     "downfall": 0,
     "temperature": 2,
     "carvers": {
@@ -106,11 +105,5 @@
         "water_ambient": [],
         "water_creature": []
     },
-    "spawn_costs": {},
-    "starts": [
-        "fortress",
-        "nether_fossil",
-        "ruined_portal_nether",
-        "pillager_outpost"
-    ]
+    "spawn_costs": {}
 }

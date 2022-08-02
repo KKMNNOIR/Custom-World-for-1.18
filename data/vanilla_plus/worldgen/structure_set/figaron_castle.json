@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "vanilla_plus:figaron_castle",
+        "weight": 1
+      }
+    ],
+    "placement": {
+        "salt": 14357921,
+        "spacing": 16,
+        "separation": 8,
+        "type": "minecraft:random_spread"
+    }
+  }

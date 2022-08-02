@@ -1,0 +1,168 @@
+{
+    "name": "vanilla_plus:stronghold/overworld/normal/general_rooms",
+    "fallback": "vanilla_plus:stronghold/overworld/normal/terminator",
+    "elements": [
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/3_ways"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/4_ways"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/straight"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/crossing"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/loot_alter"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/stair_straight_1"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/stair_straight_2"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/stair_straight_3"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/stair_straight_4"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/stair_straight_5"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/stair_straight_6"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/spiral_stairs"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/empty_room"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/fountain_room"
+            }
+        },
+        {
+            "weight": 2,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/jail_cell"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/pillar_room"
+            }
+        },
+        {
+            "weight": 3,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/storeroom"
+            }
+        },
+        {
+            "weight": 4,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/turn"
+            }
+        }
+    ]
+}

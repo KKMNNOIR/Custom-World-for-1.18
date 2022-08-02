@@ -1,0 +1,68 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "feature": {
+            "feature": {
+                "config": {
+                    "allowed_placement": {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                            "minecraft:air"
+                        ]
+                    },
+                    "direction": "up",
+                    "prioritize_tip": false,
+                    "layers": [
+                        {
+                            "height": {
+                                "type": "minecraft:biased_to_bottom",
+                                "value": {
+                                    "min_inclusive": 2,
+                                    "max_inclusive": 12
+                                }
+                            },
+                            "provider": {
+                                "type": "minecraft:simple_state_provider",
+                                "state": {
+                                    "Name": "minecraft:glowstone"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "type": "minecraft:block_column"
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:air"
+                                ]
+                            },
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "offset": [
+                                    0,
+                                    -1,
+                                    0
+                                ],
+                                "blocks": [
+                                    "minecraft:blackstone",
+                                    "minecraft:glowstone"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "tries": 100,
+        "y_spread": 0,
+        "xz_spread": 1
+    }
+}

@@ -10,7 +10,7 @@
                 "Name": "minecraft:sand"
             }
         },
-        "replaceable": "vanilla_plus:desert_cave_replaceables",
+        "replaceable": "#vanilla_plus:desert_cave_replaceables",
         "surface": "floor",
         "vegetation_chance": 0.0625,
         "vegetation_feature": {

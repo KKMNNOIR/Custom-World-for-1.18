@@ -1,0 +1,76 @@
+{
+  "name": "vanilla_plus:pillager_outpost/savanna/features",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_cage1",
+        "processors": "vanilla_plus:replace_acacia",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_cage2",
+        "processors": "vanilla_plus:replace_acacia",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_cage3",
+        "processors": "vanilla_plus:replace_acacia",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_logs",
+        "processors": "vanilla_plus:replace_acacia",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_tent1",
+        "processors": "vanilla_plus:replace_acacia",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_tent2",
+        "processors": "vanilla_plus:replace_acacia",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:pillager_outpost/feature_targets",
+        "processors": "vanilla_plus:replace_acacia",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:empty_pool_element",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

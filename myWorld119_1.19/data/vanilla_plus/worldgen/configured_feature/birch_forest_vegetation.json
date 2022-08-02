@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "default": {
+            "feature": "minecraft:birch_bees_002",
+            "placement": []
+        },
+        "features": [
+            {
+                "feature": "vanilla_plus:birch_bees_005",
+                "chance": 0.025
+            },
+            {
+                "feature": {
+                    "feature": "vanilla_plus:fallen_birch",
+                    "placement": []
+                },
+                "chance": 0.0125
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "default": {
+            "feature": "minecraft:patch_grass",
+            "placement": []
+        },
+        "features": [
+            {
+                "chance": 0.025,
+                "feature": {
+                    "feature": "vanilla_plus:overgrown_beach_bush",
+                    "placement": []
+                }
+            }
+        ]
+    }
+}

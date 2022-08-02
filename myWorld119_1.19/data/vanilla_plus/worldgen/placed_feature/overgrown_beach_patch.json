@@ -1,0 +1,21 @@
+{
+  "feature": "vanilla_plus:overgrown_beach_vegetation",
+  "placement": [
+    {
+      "noise_level": -0.8,
+      "below_noise": 2,
+      "above_noise": 5,
+      "type": "minecraft:noise_threshold_count"
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "heightmap": "WORLD_SURFACE_WG",
+      "type": "minecraft:heightmap"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

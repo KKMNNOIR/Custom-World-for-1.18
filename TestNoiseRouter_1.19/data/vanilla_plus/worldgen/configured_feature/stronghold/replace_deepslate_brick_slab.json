@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+        "target": {
+            "Name": "minecraft:stone_brick_slab",
+            "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+            }
+        },
+        "radius": 12,
+        "state": {
+            "Name": "minecraft:deepslate_brick_slab",
+            "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+            }
+        }
+    }
+}

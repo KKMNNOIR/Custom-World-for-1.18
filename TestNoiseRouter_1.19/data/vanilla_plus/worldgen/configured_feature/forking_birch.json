@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+        "trunk_placer": {
+            "type": "minecraft:fancy_trunk_placer",
+            "base_height": 5,
+            "height_rand_a": 2,
+            "height_rand_b": 8
+        },
+        "trunk_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:birch_log",
+                "Properties": {
+                    "axis": "y"
+                }
+            }
+        },
+        "foliage_placer": {
+            "type": "minecraft:blob_foliage_placer",
+            "height": 2,
+            "offset": 2,
+            "radius": 2
+        },
+        "foliage_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:birch_leaves",
+                "Properties": {
+                    "distance": "7",
+                    "persistent": "false"
+                }
+            }
+        },
+        "dirt_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:dirt"
+            }
+        },
+        "minimum_size": {
+            "type": "minecraft:two_layers_feature_size",
+            "lower_size": 0,
+            "upper_size": 1,
+            "limit": 1
+        },
+        "decorators": [
+            {
+                "type": "minecraft:beehive",
+                "probability": 0.05
+            }
+        ],
+        "force_dirt": false,
+        "ignore_vines": false
+    }
+}

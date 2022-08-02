@@ -1,0 +1,198 @@
+{
+  "category": "underground",
+  "downfall": 0,
+  "temperature": 1.75,
+  "precipitation": "none",
+  "creature_spawn_probability": 0,
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "sky_color": 9359789,
+    "fog_color": 13877903,
+    "water_color": 3319192,
+    "water_fog_color": 3319192,
+    "music": {
+      "sound": "minecraft:music.cave.desert_cave",
+      "min_delay": 900,
+      "max_delay": 1800,
+      "replace_current_music": false
+    }
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [
+      "vanilla_plus:caves/desert_cave/sandstone_geodes",
+      "vanilla_plus:caves/desert_cave/amethyst_geode_deep"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep",
+      "vanilla_plus:creeper_dungeons",
+      "vanilla_plus:replace_mossy_cobblestone"
+    ],
+    [
+      "minecraft:desert_well"
+    ],
+    [
+      "vanilla_plus:stronghold/replace_deepslate",
+      "vanilla_plus:stronghold/replace_cobbled_deepslate",
+      "vanilla_plus:stronghold/replace_cracked_deepslate",
+      "vanilla_plus:stronghold/replace_deepslate_mossy",
+      "vanilla_plus:stronghold/replace_infested_deepslate",
+      "vanilla_plus:stronghold/replace_deepslate_brick_slab",
+      "vanilla_plus:stronghold/replace_polished_deepslate_slab"
+    ],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "vanilla_plus:caves/desert_cave/ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "vanilla_plus:ore_coal_deep",
+      "minecraft:ore_iron_upper",
+      "vanilla_plus:caves/desert_cave/ore_iron_middle",
+      "vanilla_plus:caves/desert_cave/ore_iron",
+      "vanilla_plus:caves/desert_cave/ore_gold",
+      "minecraft:ore_gold_lower",
+      "vanilla_plus:caves/desert_cave/ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "vanilla_plus:caves/desert_cave/ore_diamond",
+      "vanilla_plus:caves/desert_cave/ore_lapis",
+      "vanilla_plus:caves/desert_cave/ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "vanilla_plus:caves/desert_cave/ore_emerald",
+      "vanilla_plus:ore_emerald_deep"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "vanilla_plus:caves/desert_cave/glow_lichen",
+      "minecraft:flower_default",
+      "minecraft:patch_grass_badlands",
+      "vanilla_plus:caves/desert_cave/patch_cactus",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal",
+      "minecraft:patch_sugar_cane_desert",
+      "minecraft:patch_pumpkin",
+      "vanilla_plus:caves/desert_cave/patch_dead_bush"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 19,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:zombie_villager",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:witch",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 80,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 4,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {}
+}

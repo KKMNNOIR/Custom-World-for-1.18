@@ -1,0 +1,15 @@
+{
+    "name": "vanilla_plus:pillager_outpost/desert/ramparts",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:ignore_cave_air",
+                "location": "vanilla_plus:pillager_outpost/desert/rampart"
+            }
+        }
+    ]
+}

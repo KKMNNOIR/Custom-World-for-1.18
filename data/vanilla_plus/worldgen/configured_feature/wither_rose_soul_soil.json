@@ -10,7 +10,7 @@
                 "Name": "minecraft:soul_soil"
             }
         },
-        "replaceable": "minecraft:soul_fire_base_blocks",
+        "replaceable": "#minecraft:soul_fire_base_blocks",
         "surface": "floor",
         "vegetation_chance": 0.175,
         "vegetation_feature": {

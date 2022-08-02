@@ -1,5 +1,4 @@
 {
-    "category": "nether",
     "downfall": 0,
     "temperature": 2.0,
     "precipitation": "none",
@@ -126,5 +125,10 @@
         "axolotls": [],
         "underground_water_creature": []
       },
-      "spawn_costs": {}
+      "spawn_costs": {
+        "minecraft:piglin_brute": {
+          "charge": 1,
+          "energy_budget": 0.01
+        }
+      }
 }

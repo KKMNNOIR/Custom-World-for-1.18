@@ -1,0 +1,26 @@
+{
+    "feature": "vanilla_plus:frozen_surface",
+    "placement": [
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "absolute": 33
+                },
+                "max_inclusive": {
+                    "absolute": 34
+                }
+            }
+        },
+        {
+            "type": "minecraft:noise_based_count",
+            "noise_factor": 1,
+            "noise_to_count_ratio": 4,
+            "noise_offset": 4
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

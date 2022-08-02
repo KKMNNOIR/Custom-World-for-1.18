@@ -16,7 +16,7 @@
                 "type": "minecraft:biased_to_bottom",
                 "value": {
                   "min_inclusive": 1,
-                  "max_inclusive": 3
+                  "max_inclusive": 2
                 }
               },
               "provider": {
@@ -50,8 +50,7 @@
                   "blocks": [
                     "minecraft:ice",
                     "minecraft:packed_ice",
-                    "minecraft:blue_ice",
-                    "minecraft:basalt"
+                    "minecraft:blue_ice"
                   ]
                 }
               ]

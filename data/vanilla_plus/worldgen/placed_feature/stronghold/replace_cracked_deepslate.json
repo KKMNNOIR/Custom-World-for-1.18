@@ -2,7 +2,7 @@
     "feature": "vanilla_plus:stronghold/replace_cracked_deepslate",
     "placement": [
         {
-            "type": "minecraft:count_on_every_layer",
+            "type": "minecraft:count",
             "count": 256
         },
         {

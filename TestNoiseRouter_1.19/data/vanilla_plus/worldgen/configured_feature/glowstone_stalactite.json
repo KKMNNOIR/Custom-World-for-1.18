@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+        "feature": {
+            "feature": {
+                "config": {
+                    "to_place": {
+                        "state": {
+                            "Name": "minecraft:glowstone"
+                        },
+                        "type": "minecraft:simple_state_provider"
+                    }
+                },
+                "type": "minecraft:simple_block"
+            },
+            "placement": [
+                {
+                    "type": "minecraft:block_predicate_filter",
+                    "predicate": {
+                        "type": "minecraft:all_of",
+                        "predicates": [
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "blocks": [
+                                    "minecraft:air"
+                                ]
+                            },
+                            {
+                                "type": "minecraft:matching_blocks",
+                                "offset": [
+                                    0,
+                                    1,
+                                    0
+                                ],
+                                "blocks": [
+                                    "minecraft:blackstone",
+                                    "minecraft:glowstone"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "tries": 100,
+        "y_spread": 12,
+        "xz_spread": 1,
+        "can_replace": false,
+        "need_water": false,
+        "project": false
+    }
+}

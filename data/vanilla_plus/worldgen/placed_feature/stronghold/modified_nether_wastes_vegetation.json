@@ -1,5 +1,5 @@
 {
-    "feature": "vanilla_plus:modified_nether_wastes_vegetation",
+    "feature": "vanilla_plus:moldy_nether_wastes_vegetation",
     "placement": [
         {
             "type": "minecraft:biome"

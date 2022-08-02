@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "placed_beacon": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:beacon",
+                "item": {
+                    "items": [
+                        "minecraft:beacon"
+                    ],
+                    "nbt": "{display:{Name:'{\"text\":\"Fatigue Beacon\",\"color\":\"dark_gray\",\"bold\":true,\"italic\":false}'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "vanilla_plus:pillager_outpost/snowy/placed_fatigue_beacon"
+    }
+}

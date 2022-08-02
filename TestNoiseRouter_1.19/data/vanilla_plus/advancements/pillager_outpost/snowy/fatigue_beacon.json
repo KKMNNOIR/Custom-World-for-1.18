@@ -1,0 +1,50 @@
+{
+    "criteria": {
+        "in_effect_area": {
+            "trigger": "location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "alternative",
+                        "terms": [
+                            {
+                                "condition": "inverted",
+                                "term": {
+                                    "condition": "minecraft:entity_properties",
+                                    "entity": "this",
+                                    "predicate": {
+                                        "nbt": "{ActiveEffects:[{Id:4b}]}"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_properties",
+                                "entity": "this",
+                                "predicate": {
+                                    "effects": {
+                                        "mining_fatigue": {
+                                            "duration": 80
+                                        }
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "biome": "snowy_tundra",
+                                "structure": "pillager_outpost"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "vanilla_plus:pillager_outpost/snowy/beacon_mining_fatigue"
+    }
+}

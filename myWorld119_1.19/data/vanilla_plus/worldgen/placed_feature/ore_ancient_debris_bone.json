@@ -1,0 +1,44 @@
+{
+    "feature": {
+        "type": "minecraft:replace_single_block",
+        "config": {
+            "targets": [
+                {
+                    "target": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:bone_block",
+                        "probability": 1
+                    },
+                    "state": {
+                        "Name": "minecraft:ancient_debris"
+                    }
+                }
+            ]
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 16
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:trapezoid",
+                "min_inclusive": {
+                    "above_bottom": 0
+                },
+                "max_inclusive": {
+                    "below_top": 0
+                },
+                "plateau": 16
+            }
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

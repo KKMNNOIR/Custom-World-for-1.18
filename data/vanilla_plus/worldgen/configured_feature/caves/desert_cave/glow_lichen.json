@@ -16,7 +16,8 @@
       ],
       "search_range": 20,
       "can_place_on_floor": false,
-      "can_place_on_ceiling": true
+      "can_place_on_ceiling": true,
+      "block": "minecraft:glow_lichen"
     },
-    "type": "minecraft:glow_lichen"
+    "type": "minecraft:multiface_growth"
   }

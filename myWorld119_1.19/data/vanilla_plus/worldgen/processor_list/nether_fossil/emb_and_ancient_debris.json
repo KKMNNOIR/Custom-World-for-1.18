@@ -1,0 +1,38 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:gravity",
+            "heightmap": "OCEAN_FLOOR",
+            "offset": -1
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:bone_block",
+                        "probability": 0.025
+                    },
+                    "output_state": {
+                        "Name": "minecraft:ancient_debris"
+                    },
+                    "position_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    }
+                }
+            ]
+        },
+        {
+            "processor_type": "minecraft:block_ignore",
+            "blocks": [
+                {
+                    "Name": "minecraft:air"
+                }
+            ]
+        }
+    ]
+}

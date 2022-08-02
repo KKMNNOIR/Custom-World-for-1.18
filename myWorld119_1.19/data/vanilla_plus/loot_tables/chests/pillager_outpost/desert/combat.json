@@ -1,0 +1,132 @@
+{
+    "type": "chest",
+    "pools": [
+        {
+            "rolls": {
+                "min": 4,
+                "max": 6,
+                "type": "minecraft:uniform"
+            },
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:crossbow",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "crossbow",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 12,
+                                "max": 30,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "shield",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BlockEntityTag:{Patterns:[{Pattern:'mr',Color:9},{Pattern:'bs',Color:8},{Pattern:'cs',Color:7},{Pattern:'bo',Color:8},{Pattern:'ms',Color:15},{Pattern:'hh',Color:8},{Pattern:'mc',Color:8},{Pattern:'bo',Color:15}],Base:0},display:{Name:'{\"text\":\"不吉な盾\",\"italic\":false}'}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "iron_sword",
+                    "weight": 8
+                },
+                {
+                    "type": "item",
+                    "name": "iron_sword",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "enchant_randomly",
+                            "enchantments": []
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "diamond_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "min": 12,
+                                "max": 30,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "tag",
+                    "weight": 8,
+                    "name": "vanilla_plus:iron_equipments",
+                    "expand": true
+                },
+                {
+                    "type": "tag",
+                    "weight": 10,
+                    "name": "vanilla_plus:chainmails",
+                    "expand": true
+                },
+                {
+                    "type": "tag",
+                    "weight": 1,
+                    "name": "vanilla_plus:diamond_equipments",
+                    "expand": true
+                },
+                {
+                    "type": "item",
+                    "weight": 8,
+                    "name": "book",
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": true,
+                            "levels": {
+                                "max": 30,
+                                "min": 5,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "bow",
+                    "weight": 10
+                },
+                {
+                    "type": "item",
+                    "name": "arrow",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 6,
+                                "max": 32,
+                                "type": "minecraft:uniform"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

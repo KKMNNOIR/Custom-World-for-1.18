@@ -1,0 +1,20 @@
+{
+  "config": {
+    "features": [
+      {
+        "feature": "vanilla_plus:super_birch_bees_0002",
+        "chance": 0.5
+      },
+      {
+        "feature": "vanilla_plus:forking_birch",
+        "chance": 0.25
+      },
+      {
+        "feature": "vanilla_plus:fallen_tall_birch",
+        "chance": 0.1
+      }
+    ],
+    "default": "minecraft:birch_bees_0002"
+  },
+  "type": "minecraft:random_selector"
+}

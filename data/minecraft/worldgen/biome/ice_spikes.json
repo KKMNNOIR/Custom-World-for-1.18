@@ -37,15 +37,7 @@
       "minecraft:ice_spike",
       "minecraft:ice_patch"
     ],
-    [
-      "vanilla_plus:stronghold/replace_deepslate",
-      "vanilla_plus:stronghold/replace_cobbled_deepslate",
-      "vanilla_plus:stronghold/replace_cracked_deepslate",
-      "vanilla_plus:stronghold/replace_deepslate_mossy",
-      "vanilla_plus:stronghold/replace_infested_deepslate",
-      "vanilla_plus:stronghold/replace_deepslate_brick_slab",
-      "vanilla_plus:stronghold/replace_polished_deepslate_slab"
-    ],
+    [],
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
@@ -194,6 +186,5 @@
   "spawn_costs": {},
   "precipitation": "snow",
   "temperature": 0.0,
-  "downfall": 0.5,
-  "category": "icy"
+  "downfall": 0.5
 }

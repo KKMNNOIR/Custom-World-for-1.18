@@ -10,7 +10,7 @@
                 "Name": "minecraft:netherrack"
             }
         },
-        "replaceable": "minecraft:base_stone_nether",
+        "replaceable": "#minecraft:base_stone_nether",
         "surface": "floor",
         "vegetation_chance": 0.025,
         "vegetation_feature": {

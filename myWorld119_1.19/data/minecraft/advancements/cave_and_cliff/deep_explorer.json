@@ -1,0 +1,24 @@
+{
+    "parent": "cave_and_cliff/root",
+    "display": {
+        "icon": {
+            "item": "minecraft:deepslate"
+        },
+        "title": "深層の探検者",
+        "description": "Y0未満の高さへ到達する"
+    },
+    "criteria": {
+        "deep": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "y": {
+                            "max": -1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

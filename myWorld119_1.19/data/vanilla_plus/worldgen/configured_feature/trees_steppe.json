@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+        "default": {
+            "feature": "minecraft:oak",
+            "placement": []
+        },
+        "features": [
+            {
+                "chance": 0.3,
+                "feature": {
+                    "feature": {
+                        "type": "minecraft:random_selector",
+                        "config": {
+                            "default": {
+                                "feature": "minecraft:acacia",
+                                "placement": []
+                            },
+                            "features": [
+                                {
+                                    "chance": 0.75,
+                                    "feature": {
+                                        "feature": "vanilla_plus:rooted_acacia",
+                                        "placement": []
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "placement": []
+                }
+            }
+        ]
+    }
+}

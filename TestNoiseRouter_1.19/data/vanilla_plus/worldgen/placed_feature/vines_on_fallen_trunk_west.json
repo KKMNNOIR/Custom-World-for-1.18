@@ -1,0 +1,13 @@
+{
+    "feature": "vanilla_plus:vines_on_fallen_trunk_west",
+    "placement": [
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "OCEAN_FLOOR"
+        },
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 64
+        }
+    ]
+}

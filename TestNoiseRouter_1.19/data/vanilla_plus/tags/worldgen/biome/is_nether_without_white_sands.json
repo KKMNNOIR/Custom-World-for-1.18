@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:nether_wastes",
+    "minecraft:basalt_deltas",
+    "minecraft:soul_sand_valley",
+    "minecraft:crimson_forest",
+    "minecraft:warped_forest",
+    "#vanilla_plus:is_additional_nether_biomes_without_white_sands"
+  ]
+}

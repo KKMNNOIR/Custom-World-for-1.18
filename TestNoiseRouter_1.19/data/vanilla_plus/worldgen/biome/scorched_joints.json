@@ -1,0 +1,101 @@
+{
+    "temperature": 2,
+    "downfall": 0,
+    "precipitation": "none",
+    "effects": {
+        "fog_color": 1180160,
+        "sky_color": 1638406,
+        "grass_color": 720896,
+        "foliage_color": 3947580,
+        "water_color": 9460055,
+        "water_fog_color": 9460055,
+        "mood_sound": {
+            "sound": "minecraft:ambient.basalt_deltas.mood",
+            "tick_delay": 6000,
+            "block_search_extent": 8,
+            "offset": 2
+        },
+        "additions_sound": {
+            "sound": "minecraft:ambient.basalt_deltas.additions",
+            "tick_chance": 0.0111
+        },
+        "music": {
+            "sound": "minecraft:music.nether.basalt_deltas",
+            "min_delay": 1200,
+            "max_delay": 2400,
+            "replace_current_music": false
+        },
+        "particle": {
+            "options": {
+                "type": "minecraft:white_ash"
+            },
+            "probability": 0.118093334
+        },
+        "ambient_sound": "minecraft:ambient.basalt_deltas.loop"
+    },
+    "carvers": {
+        "air": [
+            "nether_cave"
+        ]
+    },
+    "features": [
+        [],
+        [],
+        [],
+        [],
+        [
+            "vanilla_plus:scorched_column"
+        ],
+        [],
+        [],
+        [
+            "minecraft:spring_open",
+            "vanilla_plus:patch_fire_dunes",
+            "minecraft:glowstone_extra",
+            "minecraft:glowstone",
+            "minecraft:brown_mushroom_nether",
+            "minecraft:red_mushroom_nether",
+            "minecraft:spring_nether_closed_double",
+            "vanilla_plus:ore_obsidians",
+            "vanilla_plus:patch_dead_bush_dunes",
+            "vanilla_plus:ore_debris_dunes"
+        ],
+        [],
+        []
+    ],
+    "spawners": {
+        "monster": [
+            {
+                "type": "minecraft:blaze",
+                "weight": 70,
+                "minCount": 1,
+                "maxCount": 4
+            },
+            {
+                "type": "magma_cube",
+                "weight": 100,
+                "minCount": 2,
+                "maxCount": 5
+            },
+            {
+                "type": "ghast",
+                "weight": 10,
+                "minCount": 1,
+                "maxCount": 3
+            }
+        ],
+        "creature": [
+            {
+                "type": "minecraft:strider",
+                "weight": 15,
+                "minCount": 1,
+                "maxCount": 4
+            }
+        ],
+        "ambient": [],
+        "misc": [],
+        "water_ambient": [],
+        "water_creature": []
+    },
+    "spawn_costs": {}
+}

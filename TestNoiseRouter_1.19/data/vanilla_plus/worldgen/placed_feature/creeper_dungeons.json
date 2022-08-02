@@ -1,0 +1,25 @@
+{
+    "feature": "vanilla_plus:creeper_dungeons",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 2
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "absolute": 16
+                },
+                "max_inclusive": {
+                    "below_top": 0
+                }
+            }
+        },
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 48
+        }
+    ]
+}

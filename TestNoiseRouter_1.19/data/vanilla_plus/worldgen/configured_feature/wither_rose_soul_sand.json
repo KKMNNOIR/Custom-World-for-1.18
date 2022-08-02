@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:vegetation_patch",
+    "config": {
+        "depth": 1,
+        "extra_bottom_block_chance": 0.1,
+        "extra_edge_column_chance": 0,
+        "ground_state": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:soul_sand"
+            }
+        },
+        "replaceable": "#minecraft:soul_fire_base_blocks",
+        "surface": "floor",
+        "vegetation_chance": 0.175,
+        "vegetation_feature": {
+            "feature": "vanilla_plus:wither_rose",
+            "placement": []
+        },
+        "vertical_range": 1,
+        "xz_radius": {
+            "type": "minecraft:uniform",
+            "value": {
+                "min_inclusive": 3,
+                "max_inclusive": 5
+            }
+        }
+    }
+}

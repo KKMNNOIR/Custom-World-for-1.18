@@ -1,0 +1,431 @@
+{
+    "type": "random_selector",
+    "config": {
+        "default": "minecraft:jungle_tree",
+        "features": [
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:block_column",
+                        "config": {
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block",
+                                            "minecraft:podzol"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "direction": "east",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:jungle_log",
+                                            "Properties": {
+                                                "axis": "y"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:weighted_state_provider",
+                                        "entries": [
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:air"
+                                                },
+                                                "weight": 3
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:vine",
+                                                    "Properties": {
+                                                        "east": "true",
+                                                        "north": "false",
+                                                        "south": "false",
+                                                        "up": "false",
+                                                        "west": "false"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:jungle_log",
+                                            "Properties": {
+                                                "axis": "x"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "placement": [],
+                    "config": {
+                        "xz_spread": 0,
+                        "yspread": 0,
+                        "tries": 128
+                    }
+                },
+                "chance": 0.25
+            },
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:block_column",
+                        "config": {
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block",
+                                            "minecraft:podzol"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "direction": "west",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:jungle_log",
+                                            "Properties": {
+                                                "axis": "y"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:weighted_state_provider",
+                                        "entries": [
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:air"
+                                                },
+                                                "weight": 3
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:vine",
+                                                    "Properties": {
+                                                        "east": "false",
+                                                        "north": "false",
+                                                        "south": "false",
+                                                        "up": "false",
+                                                        "west": "true"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:jungle_log",
+                                            "Properties": {
+                                                "axis": "x"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "placement": [],
+                    "config": {
+                        "xz_spread": 0,
+                        "y_spread": 0,
+                        "tries": 128
+                    }
+                },
+                "chance": 0.25
+            },
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:block_column",
+                        "config": {
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block",
+                                            "minecraft:podzol"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "direction": "south",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:jungle_log",
+                                            "Properties": {
+                                                "axis": "y"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:weighted_state_provider",
+                                        "entries": [
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:air"
+                                                },
+                                                "weight": 3
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:vine",
+                                                    "Properties": {
+                                                        "east": "false",
+                                                        "north": "false",
+                                                        "south": "true",
+                                                        "up": "false",
+                                                        "west": "false"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 0,
+                                            "max_inclusive": 1
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:air"
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:jungle_log",
+                                            "Properties": {
+                                                "axis": "z"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "placement": [],
+                    "config": {
+                        "xz_spread": 0,
+                        "y_spread": 0,
+                        "tries": 128
+                    }
+                },
+                "chance": 0.25
+            },
+            {
+                "feature": {
+                    "type": "random_patch",
+                    "feature": {
+                        "type": "minecraft:block_column",
+                        "config": {
+                            "allowed_placement": {
+                                "type": "minecraft:all_of",
+                                "predicates": [
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "blocks": [
+                                            "minecraft:air"
+                                        ]
+                                    },
+                                    {
+                                        "type": "minecraft:matching_blocks",
+                                        "offset": [
+                                            0,
+                                            -1,
+                                            0
+                                        ],
+                                        "blocks": [
+                                            "minecraft:dirt",
+                                            "minecraft:grass_block",
+                                            "minecraft:podzol"
+                                        ]
+                                    }
+                                ]
+                            },
+                            "direction": "north",
+                            "prioritize_tip": false,
+                            "layers": [
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:jungle_log",
+                                            "Properties": {
+                                                "axis": "y"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "height": 1,
+                                    "provider": {
+                                        "type": "minecraft:weighted_state_provider",
+                                        "entries": [
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:air"
+                                                },
+                                                "weight": 3
+                                            },
+                                            {
+                                                "data": {
+                                                    "Name": "minecraft:vine",
+                                                    "Properties": {
+                                                        "east": "false",
+                                                        "north": "true",
+                                                        "south": "false",
+                                                        "up": "false",
+                                                        "west": "false"
+                                                    }
+                                                },
+                                                "weight": 1
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "height": {
+                                        "type": "minecraft:uniform",
+                                        "value": {
+                                            "min_inclusive": 2,
+                                            "max_inclusive": 4
+                                        }
+                                    },
+                                    "provider": {
+                                        "type": "minecraft:simple_state_provider",
+                                        "state": {
+                                            "Name": "minecraft:jungle_log",
+                                            "Properties": {
+                                                "axis": "z"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "placement": [],
+                    "config": {
+                        "xz_spread": 0,
+                        "y_spread": 0,
+                        "tries": 128
+                    }
+                },
+                "chance": 0.25
+            }
+        ]
+    }
+}
