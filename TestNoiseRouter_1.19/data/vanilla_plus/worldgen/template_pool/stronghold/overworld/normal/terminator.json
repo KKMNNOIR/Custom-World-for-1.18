@@ -1,0 +1,33 @@
+{
+    "name": "vanilla_plus:stronghold/overworld/normal/terminator",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 10,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/stone_bricks_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/terminator"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/library_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/library_1f"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "vanilla_plus:stronghold/overworld/normal/library_decorations",
+                "location": "vanilla_plus:stronghold/overworld/normal/library_2f"
+            }
+        }
+    ]
+}

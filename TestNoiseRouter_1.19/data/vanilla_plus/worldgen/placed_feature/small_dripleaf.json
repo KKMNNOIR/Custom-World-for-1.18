@@ -1,0 +1,145 @@
+{
+    "feature": {
+        "type": "minecraft:vegetation_patch",
+        "config": {
+            "depth": 1,
+            "surface": "floor",
+            "replaceable": "#minecraft:dirt",
+            "extra_bottom_block_chance": 0,
+            "extra_edge_column_chance": 0.1,
+            "ground_state": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                    {
+                        "weight": 128,
+                        "data": {
+                            "Name": "minecraft:mud"
+                        }
+                    },
+                    {
+                        "weight": 1,
+                        "data": {
+                            "Name": "minecraft:moss_block"
+                        }
+                    }
+                ]
+            },
+            "vegetation_chance": 1,
+            "vertical_range": 1,
+            "xz_radius": {
+                "type": "minecraft:uniform",
+                "value": {
+                    "min_inclusive": 4,
+                    "max_inclusive": 12
+                }
+            },
+            "vegetation_feature": {
+                "feature": {
+                    "type": "minecraft:simple_random_selector",
+                    "config": {
+                      "features": [
+                        {
+                          "feature": {
+                            "type": "minecraft:simple_block",
+                            "config": {
+                              "to_place": {
+                                "type": "minecraft:weighted_state_provider",
+                                "entries": [
+                                  {
+                                    "data": {
+                                      "Name": "minecraft:small_dripleaf",
+                                      "Properties": {
+                                        "facing": "east",
+                                        "half": "lower",
+                                        "waterlogged": "false"
+                                      }
+                                    },
+                                    "weight": 1
+                                  },
+                                  {
+                                    "data": {
+                                      "Name": "minecraft:small_dripleaf",
+                                      "Properties": {
+                                        "facing": "west",
+                                        "half": "lower",
+                                        "waterlogged": "false"
+                                      }
+                                    },
+                                    "weight": 1
+                                  },
+                                  {
+                                    "data": {
+                                      "Name": "minecraft:small_dripleaf",
+                                      "Properties": {
+                                        "facing": "north",
+                                        "half": "lower",
+                                        "waterlogged": "false"
+                                      }
+                                    },
+                                    "weight": 1
+                                  },
+                                  {
+                                    "data": {
+                                      "Name": "minecraft:small_dripleaf",
+                                      "Properties": {
+                                        "facing": "south",
+                                        "half": "lower",
+                                        "waterlogged": "false"
+                                      }
+                                    },
+                                    "weight": 1
+                                  }
+                                ]
+                              }
+                            }
+                          },
+                          "placement": []
+                        }
+                      ]
+                    }
+                },
+                "placement": [
+                    {
+                        "type": "minecraft:block_predicate_filter",
+                        "predicate": {
+                            "type": "minecraft:all_of",
+                            "predicates": [
+                                {
+                                    "type": "minecraft:would_survive",
+                                    "state": {
+                                        "Name": "minecraft:small_dripleaf",
+                                        "Properties": {
+                                            "waterlogged": "true",
+                                            "half": "lower",
+                                            "facing": "north"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "OCEAN_FLOOR"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": ["minecraft:water"]
+            }
+        },
+        {
+            "type": "minecraft:count",
+            "count": 230
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}
