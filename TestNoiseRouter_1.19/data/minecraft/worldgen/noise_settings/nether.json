@@ -58,7 +58,7 @@
                                     "argument": {
                                         "type": "minecraft:mul",
                                         "argument1": "vanilla_plus:nether/offset",
-                                        "argument2": 1.05
+                                        "argument2": 0.875
                                     }
                                 }
                               }
@@ -76,34 +76,15 @@
         "vein_ridged": 0,
         "vein_gap": 0,
         "erosion": "minecraft:overworld/erosion",
-        "depth": "minecraft:overworld/depth",
-        "ridges": {
-            "type": "minecraft:add",
-            "argument1": "minecraft:overworld/ridges",
-            "argument2": {
-                "type": "minecraft:range_choice",
-                "input": {
-                    "type": "minecraft:shifted_noise",
-                    "noise": "minecraft:temperature",
-                    "xz_scale": 0.25,
-                    "y_scale": 0,
-                    "shift_x": "minecraft:shift_x",
-                    "shift_y": 0,
-                    "shift_z": "minecraft:shift_z"
-                },
-                "max_exclusive": -0.5,
-                "min_inclusive": -1,
-                "when_in_range": 10,
-                "when_out_of_range": 0
-            }
-        },
+        "depth": "vanilla_plus:nether/depth",
+        "ridges": "minecraft:overworld/ridges",
         "initial_density_without_jaggedness": {
             "argument1": 4,
             "argument2": {
                 "argument": {
                     "argument1": {
                         "argument1": 0,
-                        "argument2": "minecraft:overworld/depth",
+                        "argument2": "vanilla_plus:nether/depth",
                         "type": "minecraft:add"
                     },
                     "argument2": "vanilla_plus:nether/factor",
@@ -158,26 +139,7 @@
             "shift_z": "minecraft:shift_z",
             "type": "minecraft:shifted_noise"
         },
-        "continents": {
-            "type": "minecraft:range_choice",
-            "input": {
-                "type": "minecraft:shifted_noise",
-                "noise": "minecraft:temperature",
-                "xz_scale": 0.25,
-                "y_scale": 0,
-                "shift_x": "minecraft:shift_x",
-                "shift_y": 0,
-                "shift_z": "minecraft:shift_z"
-            },
-            "min_inclusive": -1,
-            "max_exclusive": -0.5,
-            "when_in_range": {
-                "type": "minecraft:add",
-                "argument1": "minecraft:overworld/ridges",
-                "argument2": 10
-            },
-            "when_out_of_range": "minecraft:overworld/continents"
-        },
+        "continents": "minecraft:overworld/continents",
         "barrier": 0,
         "fluid_level_floodedness": {
             "type": "minecraft:range_choice",
