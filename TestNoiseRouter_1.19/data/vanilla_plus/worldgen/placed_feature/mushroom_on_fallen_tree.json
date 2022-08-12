@@ -1,0 +1,86 @@
+{
+    "feature": {
+        "type": "minecraft:random_patch",
+        "config": {
+            "tries": 128,
+            "xz_spread": 2,
+            "y_spread": 1,
+            "feature": {
+                "feature": {
+                    "type": "minecraft:random_boolean_selector",
+                    "config": {
+                        "feature_true": {
+                            "feature": {
+                                "type": "minecraft:replace_single_block",
+                                "config": {
+                                    "targets": [
+                                        {
+                                            "target": {
+                                                "predicate_type": "minecraft:block_match",
+                                                "block": "minecraft:air"
+                                            },
+                                            "state": {
+                                                "Name": "minecraft:brown_mushroom"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "placement": []
+                        },
+                        "feature_false": {
+                            "feature": {
+                                "type": "minecraft:replace_single_block",
+                                "config": {
+                                    "targets": [
+                                        {
+                                            "target": {
+                                                "predicate_type": "minecraft:block_match",
+                                                "block": "minecraft:air"
+                                            },
+                                            "state": {
+                                                "Name": "minecraft:red_mushroom"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            "placement": []
+                        }
+                    }
+                },
+                "placement": []
+            }
+        }
+    },
+    "placement": [
+        {
+            "type": "minecraft:heightmap",
+            "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "matching_block_tag",
+                        "tag": "minecraft:logs_that_burn",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:count",
+            "count": 16
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}
