@@ -1,0 +1,144 @@
+{
+    "type": "minecraft:range_choice",
+    "input": "minecraft:overworld/ridges",
+    "max_exclusive": 0.400,
+    "min_inclusive": -0.400,
+    "when_in_range": 1.0,
+    "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:overworld/continents",
+        "min_inclusive": -3,
+        "max_exclusive": 0.03,
+        "when_in_range": 1.0,
+        "when_out_of_range": {
+            "type": "minecraft:range_choice",
+            "input": "minecraft:overworld/continents",
+            "max_exclusive": 0.3,
+            "min_inclusive": 0.03,
+            "when_in_range": {
+                "type": "minecraft:range_choice",
+                "input": {
+                    "type": "minecraft:abs",
+                    "argument": "minecraft:overworld/ridges"
+                },
+                "max_exclusive": 0.767,
+                "min_inclusive": 0.4,
+                "when_in_range": {
+                    "type": "minecraft:range_choice",
+                    "input": "minecraft:overworld/erosion",
+                    "min_inclusive": -1.0,
+                    "max_exclusive": 0.45,
+                    "when_in_range": {
+                        "type": "minecraft:mul",
+                        "argument1": "minecraft:overworld/ridges",
+                        "argument2": {
+                            "type": "minecraft:mul",
+                            "argument1": "minecraft:overworld/ridges",
+                            "argument2": 10
+                        }
+                    },
+                    "when_out_of_range": 0.625
+                },
+                "when_out_of_range": {
+                    "type": "minecraft:range_choice",
+                    "input": {
+                        "type": "minecraft:abs",
+                        "argument": "minecraft:overworld/ridges"
+                    },
+                    "min_inclusive": 0.767,
+                    "max_exclusive": 0.933,
+                    "when_in_range": {
+                        "type": "minecraft:range_choice",
+                        "input": "minecraft:overworld/erosion",
+                        "min_inclusive": -1.0,
+                        "max_exclusive": 0.45,
+                        "when_in_range": {
+                            "type": "minecraft:mul",
+                            "argument1": "minecraft:overworld/ridges",
+                            "argument2": 0.5
+                        },
+                        "when_out_of_range": 0.625
+                    },
+                    "when_out_of_range": {
+                        "type": "minecraft:range_choice",
+                        "input": {
+                            "type": "minecraft:abs",
+                            "argument": "minecraft:overworld/ridges"
+                        },
+                        "min_inclusive": 0.933,
+                        "max_exclusive": 2,
+                        "when_in_range": {
+                            "type": "minecraft:range_choice",
+                            "input": "minecraft:overworld/erosion",
+                            "max_exclusive": 0.45,
+                            "min_inclusive": -1.0,
+                            "when_in_range": {
+                                "type": "minecraft:mul",
+                                "argument1": "minecraft:overworld/ridges",
+                                "argument2": 0.25
+                            },
+                            "when_out_of_range": 0.625
+                        },
+                        "when_out_of_range": 0.625
+                    }
+                }
+            },
+            "when_out_of_range": {
+                "type": "minecraft:range_choice",
+                "input": "minecraft:overworld/continents",
+                "min_inclusive": 0.3,
+                "max_exclusive": 3,
+                "when_in_range": {
+                    "type": "minecraft:range_choice",
+                    "input": {
+                        "type": "minecraft:abs",
+                        "argument": "minecraft:overworld/ridges"
+                    },
+                    "min_inclusive": 0.4,
+                    "max_exclusive": 0.567,
+                    "when_in_range": {
+                        "type": "minecraft:range_choice",
+                        "input": "minecraft:overworld/erosion",
+                        "max_exclusive": 0.45,
+                        "min_inclusive": -1.0,
+                        "when_in_range": {
+                            "type": "minecraft:mul",
+                            "argument1": {
+                                "type": "minecraft:square",
+                                "argument": "minecraft:overworld/ridges"
+                            },
+                            "argument2": {
+                                "type": "minecraft:mul",
+                                "argument1": "minecraft:overworld/ridges",
+                                "argument2": 10
+                            }
+                        },
+                        "when_out_of_range": 0.625
+                    },
+                    "when_out_of_range": {
+                        "type": "minecraft:mul",
+                        "argument1": {
+                            "type": "minecraft:abs",
+                            "argument": {
+                                "type": "minecraft:cube",
+                                "argument": "minecraft:overworld/ridges"
+                            }
+                        },
+                        "argument2": 0.5
+                    }
+                },
+                "when_out_of_range": {
+                    "type": "minecraft:range_choice",
+                    "input": {
+                        "type": "minecraft:abs",
+                        "argument": "minecraft:overworld/ridges"
+                    },
+                    "min_inclusive": 0,
+                    "max_exclusive": 0.4,
+                    "when_in_range": 1.0,
+                    "when_out_of_range": 1.0
+                }
+            }
+        }
+    }
+}
