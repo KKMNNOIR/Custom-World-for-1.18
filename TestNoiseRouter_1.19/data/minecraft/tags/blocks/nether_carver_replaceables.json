@@ -1,0 +1,17 @@
+{
+    "values": [
+        "#minecraft:diamond_ores",
+        "minecraft:diamond_block",
+        "minecraft:white_concrete_powder",
+        "minecraft:black_concrete_powder",
+        "minecraft:nether_gold_ore",
+        "minecraft:gold_block",
+        "minecraft:raw_gold_block",
+        "minecraft:netherite_block",
+        "minecraft:white_concrete",
+        "minecraft:black_concrete",
+        "minecraft:quartz_block",
+        "minecraft:cobbled_deepslate",
+        "#minecraft:ice"
+    ]
+}
