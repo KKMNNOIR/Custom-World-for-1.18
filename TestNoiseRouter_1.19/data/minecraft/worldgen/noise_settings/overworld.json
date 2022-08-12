@@ -19,10 +19,10 @@
   },
   "noise_router": {
     "barrier": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_barrier",
-      "xz_scale": 1.0,
-      "y_scale": 0.5
+        "type": "minecraft:noise",
+        "noise": "minecraft:aquifer_barrier",
+        "xz_scale": 1.0,
+        "y_scale": 0.5
     },
     "continents": {
         "type": "minecraft:blend_density",
@@ -40,145 +40,15 @@
         }
     },
     "depth": {
-        "type": "minecraft:mul",
-        "argument1": {
-            "type": "minecraft:range_choice",
-            "input": "minecraft:overworld/continents",
-            "min_inclusive": -3,
-            "max_exclusive": 0.03,
-            "when_in_range": {
-                "type": "minecraft:add",
-                "argument1": {
-                  "type": "minecraft:y_clamped_gradient",
-                  "from_value": 1.5,
-                  "from_y": -64,
-                  "to_value": -1.5,
-                  "to_y": 320
-                },
-                "argument2": "minecraft:overworld/offset"
-            },
-            "when_out_of_range": "minecraft:overworld/depth"
-        },
-        "argument2": {
-            "type": "minecraft:range_choice",
-            "input": "minecraft:overworld/ridges",
-            "max_exclusive": 0.051,
-            "min_inclusive": -0.05,
-            "when_in_range": 1.0,
-            "when_out_of_range": {
-                "type": "minecraft:range_choice",
-                "input": "minecraft:overworld/continents",
-                "min_inclusive": -3,
-                "max_exclusive": 0.03,
-                "when_in_range": 1.0,
-                "when_out_of_range": {
-                    "type": "minecraft:range_choice",
-                    "input": "minecraft:overworld/continents",
-                    "max_exclusive": 0.3,
-                    "min_inclusive": 0.03,
-                    "when_in_range": {
-                        "type": "minecraft:range_choice",
-                        "input": {
-                            "type": "minecraft:abs",
-                            "argument": "minecraft:overworld/ridges"
-                        },
-                        "max_exclusive": 0.767,
-                        "min_inclusive": 0.4,
-                        "when_in_range": {
-                            "type": "minecraft:square",
-                            "argument": "minecraft:overworld/ridges"
-                        },
-                        "when_out_of_range": {
-                            "type": "minecraft:range_choice",
-                            "input": {
-                                "type": "minecraft:abs",
-                                "argument": "minecraft:overworld/ridges"
-                            },
-                            "min_inclusive": 0.767,
-                            "max_exclusive": 0.933,
-                            "when_in_range": {
-                                "type": "minecraft:mul",
-                                "argument1": "minecraft:overworld/ridges",
-                                "argument2": 0.5
-                            },
-                            "when_out_of_range": {
-                                "type": "minecraft:range_choice",
-                                "input": {
-                                    "type": "minecraft:abs",
-                                    "argument": "minecraft:overworld/ridges"
-                                },
-                                "min_inclusive": 0.933,
-                                "max_exclusive": 2,
-                                "when_in_range": {
-                                    "type": "minecraft:mul",
-                                    "argument1": "minecraft:overworld/ridges",
-                                    "argument2": 0.25
-                                },
-                                "when_out_of_range": {
-                                    "type": "minecraft:range_choice",
-                                    "input": {
-                                        "type": "minecraft:abs",
-                                        "argument": "minecraft:overworld/ridges"
-                                    },
-                                    "max_exclusive": 0.4,
-                                    "min_inclusive": 0,
-                                    "when_in_range": 0.625,
-                                    "when_out_of_range": 0.625
-                                }
-                            }
-                        }
-                    },
-                    "when_out_of_range": {
-                        "type": "minecraft:range_choice",
-                        "input": "minecraft:overworld/continents",
-                        "min_inclusive": 0.3,
-                        "max_exclusive": 3,
-                        "when_in_range": {
-                            "type": "minecraft:range_choice",
-                            "input": {
-                                "type": "minecraft:abs",
-                                "argument": "minecraft:overworld/ridges"
-                            },
-                            "min_inclusive": 0.4,
-                            "max_exclusive": 0.567,
-                            "when_in_range": {
-                                "type": "minecraft:mul",
-                                "argument1": {
-                                    "type": "minecraft:square",
-                                    "argument": "minecraft:overworld/ridges"
-                                },
-                                "argument2": {
-                                    "type": "minecraft:mul",
-                                    "argument1": "minecraft:overworld/ridges",
-                                    "argument2": 10
-                                }
-                            },
-                            "when_out_of_range": {
-                                "type": "minecraft:mul",
-                                "argument1": {
-                                    "type": "minecraft:abs",
-                                    "argument": {
-                                        "type": "minecraft:cube",
-                                        "argument": "minecraft:overworld/ridges"
-                                    }
-                                },
-                                "argument2": 0.5
-                            }
-                        },
-                        "when_out_of_range": {
-                            "type": "minecraft:range_choice",
-                            "input": {
-                                "type": "minecraft:abs",
-                                "argument": "minecraft:overworld/ridges"
-                            },
-                            "min_inclusive": 0,
-                            "max_exclusive": 0.4,
-                            "when_in_range": 1.0,
-                            "when_out_of_range": 1.0
-                        }
-                    }
-                }
-            }
+        "type": "minecraft:range_choice",
+        "input": "minecraft:overworld/depth",
+        "min_inclusive": -0.1,
+        "max_exclusive": 0.0,
+        "when_out_of_range": "minecraft:overworld/depth",
+        "when_in_range": {
+            "type": "minecraft:mul",
+            "argument1": "minecraft:overworld/depth",
+            "argument2": "vanilla_plus:overworld/depth_factor"
         }
     },
     "erosion": "minecraft:overworld/erosion",
@@ -322,17 +192,17 @@
         "argument2": "minecraft:overworld/caves/noodle"
       },
     "fluid_level_floodedness": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_fluid_level_floodedness",
-      "xz_scale": 1.0,
-      "y_scale": 0.67
+        "type": "minecraft:noise",
+        "noise": "minecraft:aquifer_fluid_level_floodedness",
+        "xz_scale": 1.2,
+        "y_scale": 0.67
     },
     "fluid_level_spread": {
-      "type": "minecraft:noise",
-      "noise": "minecraft:aquifer_fluid_level_spread",
-      "xz_scale": 1.0,
-      "y_scale": 0.7142857142857143
-    },
+        "type": "minecraft:noise",
+        "noise": "minecraft:aquifer_fluid_level_spread",
+        "xz_scale": 1.0,
+        "y_scale": 0.7142857142857143
+      },
     "initial_density_without_jaggedness": {
         "type": "minecraft:add",
         "argument1": 0.1171875,
@@ -377,8 +247,8 @@
                             "type": "minecraft:mul",
                             "argument1": "minecraft:overworld/depth",
                             "argument2": {
-                              "type": "minecraft:cache_2d",
-                              "argument": "minecraft:overworld/factor"
+                                "type": "minecraft:cache_2d",
+                                "argument": "minecraft:overworld/factor"
                             }
                           }
                         }
@@ -487,7 +357,7 @@
     }
   },
   "ore_veins_enabled": true,
-  "sea_level": 80,
+  "sea_level": 75,
   "spawn_target": [
     {
       "continentalness": [
@@ -690,59 +560,6 @@
                                                             "Name": "minecraft:coarse_dirt"
                                                         }
                                                     }
-                                                },
-                                                {
-                                                    "type": "minecraft:sequence",
-                                                    "sequence": [
-                                                        {
-                                                            "type": "minecraft:condition",
-                                                            "if_true": {
-                                                                "type": "minecraft:water",
-                                                                "offset": -1,
-                                                                "surface_depth_multiplier": 0,
-                                                                "add_stone_depth": false
-                                                            },
-                                                            "then_run": {
-                                                                "type": "minecraft:sequence",
-                                                                "sequence": [
-                                                                    {
-                                                                        "type": "minecraft:condition",
-                                                                        "if_true": {
-                                                                            "type": "minecraft:biome",
-                                                                            "biome_is": [
-                                                                                "minecraft:forest"
-                                                                            ]
-                                                                        },
-                                                                        "then_run": {
-                                                                            "type": "minecraft:block",
-                                                                            "result_state": {
-                                                                                "Name": "minecraft:repeating_command_block",
-                                                                                "Properties": {
-                                                                                    "conditional": "false",
-                                                                                    "facing": "up"
-                                                                                }
-                                                                            }
-                                                                        }
-                                                                    },
-                                                                    {
-                                                                        "type": "minecraft:block",
-                                                                        "result_state": {
-                                                                            "Name": "minecraft:grass_block",
-                                                                            "Properties": {
-                                                                                "snowy": "false"
-                                                                            }
-                                                                        }
-                                                                    }
-                                                                ]
-                                                            }
-                                                        },
-                                                        {
-                                                            "type": "minecraft:block",
-                                                            "result_state": {
-                                                                "Name": "minecraft:dirt"
-                                                            }
-                                                        }
-                                                    ]
                                                 }
                                             ]
                                         }
@@ -830,35 +647,67 @@
                                     }
                                 },
                                 {
-                                    "type": "minecraft:condition",
-                                    "if_true": {
-                                        "type": "minecraft:biome",
-                                        "biome_is": [
-                                            "minecraft:swamp"
-                                        ]
-                                    },
-                                    "then_run": {
-                                        "type": "minecraft:condition",
-                                        "if_true": {
-                                            "type": "minecraft:y_above",
-                                            "anchor": {
-                                                "absolute": 62
-                                            },
-                                            "surface_depth_multiplier": 0,
-                                            "add_stone_depth": false
-                                        },
-                                        "then_run": {
+                                  "type": "minecraft:condition",
+                                  "if_true": {
+                                    "type": "minecraft:biome",
+                                    "biome_is": [
+                                      "minecraft:swamp"
+                                    ]
+                                  },
+                                  "then_run": {
+                                    "type": "minecraft:sequence",
+                                    "sequence": [
+                                        {
                                             "type": "minecraft:condition",
                                             "if_true": {
+                                              "type": "minecraft:y_above",
+                                              "add_stone_depth": false,
+                                              "anchor": {
+                                                "absolute": 62
+                                              },
+                                              "surface_depth_multiplier": 0
+                                            },
+                                            "then_run": {
+                                              "type": "minecraft:condition",
+                                              "if_true": {
                                                 "type": "minecraft:not",
                                                 "invert": {
-                                                    "type": "minecraft:y_above",
-                                                    "anchor": {
-                                                        "absolute": 63
-                                                    },
-                                                    "surface_depth_multiplier": 0,
-                                                    "add_stone_depth": false
+                                                  "type": "minecraft:y_above",
+                                                  "add_stone_depth": false,
+                                                  "anchor": {
+                                                    "absolute": 63
+                                                  },
+                                                  "surface_depth_multiplier": 0
                                                 }
+                                              },
+                                              "then_run": {
+                                                "type": "minecraft:condition",
+                                                "if_true": {
+                                                  "type": "minecraft:noise_threshold",
+                                                  "max_threshold": 1.7976931348623157E308,
+                                                  "min_threshold": 0.0,
+                                                  "noise": "minecraft:surface_swamp"
+                                                },
+                                                "then_run": {
+                                                  "type": "minecraft:block",
+                                                  "result_state": {
+                                                    "Name": "minecraft:water",
+                                                    "Properties": {
+                                                      "level": "0"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                        },
+                                        {
+                                            "type": "minecraft:condition",
+                                            "if_true": {
+                                                "type": "minecraft:stone_depth",
+                                                "offset": 0,
+                                                "add_surface_depth": true,
+                                                "secondary_depth_range": 4,
+                                                "surface_type": "floor"
                                             },
                                             "then_run": {
                                                 "type": "minecraft:condition",
@@ -866,20 +715,18 @@
                                                     "type": "minecraft:noise_threshold",
                                                     "noise": "minecraft:surface_swamp",
                                                     "min_threshold": 0,
-                                                    "max_threshold": 1.7976931348623157e+308
+                                                 "max_threshold": 1
                                                 },
                                                 "then_run": {
                                                     "type": "minecraft:block",
                                                     "result_state": {
-                                                        "Name": "minecraft:water",
-                                                        "Properties": {
-                                                            "level": "0"
-                                                        }
+                                                        "Name": "minecraft:mud"
                                                     }
                                                 }
                                             }
                                         }
-                                    }
+                                    ]
+                                  }
                                 },
                                 {
                                   "type": "minecraft:condition",
@@ -2664,7 +2511,8 @@
                                               "if_true": {
                                                 "type": "minecraft:biome",
                                                 "biome_is": [
-                                                  "minecraft:mangrove_swamp"
+                                                  "minecraft:mangrove_swamp",
+                                                  "minecraft:swamp"
                                                 ]
                                               },
                                               "then_run": {
