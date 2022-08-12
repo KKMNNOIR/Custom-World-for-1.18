@@ -1,0 +1,36 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "minecraft:villages"
+    },
+    "frequency": 0.2,
+    "frequency_reduction_method": "legacy_type_1",
+    "salt": 165745296,
+    "separation": 8,
+    "spacing": 32
+  },
+  "structures": [
+    {
+      "structure": "minecraft:pillager_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "vanilla_plus:desert_pillager_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "vanilla_plus:figaron_castle",
+      "weight": 1
+    },
+    {
+      "structure": "vanilla_plus:savanna_pillager_outpost",
+      "weight": 1
+    },
+    {
+      "structure": "vanilla_plus:taiga_pillager_outpost",
+      "weight": 1
+    }
+  ]
+}
